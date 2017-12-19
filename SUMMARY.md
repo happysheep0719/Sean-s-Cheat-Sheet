@@ -1,5 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [saa](saa.md)
+* [Python](saa.md)
+* [Algorithms \(Basics\)](algorithms-basics.md)
 
