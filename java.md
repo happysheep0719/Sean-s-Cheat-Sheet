@@ -6,3 +6,4 @@ Interface:
 **Queue**
 LinkedList
 .offer()
+.poll()

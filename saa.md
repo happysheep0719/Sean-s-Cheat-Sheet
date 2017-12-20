@@ -11,6 +11,8 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+## Data Structure
+a = set([2,3,4]).union([1,2,3])
 
 ## File Input and Output
 
