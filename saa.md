@@ -13,6 +13,7 @@ if __name__ == "__main__":
 ```
 ## Data Structure
 a = set([2,3,4]).union([1,2,3])
+b = {}.get(1, None)
 
 ## File Input and Output
 
