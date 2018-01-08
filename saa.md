@@ -11,6 +11,9 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+## devide
+1/2=0.5 in python3
+1//2 = 0 in python3
 ## Data Structure
 a = set([2,3,4]).union([1,2,3])
 b = {}.get(1, None)
