@@ -11,6 +11,8 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
+## delivering function parameters
 ## devide
 1/2=0.5 in python3
 1//2 = 0 in python3
