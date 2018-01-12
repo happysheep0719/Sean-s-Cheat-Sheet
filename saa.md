@@ -25,6 +25,8 @@ q.append(i)
 [elegantly initialize dict](https://www.linuxzen.com/python-you-ya-de-cao-zuo-zi-dian.html)
 a={}.fromkeys([1,2,3],0)
 print(a)
+
+1 in {1:2} is faster than 1 in {1:2}.keys()
 ## File Input and Output
 
 ```
