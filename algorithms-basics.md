@@ -1,3 +1,8 @@
+# Analyze the complexity of an algorithm
+for i: 1-> n
+    for j: i to n
+        print("cost constant time")
+see how many lines are printed.
 # Binary Tree
 
 ## Treverse
