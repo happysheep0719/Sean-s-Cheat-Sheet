@@ -11,6 +11,9 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+##print
+python3: {}
+python2: %d
 
 ## delivering function parameters
 ## for loop
