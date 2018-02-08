@@ -1,6 +1,8 @@
 # Summary
 
+### Part 0 Introduction and Summary
 * [Introduction](README.md)
+* [Summary](SUMMARY.md)
 
 ### Part I Programming Language
 * [1. Python](Python/introduction.md)
