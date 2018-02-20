@@ -19,6 +19,8 @@ python2: %d
 ## for loop
 range is removed in python3
 xrange is replaced with range
+for i in range(end, start-1, -1):
+    print(i)
 ## devide
 1/2=0.5 in python3
 1//2 = 0 in python3
