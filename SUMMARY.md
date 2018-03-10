@@ -9,9 +9,13 @@
 
 * [1. Python](Python/introduction.md)
   * [1.1 Data Structure](Python/data_structure.md)
-* [Java](java.md)
+* [2. Java](java.md)
+* [E. Programming Tips](programming-tips.md)
 * [Algorithms \(Basics\)](algorithms-basics.md)
-* [Programming Tips](programming-tips.md)
+
+## Part II Programming Language
+
+* [1. sort](Algorithms/sort.md)
 
 ## Part II Data Processing
 
