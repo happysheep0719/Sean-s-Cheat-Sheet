@@ -15,7 +15,8 @@
 
 ## Part II Programming Language
 
-* [1. Sorting algorithms](Algorithms/sort.md)
+* [2. Sorting algorithms](Algorithms/sort.md)
+* [1. Data Structure](Algorithms/data_structure.md)
 
 ## Part II Data Processing
 
