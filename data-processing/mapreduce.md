@@ -37,6 +37,16 @@ Map和Reduce之间通过Key来链接，通过Shuffle操作来保证每个Reducer
 ## 性能瓶颈
 磁盘I/O。map的计算是靠近数据的存储位置。
 
+## 如何解决数据倾斜
+单机的运行时间远超于其他单机。
+A. 调整计算并行度：把数据量大的partition的数据分开，用不同的task处理。
+具体实现：比如可以自定义partition，groupbykey的时候如果单个partition太大，就hash到其他地方。
+
+B. 输入数据分配时处理
+大表小表join时：把小的表放在左边，使用leftjoin。
+大表大表join时：把造成数据倾斜的空值key，随机分配到不同的reduce上。
+把有数据量大、多条重复key的数据，进行hash拆解为几个数据量小的key。但是会可能增加shuffle的工作量。
+
 ## 写法注意
 全局的排序问题，在Map端排序一次，在交给reduce，减少reduce的工作量。
 确保每个Reducer的输入是按键排序的
