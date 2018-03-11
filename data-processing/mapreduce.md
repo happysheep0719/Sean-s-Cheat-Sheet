@@ -18,11 +18,14 @@ tasktracker负责执行任务
 ## Hive
 定义了类似于SQL的查询语言（HQL），把SQL转化为MapReduce任务在Hadoop上面执行，一般用于离线分析。
 
+## FLume日志收集
+
 ## Zookeeper
 负责分布式环境下数据管理：统一命名，状态同步，集群管理，配置同步。
 
 ## hbase
 hbase负责随机读写大数据，hdfs只能随机读。
+
 
 # 算法实现
 ## TopK问题
