@@ -28,7 +28,10 @@ hbase负责随机读写大数据，hdfs只能随机读。
 
 
 # MapReduce算法实现
-Map和Reduce之间通过Key来链接，通过Shuffle操作来保证每个Reducer的输入是按键排序的。
+Map和Reduce之间通过Key来链接，通过Shuffle操作来保证每个Reducer的输入是同一个key或者同一组keys。
+
+## Shuffle原理
+把map的输出，根据key不断地merge，最后分配给reducer。
 
 ## 写法注意
 全局的排序问题，在Map端排序一次，在交给reduce，减少reduce的工作量。
