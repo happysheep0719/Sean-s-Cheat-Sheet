@@ -21,4 +21,5 @@
 ## Part II Data Processing
 
 * [Basics](data-processing/basics.md)
+* [MapReduce](data-processing/mapreduce.md)
 
