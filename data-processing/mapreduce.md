@@ -12,6 +12,12 @@ datanode负责存放数据本身
 jobtracker负责分发任务
 tasktracker负责执行任务
 
+## Zookeeper
+负责管理数据同步。
+
+## hbase
+hbase负责随机读写大数据，hdfs只能随机读。
+
 ## hdfs和mapreduce
 都对应了master/slave架构。
 
