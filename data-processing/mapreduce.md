@@ -15,6 +15,9 @@ tasktracker负责执行任务
 ## hdfs和mapreduce
 都对应了master/slave架构。
 
+## Hive
+定义了类似于SQL的查询语言（HQL），把SQL转化为MapReduce任务在Hadoop上面执行，一般用于离线分析。
+
 ## Zookeeper
 负责管理数据同步。
 
