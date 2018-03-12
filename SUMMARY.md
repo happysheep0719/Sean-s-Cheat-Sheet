@@ -9,7 +9,7 @@
 ## Part I Programming Language
 
 * [1. Python](Python/introduction.md)
-  * [1.1 Data Structure](Python/data_structure.md)
+* [1.1 Data Structure](Python/data_structure.md)
 * [2. Java](java.md)
 * [E. Programming Tips](programming-tips.md)
 * [Algorithms \(Basics\)](algorithms-basics.md)
