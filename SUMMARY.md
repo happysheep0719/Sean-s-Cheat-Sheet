@@ -13,6 +13,7 @@
 * [2. Java](java.md)
 * [3. C++](C++.md)
 * [4. Object-oriented vs. Procedure-oriented](oriented.md)
+* [5. Operating Systems](operating-systems.md)
 * [E. Programming Tips](programming-tips.md)
 
 ## Part II Algorithms
