@@ -14,14 +14,18 @@
 * [E. Programming Tips](programming-tips.md)
 * [Algorithms \(Basics\)](algorithms-basics.md)
 
-## Part II Programming Language
+## Part II Algorithms
 
 * [1. Data Structure](Algorithms/data_structure.md)
 * [2. Sorting algorithms](Algorithms/sort.md)
 * [3. Big Data Situation](Algorithms/bigdatasituation.md)
 
-## Part II Data Processing
+## Part III Data Processing
 
 * [Basics](data-processing/basics.md)
 * [Hadoop](data-processing/mapreduce.md)
+
+## Part IV Machine Learning
+
+* [Basics](machine-learning/basics.md)
 
