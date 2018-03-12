@@ -10,5 +10,8 @@
 解决问题的模块：函数/对象，也就是把解决问题的子单元封装为函数（怎么做）/对象（谁来做）
 角度：先具体逻辑细节，后抽象问题整体/先抽象问题整体，后具体逻辑细节
 对象的封装允许继承/多态。
+Each object is defined by two kinds of information: state/behavior.
+state: field - what things it maintains;
+behavior: method - what it can do.
 
 4. 
