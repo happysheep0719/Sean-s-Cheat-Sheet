@@ -7,3 +7,4 @@ Interface:
 LinkedList
 .offer()
 .poll()
+
