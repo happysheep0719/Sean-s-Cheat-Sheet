@@ -27,6 +27,7 @@
 ## Part III Data Processing
 
 * [Basics](data-processing/basics.md)
+* [Data Mining](data-processing/data-mining.md)
 * [Hadoop](data-processing/mapreduce.md)
 * [Statistics](statistics.md)
 
