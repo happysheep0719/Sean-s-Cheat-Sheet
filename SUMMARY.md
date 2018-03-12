@@ -19,6 +19,7 @@
 * [1. Data Structure](Algorithms/data_structure.md)
 * [2. Sorting algorithms](Algorithms/sort.md)
 * [3. Big Data Situation](Algorithms/bigdatasituation.md)
+* [4. Others](Algorithms/others.md)
 
 ## Part III Data Processing
 
