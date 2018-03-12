@@ -22,3 +22,5 @@ L1 Manhattan norm 描述所有参数绝对值的和
 L2 Euclidean norm 描述平方差
 L-infinity norm 描述最大值
 
+
+# 聚类方法
