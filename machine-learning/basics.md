@@ -8,6 +8,7 @@ The loss function quantifies the amount by which the prediction deviates from th
 hinge loss：L1 loss/squared hinge loss
 
 ## 正则项 regularization item
-L0
-L1
-L2
+L0 非零数字的数量
+L1 Manhattan norm 描述所有参数绝对值的和
+L2 Euclidean norm 描述平方差
+L-infinity Euclidean 描述最大值
