@@ -18,7 +18,7 @@
 
 ## Part II Algorithms
 
-* [Algorithms \(Basics\)](algorithms-basics.md)
+* [Algorithms \(Basics\)](Algorithms-basics.md)
 * [1. Data Structure](Algorithms/data_structure.md)
 * [2. Sorting algorithms](Algorithms/sort.md)
 * [3. Big Data Situation](Algorithms/bigdatasituation.md)
