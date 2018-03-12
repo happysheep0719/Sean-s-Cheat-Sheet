@@ -1,4 +1,7 @@
 # 问题收集
+入门 <head first java>
+进阶 <effective java>
+Computer Systems: A programmer's perspective
 
 1. C++的继承是什么
 基类和派生类
@@ -20,7 +23,7 @@ reference: instance's address
 dereference: you look at the address and visit the house.
 
 
-Encapsulation
+Encapsulation 封装性 - API设计
 inheritance
 polymorphism
 
