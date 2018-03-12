@@ -12,11 +12,12 @@
 * [1.1 Data Structure](Python/data_structure.md)
 * [2. Java](java.md)
 * [3. C++](C++.md)
+* [4. Object-oriented vs. Procedure-oriented](oriented.md)
 * [E. Programming Tips](programming-tips.md)
-* [Algorithms \(Basics\)](algorithms-basics.md)
 
 ## Part II Algorithms
 
+* [Algorithms \(Basics\)](algorithms-basics.md)
 * [1. Data Structure](Algorithms/data_structure.md)
 * [2. Sorting algorithms](Algorithms/sort.md)
 * [3. Big Data Situation](Algorithms/bigdatasituation.md)
