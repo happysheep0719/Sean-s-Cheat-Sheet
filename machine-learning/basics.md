@@ -14,6 +14,7 @@ m_i(w)表示样本在模型预测下，第i个样本在模型下的预测值的�
 log loss:
 基于最大似然的负log
 likehood = sum(y^i*log g_w(x^i) + (1-y^i)(log(1-g(x^i))))
+l(y) = -likehood
 
 ## 正则项 regularization item
 L0 非零数字的数量
