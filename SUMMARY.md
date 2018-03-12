@@ -17,6 +17,7 @@
 
 * [1. Data Structure](Algorithms/data_structure.md)
 * [2. Sorting algorithms](Algorithms/sort.md)
+* [3. 大数据情境]（Algorithms/bigdatasituation.md）
 
 ## Part II Data Processing
 
