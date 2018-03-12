@@ -11,4 +11,4 @@ hinge loss：L1 loss/squared hinge loss
 L0 非零数字的数量
 L1 Manhattan norm 描述所有参数绝对值的和
 L2 Euclidean norm 描述平方差
-L-infinity Euclidean 描述最大值
+L-infinity norm 描述最大值
