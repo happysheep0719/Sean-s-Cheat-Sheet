@@ -11,6 +11,7 @@
 * [1. Python](Python/introduction.md)
 * [1.1 Data Structure](Python/data_structure.md)
 * [2. Java](java.md)
+* [3. C++](C++.md)
 * [E. Programming Tips](programming-tips.md)
 * [Algorithms \(Basics\)](algorithms-basics.md)
 
