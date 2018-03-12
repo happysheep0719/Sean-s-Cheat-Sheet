@@ -14,4 +14,7 @@ Each object is defined by two kinds of information: state/behavior.
 state: field - what things it maintains;
 behavior: method - what it can do.
 
+reference: instance's address
+dereference: you look at the address and visit the house.
+
 4. 
