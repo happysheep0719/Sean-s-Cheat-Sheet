@@ -1,4 +1,23 @@
-# Quick sort
+signiture
+
+recursion:
+base case 不能再分解的子问题
+
+# merge sort
+Divide Time = 2n-1 = O(n)
+Merge Time = n * log2n = O(logn)
+Space = 2n-1
+
+# quick sort
+worst case pivot选择不lucky，最差是O(n^2)
+初始pivot选取后，放在最左边或者最右边，循环完之后需要把pivot放在中间。
+
+# rainbow sort
+三个挡板，分为三个拍好的部分ABC，左边两个AB，右边一个C，x为未排序数字
+AAABBBxxxxxxCCC
+
+
+# Quick sort code
 
 ```
 public class Solution {
