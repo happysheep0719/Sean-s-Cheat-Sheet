@@ -24,6 +24,7 @@
 
 * [Basics](data-processing/basics.md)
 * [Hadoop](data-processing/mapreduce.md)
+* [Statistics](statistics.md)
 
 ## Part IV Machine Learning
 
