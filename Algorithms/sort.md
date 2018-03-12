@@ -1,7 +1,3 @@
-signiture
-
-recursion:
-base case 不能再分解的子问题
 
 # merge sort
 Divide Time = 2n-1 = O(n)
