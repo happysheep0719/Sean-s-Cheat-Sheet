@@ -20,9 +20,10 @@
 
 * [Algorithms \(Basics\)](Algorithms-basics.md)
 * [1. Data Structure](Algorithms/data_structure.md)
-* [2. Sorting algorithms](Algorithms/sort.md)
-* [3. Big Data Situation](Algorithms/bigdatasituation.md)
-* [4. Others](Algorithms/others.md)
+* [2. Divide and Conquer](Algorithms/divide-and-conquer.md)
+* [3. Sorting algorithms](Algorithms/sort.md)
+* [4. Big Data Situation](Algorithms/bigdatasituation.md)
+* [5. Others](Algorithms/others.md)
 
 ## Part III Data Processing
 
