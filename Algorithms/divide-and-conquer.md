@@ -6,14 +6,16 @@ __IDEA__
 
 
 # Binary Search
-原则：
+
+__适用的问题__
 1. 不能死循环，每次循环会减少解空间。
 2. 不能在循环中，把正确答案排除掉。
 
-循环进入条件：
+__Coding Tips__
+1. 循环进入条件
 start + 1 < end
 start < end
 start <= end
 
-调试方法：
-1. 使用base case。Eg. [0], [0, 1], [0, 1, 2]
+2. 调试方法
+使用base case, Eg. [0], [0, 1], [0, 1, 2]
