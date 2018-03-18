@@ -8,6 +8,13 @@
 | Remove one element | poll/remove | pop/remove  |
 |See the first element| peek/element| peek/element|
 
+___Difference in Java___
+**Queue** - offer, poll and peek cannot cause exception, while add, remove and element can.
+In Java, Queue is an interface and realized by LinkedList.
+
+**Stack** - peek and pop can both cause exception.
+In Java, Stack is realized.
+
 
 **Code**
 ```
