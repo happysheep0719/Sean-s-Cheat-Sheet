@@ -1,3 +1,6 @@
+# Deque
+左右都可以进出的队列
+
 # Hashmap 实现
 存储方式：array+linkedlist（用来避免碰撞）
 存储分配：hashcode函数。Java1.8的hashmap的hashcode：(h = k.hashCode()) ^ (h >>> 16)
