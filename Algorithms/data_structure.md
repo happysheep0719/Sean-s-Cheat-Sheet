@@ -1,7 +1,15 @@
-# Queue Vs. Stack
-Stack.push()
+# Queue & Stack
 
-**Queue**
+**Opeartions**
+
+|    Operations    |    Queue      |    Stack    |
+|       ----       |     ----      |     ----    |
+| Add one element  |   offer/add   |    push/add |
+| Remove one element | poll/remove | pop/remove  |
+|See the first element| peek/element| peek/element|
+
+
+**Code**
 ```
 Queue.offer(element);  // add one element. return false when full.
 Queue.add(element);    // add one element. throw an exception when full.
@@ -13,15 +21,7 @@ Queue.peek();      // see the first element. return null when empty.
 Queue.element();   // see the first element. throw an exception when empty.
 ```
 
-name | age
----- | ---
-LearnShare | 12
-Mike |  32
 
-**Stack**
-```
-Stack.
-```
 
 # Deque
 左右都可以进出的队列
