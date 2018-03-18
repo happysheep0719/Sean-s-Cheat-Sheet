@@ -8,6 +8,16 @@ int/char/double
 Strings are objects.
 Arrays are objects.
 
+### Array
+
+int[][] array = new int[2][];
+array[0] = new int[1];
+array[1] = new int[3];
+
+取subarray，使用arrays工具箱。
+
+
+
 ## Memory
 Stack and heap
 stack = call stack
@@ -43,14 +53,6 @@ objects: copy of the object reference
 
 
 
-
-5. Array
-
-int[][] array = new int[2][];
-array[0] = new int[1];
-array[1] = new int[3];
-
-取subarray，使用arrays工具箱。
 
 
 ## Interface
