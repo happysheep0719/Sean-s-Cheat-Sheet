@@ -1,11 +1,19 @@
 Java
 ------
+
 ## Coding Style
 [Google Coding Style Java]()
+
 1. Naming - use upperCamelCase for class names and all upper cases for const variable, otherwise lowerCamelCase.
-2. Separate words and bracelets. 
+
+2. Separate reversed words and bracelets. 
+reversed words - 保留字
 Eg 1. ```for ()```
 Eg 2. ```a && b```
+
+3. Add spaces on both sides of binary or ternary operators.
+Eg.
+```a + b```
 
 
 ## Primitive types vs. Class types:
