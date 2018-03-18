@@ -1,7 +1,10 @@
 Java
 ------
+## Coding Style
+[Google Coding Style Java]()
+1. Naming - use upperCamelCase for class names and all upper cases for const variable, otherwise lowerCamelCase.
 
-# Data Structure
+
 ## Primitive types vs. Class types:
 int/char/double
 5/5.5
