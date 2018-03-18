@@ -8,8 +8,6 @@ int/char/double
 Strings are objects.
 Arrays are objects.
 
-
-
 ## Memory
 Stack and heap
 stack = call stack
@@ -37,6 +35,7 @@ final int value = 10;
 ```
 
 ## parameter passing
+
 Java parameters are always passed by value.
 
 primitive type: copy of the value itself
