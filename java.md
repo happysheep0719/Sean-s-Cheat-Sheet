@@ -3,6 +3,9 @@ Java
 ## Coding Style
 [Google Coding Style Java]()
 1. Naming - use upperCamelCase for class names and all upper cases for const variable, otherwise lowerCamelCase.
+2. Separate words and bracelets. 
+Eg 1. ```for ()```
+Eg 2. ```a && b```
 
 
 ## Primitive types vs. Class types:
