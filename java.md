@@ -2,7 +2,7 @@ Java
 ------
 
 ## Coding Style
-[Google Coding Style Java]()
+[Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
 
 1. Naming - use upperCamelCase for class names and all upper cases for const variable, otherwise lowerCamelCase.
 
