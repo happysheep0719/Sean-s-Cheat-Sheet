@@ -13,6 +13,11 @@ Queue.peek();      // see the first element. return null when empty.
 Queue.element();   // see the first element. throw an exception when empty.
 ```
 
+name | age
+---- | ---
+LearnShare | 12
+Mike |  32
+
 **Stack**
 ```
 Stack.
