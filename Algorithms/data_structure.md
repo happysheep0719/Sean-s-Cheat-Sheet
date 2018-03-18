@@ -6,12 +6,11 @@ Stack.push()
 Queue.offer(element);  // add one element. return false when full.
 Queue.add(element);    // add one element. throw an exception when full.
 
-Queue.poll();   // remove the first element. return 
-null when empty.
+Queue.poll();   // remove the first element. return null when empty.
 Queue.remove(); // remove the first element. throw an exception when empty.
 
-Queue.peek();      // see the first element
-Queue.element();
+Queue.peek();      // see the first element. return null when empty.
+Queue.element();   // see the first element. throw an exception when empty.
 ```
 
 **Stack**
