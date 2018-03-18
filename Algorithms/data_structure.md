@@ -1,3 +1,20 @@
+# Queue Vs. Stack
+Stack.push()
+
+**Queue**
+```
+Queue.offer(element);  // add one element. return false when full.
+Queue.add(element);    // add one element. throw an exception when full.
+Queue.poll();   // remove one element. return 
+null when empty.
+Queue.remove(); // remove one element. throw an exception when empty.
+```
+
+**Stack**
+```
+Stack.
+```
+
 # Deque
 左右都可以进出的队列
 

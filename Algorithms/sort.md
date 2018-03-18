@@ -1,5 +1,6 @@
+# Selection Sort
 
-# merge sort
+# Merge Sort
 Divide Time = 2n-1 = O(n)
 Merge Time = n * log2n = O(logn)
 Space = 2n-1
