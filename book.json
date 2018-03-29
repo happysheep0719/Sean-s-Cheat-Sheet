@@ -1,5 +1,5 @@
 {
-    "plugins": ["prism", "-highlight", "new-flowchart", "mathjax", "local-pagefooter"],
+    "plugins": ["prism", "-highlight", "new-flowchart", "mathjax", "local-pagefooter", ],
     
     "local-pagefooter": {
       "copyright":"&copy someone",
