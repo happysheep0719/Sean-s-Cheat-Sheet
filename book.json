@@ -9,8 +9,8 @@
     
     "pluginsConfig": {
         "tbfed-pagefooter": {
-            "copyright":"Copyright &copy zhangjikai.com 2017",
-            "modify_label": "该文件修订时间：",
+            "copyright":"Copyright &copy seangone.gitbooks.io 2018",
+            "modify_label": "Updated Time: ",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         }
     }
