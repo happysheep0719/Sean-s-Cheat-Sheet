@@ -2,12 +2,21 @@
     "plugins": ["simple-page-toc",
                 "tbfed-pagefooter",
                 "anchors",
+                "anchor-navigation-ex",
                 "prism",
                 "-highlight",
                 "katex",
                 "new-flowchart"],
     
     "pluginsConfig": {
+        "anchor-navigation-ex": {
+            "isRewritePageTitle": true,
+            "isShowTocTitleIcon": true,
+            "tocLevel1Icon": "fa fa-hand-o-right",
+            "tocLevel2Icon": "fa fa-hand-o-right",
+            "tocLevel3Icon": "fa fa-hand-o-right"
+        }
+    
         "tbfed-pagefooter": {
             "copyright":"Copyright &copy seangone.gitbooks.io 2018",
             "modify_label": "Updated Time: ",
