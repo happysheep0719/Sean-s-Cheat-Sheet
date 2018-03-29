@@ -22,9 +22,13 @@
             "tocLevel1Icon": "fa fa-hand-o-right",
             "tocLevel2Icon": "fa fa-hand-o-right",
             "tocLevel3Icon": "fa fa-hand-o-right"
-        }
+        },
     
-
+        "prism": {
+            "css": [
+                "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
+            ]
+        },
     
         "tbfed-pagefooter": {
             "copyright":"Copyright &copy seangone.gitbooks.io 2018",
