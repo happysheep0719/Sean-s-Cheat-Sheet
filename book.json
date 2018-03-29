@@ -1,5 +1,11 @@
 {
-    "plugins": ["tbfed-pagefooter", "prism", "-highlight", "katex", "new-flowchart"],
+    "plugins": ["simple-page-toc",
+                "tbfed-pagefooter",
+                "anchors",
+                "prism",
+                "-highlight",
+                "katex",
+                "new-flowchart"],
     
     "pluginsConfig": {
         "tbfed-pagefooter": {
