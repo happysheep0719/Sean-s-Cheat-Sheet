@@ -18,7 +18,7 @@
 
 ## Part II Algorithms
 
-* [Algorithms \(Basics\)](Algorithms-basics.md)
+* [Algorithms \(Basics\)](Algorithms/basics.md)
 * [1. Data Structure](Algorithms/data_structure.md)
 * [2. Divide and Conquer](Algorithms/divide-and-conquer.md)
 * [3. Sorting algorithms](Algorithms/sort.md)
