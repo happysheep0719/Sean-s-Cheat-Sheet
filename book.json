@@ -1,4 +1,4 @@
 {
-    "plugins": ["-highlight", "new-flowchart", "mathjax", ]
+    "plugins": ["prism", "-highlight", "new-flowchart", "mathjax"]
     
 }
