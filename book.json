@@ -1,5 +1,5 @@
 {
-    "plugins": ["prism", "-highlight", "new-flowchart", "katex", "local-pagefooter"],
+    "plugins": ["prism", "-highlight", "katex", "new-flowchart", "tbfed-pagefooter"],
     
     "pluginsConfig": {
         "local-pagefooter": {
