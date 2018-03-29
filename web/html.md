@@ -24,7 +24,7 @@ $$
 \int_{-\infty}^\infty g(x) dx
 $$
 
-```
+```java
 class Solution {
     /**
      * @param nums: The integer array.
