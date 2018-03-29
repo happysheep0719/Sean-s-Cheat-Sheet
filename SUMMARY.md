@@ -36,3 +36,6 @@
 
 * [Basics](machine-learning/basics.md)
 
+## Part V Web
+* [HTML](web/html.md)
+
