@@ -1,5 +1,5 @@
 {
-    "plugins": ["new-flowchart", "mathjax", "local-pagefooter"]
+    "plugins": ["-highlight", "new-flowchart", "mathjax", "local-pagefooter"]
     
     "local-pagefooter": {
       "copyright":"&copy someone",
