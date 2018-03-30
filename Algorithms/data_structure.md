@@ -36,65 +36,65 @@ A. Online algorithm vs. Offline algorithm: We can stop in the middle of the prog
 
 __P1. reverse a linked list__
 
-改变link方向时，需要使用next或者prev去记录因为改变link可能丢失的节点。
+- 改变link方向时，需要使用next或者prev去记录因为改变link可能丢失的节点。
 
 __P2. find middle node of a linked list__
 
-快慢指针
-尽量去找middle左边的节点，方便后续调用。
+- 快慢指针
+- 尽量去找middle左边的节点，方便后续调用。
 
 __P3. determine if there exists a circle in a linkedlist__
 
-快慢指针
+- 快慢指针
 
 __P3 Follow-up. 寻找环的开始__
 
-快慢指针相遇后，在head节点新放一只慢速指针，最终会和slow相遇。
+- 快慢指针相遇后，在head节点新放一只慢速指针，最终会和slow相遇。
 
 __P4. insert a node in a sorted linked list__
 
-corner case - node插入在head之前，tail之后。
-使用dummy head，因为node可能需要插在head之前。
+- corner case - node插入在head之前，tail之后。
+- 使用dummy head，因为node可能需要插在head之前。
 
 __P5. merge two linked list__
 
-使用dummy head
+- 使用dummy head
 
 
 ### Composed Problems
 
 __P5 Follow-up. change N1->N2->...->Nn->null into N1->Nn->N2->Nn-1->...__
 
-> Step 1 - find the middle node
-> Step 2 - reverse the second hal
-> Step 3 - merge two halves into one solution
+- Step 1 - find the middle node
+- Step 2 - reverse the second hal
+- Step 3 - merge two halves into one solution
 
 __P6. Partition List__
 
-把节点小于target放在左边，大于等于的放在右边。
-Step 1 - 使用两个dummy head
-Step 2 - 分配节点
-Step 3 - 合并两个linkedlist
-易错点 - 合并需要两个步骤，循环+剩余节点链接。
+- 把节点小于target放在左边，大于等于的放在右边。
+- Step 1 - 使用两个dummy head
+- Step 2 - 分配节点
+- Step 3 - 合并两个linkedlist
+- 易错点 - 合并需要两个步骤，循环+剩余节点链接。
 
 __P7. Merge Sort__
 
-Step 1 - Find the middle
-Step 2 - Split the list into two halves
-Step 3 - Recurse: sort each half
-Step 4 - Merge two halves
+- Step 1 - Find the middle
+- Step 2 - Split the list into two halves
+- Step 3 - Recurse: sort each half
+- Step 4 - Merge two halves
 
 __P8. Add Two Numbers__
 
-Step 1 - Reverse two linkedlists
-Step 2 - Add the number and create one new Linkedlist
-Step 3 - Reverse the new linkedlist
+- Step 1 - Reverse two linkedlists
+- Step 2 - Add the number and create one new Linkedlist
+- Step 3 - Reverse the new linkedlist
 
 __P9. Check if a linked list is palindrome__
 
-Step 1 - findMiddle
-Step 2 - Reverse
-Step 3 - Compare
+- Step 1 - findMiddle
+- Step 2 - Reverse
+- Step 3 - Compare
 
 
 # Logic Data Structure
@@ -171,12 +171,12 @@ _Reference: Laioffer Class 5_
 
 两种思路 - _有的问题可以用两种思路写，但是一般会有一种思路更简单。_
 
-**把Value从上往下传 - 用函数参数传递**
+**1. 把Value从上往下传 - 用函数参数传递**
 - **determine if it is BST**
     @ parameter: the should-be range of root
     下层节点为BST = 上层节点为BST
 
-**把Value从下往上传 - 用return传递** - 需要遍历到最底层
+**2. 把Value从下往上传 - 用return传递** - 需要遍历到最底层
 - **getHeight(Node root) **
     @ return: int Height
     上层的层数 = Max(左子树的层数, 右子树的层数) + 1
@@ -202,8 +202,6 @@ __P1. Pre-order treverse__
 __P2. In-order treverse__
 
 __P3. Post-order treverse__
-
-__P4. __
 
 
 ## Heap
