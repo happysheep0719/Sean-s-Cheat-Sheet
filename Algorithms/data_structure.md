@@ -172,10 +172,14 @@ _Reference: Laioffer Class 5_
 两种思路 - _有的问题可以用两种思路写，但是一般会有一种思路更简单。_
 
 **1. 把Value从上往下传 - 用函数参数传递**
+
+取决于是否存在这样的可能，在还没有遍历到底部，就可以终止的情况。
+
 - **determine if it is BST**
 
     @ parameter: the should-be range of root
     下层节点为BST = 上层节点为BST
+    可能提前终止
     
 - **isSymmetric/isIdentical(Node root1, Node root2)**
 
@@ -183,6 +187,7 @@ _Reference: Laioffer Class 5_
     对称 = 该层key相同 && 该层结构相同
     上层对称 = 该层对称 + 下层对称
     base case 最下层对称
+    可能提前终止
 
 
 **2. 把Value从下往上传 - 用return传递** - 需要遍历到最底层
@@ -191,12 +196,15 @@ _Reference: Laioffer Class 5_
     @ return: int Height
     上层的层数 = Max(左子树的层数, 右子树的层数) + 1
     base case 最下层高度为1
+    上层对高度的计算依赖对下层的遍历
         
 - **isBalanced(Node root)**
 
     @ return: boolean isbalanced
     上层节点是否平衡 = 下层节点平衡 && 左右子树高度差小于等于1
     base case 最下层平衡 && 最下层高度为1
+    上层对高度的计算和平衡的判断依赖对下层的遍历
+
     
 - **Assign the value of each note to be the total number of nodes that belong its left subtree. 左子树数字之和**
 
