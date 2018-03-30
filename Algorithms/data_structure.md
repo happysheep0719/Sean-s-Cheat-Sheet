@@ -40,7 +40,7 @@ __P1. reverse a linked list__
 
 __P2. find middle node of a linked list__
 快慢指针
-尽量去找middle左边的节点。
+尽量去找middle左边的节点，方便后续调用。
 
 __P3. determine if there exists a circle in a linkedlist__
 快慢指针
@@ -65,7 +65,7 @@ __P6. Partition List__
 Step 1 - 使用两个dummy head
 Step 2 - 分配节点
 Step 3 - 合并两个linkedlist
-Corner case - 合并
+易错点 - 合并需要两个步骤，循环+剩余节点链接。
 
 
 # Logic Data Structure
