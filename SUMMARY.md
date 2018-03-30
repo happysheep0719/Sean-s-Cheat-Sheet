@@ -3,7 +3,6 @@
 ## Part 0 Summary
 
 * [Introduction](README.md)
-* [Summary](SUMMARY.md)
 * [挖坑](wa-keng.md)
 
 ## Part I Algorithms
