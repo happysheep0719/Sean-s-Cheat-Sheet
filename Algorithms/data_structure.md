@@ -165,7 +165,9 @@ _Reference: Laioffer Class 5_
 - _Value_ - 任何节点，左子节点一定是小于父节点。柚子节点一定大于父节点。不可以等于父节点的值。
 - 中序遍历In-order的遍历结果是从小到大排序的序列。
 
-### Problem Analysis
+### Basic Problems
+
+Problem can be seen as different types of basic tree problems.
 
 #### Recursion & Tree
 
@@ -174,7 +176,7 @@ _Reference: Laioffer Class 5_
 2. 把信息**从下往上**传 - 用**返回值return type**传递 
 
 
-**两种算法写法** - _有的问题可以用两种思路写，但是一般会有一种思路写法更简单。_
+**两种算法写法** - _有的问题可以用两种思路写，但是一般会有一种思路写法更简单，实际中选择好写的写法。_
 
 **1. 在从上往下的过程中，就可以提前终止程序**
 
@@ -214,7 +216,8 @@ _Reference: Laioffer Class 5_
 - **Assign the value of each note to be the total number of nodes that belong its left subtree. 左子树数字之和**
 
 
-### Basic Problem
+### Treverse & Tree
+
 __P1. Pre-order treverse__
 
 __P2. In-order treverse__
