@@ -91,24 +91,27 @@ Step 3 - Compare
 ## Queue & Stack
 _Reference: Laioffer Class 3_
 
-**Opeartions**
+**Definition**
+**Queue** - FIFO (First in first out)
+**Stack** - FILO (First in last out)
 
 |    Operations    |    Queue      |    Stack    |
 |       ----       |     ----      |     ----    |
-| Add one element  |   offer/add   |    push/add |
-| Remove one element | poll/remove | pop/remove  |
-|See the first element| peek/element| peek/element|
+| Add one element  |   offer / add   |    push / add |
+| Remove one element | poll / remove | pop / remove  |
+|See the first element| peek / element| peek / element|
 
-___Difference in Java___
+
+__Difference of two interfaces in Java__
+
 **Queue** - offer, poll and peek cannot cause exception, while add, remove and element can.
 In Java, Queue is an interface and realized by LinkedList.
 
 **Stack** - peek and pop can both cause exception.
 In Java, Stack is realized.
 
-
 **Code**
-```
+```java
 Queue.offer(element);  // add one element. return false when full.
 Queue.add(element);    // add one element. throw an exception when full.
 
@@ -118,6 +121,7 @@ Queue.remove(); // remove the first element. throw an exception when empty.
 Queue.peek();      // see the first element. return null when empty.
 Queue.element();   // see the first element. throw an exception when empty.
 ```
+
 
 ## Deque
 左右都可以进出的队列
