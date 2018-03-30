@@ -18,13 +18,13 @@ __适用问题__
 __Coding Tricks__
 
 - __循环进入条件__
-	- `start + 1 < end` - 取决于最后一次循环是否需要检查左右两个pivot确定答案
-	- `start < end`
-	- `start <= end`
-	
+    - `start + 1 < end` - 取决于最后一次循环是否需要检查左右两个pivot确定答案
+    - `start < end`
+    - `start <= end`
+    
 - __调试方法__
-	- 使用如下的会触发边界条件的例子测试, Eg. `[0]`, `[0, 1]`, `[0, 1, 2]`
-	
+    - 使用如下的会触发边界条件的例子测试, Eg. `[0]`, `[0, 1]`, `[0, 1, 2]`
+    
 - __二分计算__
         - `mid = start + (end - start) / 2`
 
@@ -50,18 +50,18 @@ __Coding Tricks__
 
 - __P8. Find mountain peak in array: __
 
-	`1 3 7 23 57 ... 100 99 86 44 32 21`
+    `1 3 7 23 57 ... 100 99 86 44 32 21`
 
 - __P9. Binary Search in a sorted array with unknown size__
 
-	- Step 1 - jump out
-	- Step 2 - jump in
-	
-	|    | step = 2 | step = 10 |
-	|----|----|----|
-	| Worst case | $n=2^{k-1}+1$ | $n=10^{k-1}+1$ |
-	| Jump out - Time | $log_{2}n$ | $log_{10}n$ |
-	| Jump in - Time | $log_{2}10n$ | $log_{2}2n$ |
+    - Step 1 - jump out
+    - Step 2 - jump in
+    
+    |    | step = 2 | step = 10 |
+    |----|----|----|
+    | Worst case | $n=2^{k-1}+1$ | $n=10^{k-1}+1$ |
+    | Jump out - Time | $log_{2}n$ | $log_{10}n$ |
+    | Jump in - Time | $log_{2}10n$ | $log_{2}2n$ |
 
 
 ### Binary Search Template
