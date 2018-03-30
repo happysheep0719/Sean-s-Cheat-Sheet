@@ -1,12 +1,11 @@
 {
-    "plugins": ["simple-page-toc",
+    "plugins": [
                 "tbfed-pagefooter",
                 
                 "-lunr",
                 "-search",
                 "search-plus",
                 
-                "anchors",
                 "anchor-navigation-ex",
                 
                 "prism",

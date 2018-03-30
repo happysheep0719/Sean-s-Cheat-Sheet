@@ -1,4 +1,4 @@
-<!-- toc -->
+<extoc></extoc>
 
 # Data Storage
 
