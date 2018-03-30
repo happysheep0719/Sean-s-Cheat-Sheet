@@ -218,7 +218,7 @@ Problem can be seen as different types of basic tree problems.
 - **Assign the value of each note to be the total number of nodes that belong its left subtree. 左子树数字之和**
 
 
-### Treverse & Tree
+#### Treverse & Tree
 
 __P1. Pre-order treverse__
 
