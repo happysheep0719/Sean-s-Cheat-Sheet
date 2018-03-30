@@ -1,3 +1,5 @@
+<extoc></extoc>
+
 # Basic Framework
 
 ## 算法解题思路
