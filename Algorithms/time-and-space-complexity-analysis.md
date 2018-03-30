@@ -2,12 +2,17 @@
 
 ## 分析方法
 
-**展开recursion tree而不是binary tree分析。**
+- **展开recursion tree进行分析，注意不是针对binary tree分析。**
+
 Eg. isIdentical 四叉树 in Class 03/24
 
+- **注意分析Worst Case**
+
+
 ## Time Complexity Analysis
-**分析每个节点花的时间。**
-**分析每层花的总时间。**
+
+Step 1 - **分析每个节点花的时间。**
+Step 2 - **分析每层花的总时间。**
 
 ### Amortized分析方法
 
