@@ -1,7 +1,4 @@
-<!-- toc -->
-
-Java
-------
+<extoc></extoc>
 
 #Java
 
