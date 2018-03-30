@@ -167,15 +167,17 @@ _Reference: Laioffer Class 5_
 
 **把Value从下往上传 - 用return传递** - 需要遍历到最底层
 - **getHeight(Node root) **
-    @ return 
-    上层的层数 = 下层的层数 + 1
+    @ return: int Height
+    上层的层数 = Max(左子树的层数, 右子树的层数) + 1
     base case 最下层高度为1
     
 - **isBalanced(Node root)**
+    @ return: boolean isbalanced
     上层节点是否平衡 = 下层节点平衡 && 左右子树高度差小于等于1
     base case 最下层平衡 && 最下层高度为1
     
-- **isSymmetric(Node root1, Node root2)**
+- **isSymmetric/isIdentical(Node root1, Node root2)**
+    @ return: boolean isSymmetric
     对称 = 该层key相同 && 该层结构相同
     上层对称 = 该层对称 + 下层对称
     base case 最下层对称
