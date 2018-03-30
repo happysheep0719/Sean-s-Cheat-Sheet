@@ -6,25 +6,26 @@
 
 
 ## LinkedList
-Reference: Laioffer Class 4 
+_Reference: Laioffer Class 4_
 
 __Tips__
-1. Never lose the control of the head pointer of the LinkedList.
-2. When dereferencing a ListNode, ensure that pointer is not NULL.
-3. When changing the links of the nodes, be very careful and do not lose the pointees.
+
+    1. Never lose the control of the head pointer of the LinkedList.
+    2. When dereferencing a ListNode, ensure that pointer is not NULL.
+    3. When changing the links of the nodes, be very careful and do not lose the pointees.
 
 
 __Tricks__
 
 __1. Dummy head__
 
-- _Situation 1._ When the head of the returning linkedlist could be changed, we should use dummy head.
+    - _Situation 1._ When the head of the returning linkedlist could be changed, we should use dummy head.
 
 __2. Fast and Slow pointers__
 
-- _Situation 1._ to find the middle node of the linkedlist
+    - _Situation 1._ to find the middle node of the linkedlist
 
-- _Situation 2._ to find if there exists a circle in the linkedlist
+    - _Situation 2._ to find if there exists a circle in the linkedlist
 
 Q. Why do we use fast and slow pointers instead of treverse two times?
 
@@ -88,6 +89,7 @@ Step 3 - Compare
 # Logic Data Structure
 
 ## Queue & Stack
+_Reference: Laioffer Class 3_
 
 **Opeartions**
 
