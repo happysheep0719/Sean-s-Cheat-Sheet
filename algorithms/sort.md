@@ -1,24 +1,53 @@
 <extoc></extoc>
 
-# Selection Sort
+# Sorting Algorithms
 
-# Merge Sort
-Divide Time = 2n-1 = O(n)
-Merge Time = n * log2n = O(logn)
-Space = 2n-1
+## Selection Sort
+不断地选择剩余元素中的最小者。
 
-# quick sort
-worst case pivot选择不lucky，最差是O(n^2)
-初始pivot选取后，放在最左边或者最右边，循环完之后需要把pivot放在中间。
+- Step 1 - 找到数组中最小元素并将其和数组第一个元素交换位置。
+- Step 2 - 在剩下的元素中找到最小元素并将其与数组第二个元素交换，直至整个数组排序。
 
-# rainbow sort
-三个挡板，分为三个拍好的部分ABC，左边两个AB，右边一个C，x为未排序数字
-AAABBBxxxxxxCCC
+__特点__
+
+- 比较次数 = (N-1)+(N-2)+(N-3)+...+2+1~N^2/2
+- 交换次数 = N
+- **Time** = $O(n^2)$
+- 运行时间与输入分布无关
+- 数据移动最少
 
 
-# Quick sort code
+## Merge Sort
+将两个有序对数组归并成一个更大的有序数组。通常做法为递归排序，并将两个不同的有序数组归并到第三个数组中。典型的分治法应用
 
-```
+
+__特点__
+
+- Divide Time = $2n-1 = O(n)$
+- Merge Time = $n * log2n = O(nlogn)$
+- Time = $O(nlogn)$
+- Space = $2n-1 = O(n)$
+- 需要使用额外的空间来存储归并后的数据
+
+## Quick Sort
+快排是一种采用分治思想的排序算法，大致分为三个步骤。
+
+- **定基准** - 首先随机选择一个元素最为基准
+- **划分区** — 所有比基准小的元素置于基准左侧，比基准大的元素置于右侧，
+- **递归调用** - 递归地调用此切分过程。
+
+__特点__
+
+- **Worst Case** - `pivot`选择不lucky，最差是$O(n^2)$
+
+__Coding Tricks__
+
+- 初始`pivot`选取后，放在最左边或者最右边，循环完之后需要把`pivot`放在中间。
+
+
+### Quick sort code
+
+```java
 public class Solution {
     public void helper(int[] array, int ixs, int ixe){
         // recursion base case
@@ -75,3 +104,29 @@ public class Solution {
     }
 }
 ```
+
+
+## Rainbow Sort
+
+```
+AAABBBxxxxxxCCC
+   |  |    |   
+   i  j    k
+```
+把序列分区为三个部分：
+
+- $[0, i-1]$ are all As.
+- $[i, j-1]$ are all Bs.
+- $[j, k]$ are all xes.
+- $[k+1, size-1]$ are all Cs.
+
+__算法步骤__
+
+- Step 1 - if `Array[j]` is A, `swap(i, j), i++, j++`
+- Step 2 - if `Array[j]` is B, `j++`
+- Step 3 - if `Array[j]` is C, `swap(j, k), k--`
+
+__特点__
+
+- Time = $O(n)$
+
