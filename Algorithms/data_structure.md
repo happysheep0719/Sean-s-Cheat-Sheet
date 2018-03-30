@@ -34,6 +34,8 @@ A. Online algorithm vs. Offline algorithm: We can stop in the middle of the prog
 
 ### Basic Problems
 
+#### Treverse
+
 __P1. reverse a linked list__
 
 - 改变link方向时，需要使用next或者prev去记录因为改变link可能丢失的节点。
