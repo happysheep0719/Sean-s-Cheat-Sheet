@@ -32,8 +32,7 @@ Q. Why do we use fast and slow pointers instead of treverse two times?
 A. Online algorithm vs. Offline algorithm: We can stop in the middle of the program and record the two nodes without losing information.
 
 
-
-__Problems:__
+__Basic Problems:__
 
 __P1. reverse a linked list__
 改变link方向时，需要使用next或者prev去记录因为改变link可能丢失的节点。
@@ -55,6 +54,8 @@ corner case - node插入在head之前，tail之后。
 __P5. merge two linked list__
 使用dummy head
 
+__Composed Problems__
+
 __P5 Follow-up. change N1->N2->...->Nn->null into N1->Nn->N2->Nn-1->...__
 Step 1 - find the middle node
 Step 2 - reverse the second hal
@@ -66,6 +67,22 @@ Step 1 - 使用两个dummy head
 Step 2 - 分配节点
 Step 3 - 合并两个linkedlist
 易错点 - 合并需要两个步骤，循环+剩余节点链接。
+
+__P7. Merge Sort__
+Step 1 - Find the middle
+Step 2 - Split the list into two halves
+Step 3 - Recurse: sort each half
+Step 4 - Merge two halves
+
+__P8. Add Two Numbers__
+Step 1 - Reverse two linkedlists
+Step 2 - Add the number and create one new Linkedlist
+Step 3 - Reverse the new linkedlist
+
+__P9. Check if a linked list is palindrome__
+Step 1 - findMiddle
+Step 2 - Reverse
+Step 3 - Compare
 
 
 # Logic Data Structure
