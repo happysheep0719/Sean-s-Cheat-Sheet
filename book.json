@@ -17,12 +17,6 @@
     
     "pluginsConfig": {
 
-        "prism": {
-            "css": [
-                "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
-            ]
-        },
-    
         "tbfed-pagefooter": {
             "copyright":"Copyright &copy seangone.gitbooks.io 2018",
             "modify_label": "Updated Time: ",
