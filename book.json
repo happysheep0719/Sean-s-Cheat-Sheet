@@ -5,7 +5,8 @@
                 "-lunr",
                 "-search",
                 "search-plus",
-
+                
+                "anchors",
                 "anchor-navigation-ex",
                 
                 "prism",
@@ -15,14 +16,7 @@
                 "new-flowchart"],
     
     "pluginsConfig": {
-        "anchor-navigation-ex": {
-            "isRewritePageTitle": true,
-            "isShowTocTitleIcon": true,
-            "tocLevel1Icon": "fa fa-hand-o-right",
-            "tocLevel2Icon": "fa fa-hand-o-right",
-            "tocLevel3Icon": "fa fa-hand-o-right"
-        },
-    
+
         "prism": {
             "css": [
                 "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
