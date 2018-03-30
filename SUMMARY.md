@@ -18,12 +18,12 @@
 
 ## Part II Algorithms
 
-* [1. Basic Framework](Algorithms/basics.md)
-* [2. Time & Space Complexity Analysis](Algorithms/time-and-space-complexity-analysis.md)
-* [3. Data Structure](Algorithms/data-structure.md)
-* [3. Sorting algorithms](Algorithms/sort.md)
-* [4. Big Data Situation](Algorithms/bigdatasituation.md)
-* [5. Others](Algorithms/others.md)
+* [1. Basic Framework](algorithms/basics.md)
+* [2. Time & Space Complexity Analysis](algorithms/time-and-space-complexity-analysis.md)
+* [3. Data Structure](algorithms/data-structure.md)
+* [3. Sorting algorithms](algorithms/sort.md)
+* [4. Big Data Situation](algorithms/bigdatasituation.md)
+* [5. Others](algorithms/others.md)
 
 ## Part III Data Processing
 
