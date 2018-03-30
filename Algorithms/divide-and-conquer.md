@@ -1,10 +1,3 @@
-# 分治策略 Divide and Conquer
-
-__IDEA__
-把一个复杂的问题分为几个相同或者相似的子问题。再不断地把子问题分解为更小的子问题。直到子问题可以被直接求解。原问题的解即子问题的解得合并。是很多算法的基础（快速排序、归并排序）
-适合哪种问题，首先需要问题可以被分解，分解的问题答案可以被合并。问题缩小到一定规模可以很容易的被解决，子问题相互独立。
-
-
 # Binary Search
 
 __适用的问题__
@@ -21,3 +14,51 @@ start <= end
 2. 调试方法
 
 使用base case, Eg. [0], [0, 1], [0, 1, 2]
+
+# Binary Search
+**Binary Search Template**
+Source: [jiuzhang](http://www.jiuzhang.com/solutions/binary-search/)
+
+```java
+class Solution {
+/**
+* @param nums: The integer array.
+* @param target: Target to find.
+* @return: The first position of target. Position starts from 0.
+*/
+public int binarySearch(int[] nums, int target) {
+# First consider the case that the input is null or empty array.
+if (nums == null || nums.length == 0) {
+return -1;
+}
+# initial condition. The end is included in the range of the num,
+# because the end is initialized to the length of nums minus one
+int start = 0, end = nums.length - 1;
+# Here, the condition should be start+1<end.
+# because when start=0 and end=1, then mid=0
+# and the start may not be updated.
+while (start + 1 < end) { # Note: use start+1<end as the condition to continue
+int mid = start + (end - start) / 2;
+if (nums[mid] == target) {
+end = mid;
+} else if (nums[mid] < target) {
+start = mid;
+// or start = mid + 1
+} else {
+end = mid;
+// or end = mid - 1
+}
+}
+# When the loop is end, decide where the first postion of target is.
+if (nums[start] == target) {
+return start;
+}
+if (nums[end] == target) {
+return end;
+}
+return -1;
+}
+}
+```
+Note:
+1. The loop control condition should be

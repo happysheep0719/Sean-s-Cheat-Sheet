@@ -21,7 +21,7 @@
 * [Basics](Algorithms/basics.md)
 * [Time & Space Complexity Analysis](Algorithms/time-and-space-complexity-analysis.md)
 * [1. Data Structure](Algorithms/data_structure.md)
-* [2. Divide and Conquer](Algorithms/divide-and-conquer.md)
+* [2. Binary Search](Algorithms/divide-and-conquer.md)
 * [3. Sorting algorithms](Algorithms/sort.md)
 * [4. Big Data Situation](Algorithms/bigdatasituation.md)
 * [5. Others](Algorithms/others.md)
