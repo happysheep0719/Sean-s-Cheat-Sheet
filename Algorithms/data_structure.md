@@ -158,7 +158,7 @@ _Reference: Laioffer Class 5_
 
 #### Recursion & Tree
 
-两种思路 - _有的问题可以用两种思路写。_
+两种思路 - _有的问题可以用两种思路写，但是一般会有一种思路更简单。_
 
 **把Value从上往下传 - 用函数参数传递**
 - **determine if it is BST**
