@@ -18,10 +18,9 @@
 
 ## Part II Algorithms
 
-* [Basics](Algorithms/basics.md)
-* [Time & Space Complexity Analysis](Algorithms/time-and-space-complexity-analysis.md)
-* [1. Data Structure](Algorithms/data_structure.md)
-* [2. Binary Search](Algorithms/divide-and-conquer.md)
+* [1. Basic Framework](Algorithms/basics.md)
+* [2. Time & Space Complexity Analysis](Algorithms/time-and-space-complexity-analysis.md)
+* [3. Data Structure](Algorithms/data_structure.md)
 * [3. Sorting algorithms](Algorithms/sort.md)
 * [4. Big Data Situation](Algorithms/bigdatasituation.md)
 * [5. Others](Algorithms/others.md)
