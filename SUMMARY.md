@@ -6,10 +6,10 @@
 * [Summary](SUMMARY.md)
 * [挖坑](wa-keng.md)
 
-## Part I Programming Language
+## Part I Programming Languages
 
-* [1. Python](Python/introduction.md)
-* [1.1 Data Structure](Python/data-structure.md)
+* [1. Python](programming-languages/python/introduction.md)
+* [1.1 Data Structure](programming-languages/python/data-structure.md)
 * [2. Java](java.md)
 * [3. C++](C++.md)
 * [4. Object-oriented vs. Procedure-oriented](oriented.md)
