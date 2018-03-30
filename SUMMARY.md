@@ -20,7 +20,7 @@
 
 * [1. Basic Framework](Algorithms/basics.md)
 * [2. Time & Space Complexity Analysis](Algorithms/time-and-space-complexity-analysis.md)
-* [3. Data Structure](Algorithms/data_structure.md)
+* [3. Data Structure](Algorithms/data-structure.md)
 * [3. Sorting algorithms](Algorithms/sort.md)
 * [4. Big Data Situation](Algorithms/bigdatasituation.md)
 * [5. Others](Algorithms/others.md)
