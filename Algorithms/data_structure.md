@@ -134,7 +134,7 @@ Queue.element();   // see the first element. throw an exception when empty.
 ## Binary Tree
 _Reference: Laioffer Class 5_
 
-###Definition
+### Definition
 
 **Binary Tree**
 - _Structure_ - For each node, there are at most two children nodes.
@@ -150,12 +150,49 @@ _Reference: Laioffer Class 5_
 - _Structure_ - 所有节点都不为null节点。
 
 **Binary Search Tree**
-- _Value_ - 任何节点，左子节点一定是小于父节点。柚子节点一定大于父节点。不可以等于父节点的值。
 - _Structure_ - 没有要求。
+- _Value_ - 任何节点，左子节点一定是小于父节点。柚子节点一定大于父节点。不可以等于父节点的值。
 - 中序遍历In-order的遍历结果是从小到大排序的序列。
 
-## Heap
+### Problem Analysis
 
+#### Recursion & Tree
+
+两种思路 - _有的问题可以用两种思路写。_
+
+**把Value从上往下传 - 用函数参数传递**
+- **determine if it is BST**
+    @ parameter: the should-be range of root
+    下层节点为BST = 上层节点为BST
+
+**把Value从下往上传 - 用return传递** - 需要遍历到最底层
+- **getHeight(Node root) **
+    @ return 
+    上层的层数 = 下层的层数 + 1
+    base case 最下层高度为1
+    
+- **isBalanced(Node root)**
+    上层节点是否平衡 = 下层节点平衡 && 左右子树高度差小于等于1
+    base case 最下层平衡 && 最下层高度为1
+    
+- **isSymmetric(Node root1, Node root2)**
+    对称 = 该层key相同 && 该层结构相同
+    上层对称 = 该层对称 + 下层对称
+    base case 最下层对称
+    
+- **Assign the value of each note to be the total number of nodes that belong its left subtree. 左子树数字之和**
+
+
+### Basic Problem
+__P1. Pre-order treverse__
+
+__P2. In-order treverse__
+
+__P3. Post-order treverse__
+
+__P4. __
+
+## Heap
 
 # Hashmap 实现
 存储方式：array+linkedlist（用来避免碰撞）
