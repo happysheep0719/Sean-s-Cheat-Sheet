@@ -16,7 +16,12 @@
                 "new-flowchart"],
     
     "pluginsConfig": {
-
+        "anchor-navigation-ex": {
+           "associatedWithSummary":true,
+           "mode": "float"
+           
+        },
+        
         "tbfed-pagefooter": {
             "copyright":"Copyright &copy seangone.gitbooks.io 2018",
             "modify_label": "Updated Time: ",
