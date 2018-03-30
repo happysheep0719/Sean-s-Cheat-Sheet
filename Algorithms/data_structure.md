@@ -5,7 +5,6 @@
 ## Array
 
 
-
 ## LinkedList
 Reference: Laioffer Class 4 
 
@@ -15,7 +14,7 @@ __Tips__
 3. When changing the links of the nodes, be very careful and do not lose the pointees.
 
 
-__Tricks:__
+__Tricks__
 
 __1. Dummy head__
 
@@ -32,7 +31,7 @@ Q. Why do we use fast and slow pointers instead of treverse two times?
 A. Online algorithm vs. Offline algorithm: We can stop in the middle of the program and record the two nodes without losing information.
 
 
-__Basic Problems:__
+__Basic Problems__
 
 __P1. reverse a linked list__
 改变link方向时，需要使用next或者prev去记录因为改变link可能丢失的节点。
@@ -53,6 +52,7 @@ corner case - node插入在head之前，tail之后。
 
 __P5. merge two linked list__
 使用dummy head
+
 
 __Composed Problems__
 
