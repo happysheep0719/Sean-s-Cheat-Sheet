@@ -5,8 +5,7 @@
                 "-lunr",
                 "-search",
                 "search-plus",
-                
-                "anchors",
+
                 "anchor-navigation-ex",
                 
                 "prism",
