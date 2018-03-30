@@ -14,10 +14,10 @@
                 "new-flowchart"],
     
     "pluginsConfig": {
+    
         "anchor-navigation-ex": {
            "associatedWithSummary":true,
            "mode": "float"
-           
         }
         
     }
