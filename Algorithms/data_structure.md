@@ -8,14 +8,14 @@
 ## LinkedList
 _Reference: Laioffer Class 4_
 
-__Tips__
+### Notes 注意事项
 
     1. Never lose the control of the head pointer of the LinkedList.
     2. When dereferencing a ListNode, ensure that pointer is not NULL.
     3. When changing the links of the nodes, be very careful and do not lose the pointees.
 
 
-__Tricks__
+### Tricks 解题技巧
 
 __1. Dummy head__
 
@@ -32,7 +32,7 @@ Q. Why do we use fast and slow pointers instead of treverse two times?
 A. Online algorithm vs. Offline algorithm: We can stop in the middle of the program and record the two nodes without losing information.
 
 
-__Basic Problems__
+###Basic Problems
 
 __P1. reverse a linked list__
 改变link方向时，需要使用next或者prev去记录因为改变link可能丢失的节点。
@@ -55,7 +55,7 @@ __P5. merge two linked list__
 使用dummy head
 
 
-__Composed Problems__
+### Composed Problems
 
 __P5 Follow-up. change N1->N2->...->Nn->null into N1->Nn->N2->Nn-1->...__
 Step 1 - find the middle node
@@ -91,7 +91,8 @@ Step 3 - Compare
 ## Queue & Stack
 _Reference: Laioffer Class 3_
 
-**Definition**
+###Definition
+
 **Queue** - FIFO (First in first out)
 **Stack** - FILO (First in last out)
 **Deque** - 左右都可以进出的队列
@@ -104,7 +105,7 @@ _Reference: Laioffer Class 3_
 |See the first element| peek / element| peek / element|
 
 
-__Difference of two interfaces in Java__
+###Difference of two interfaces in Java
 
 **Queue** - offer, poll and peek cannot cause exception, while add, remove and element can.
 In Java, Queue is an interface and realized by LinkedList.
@@ -127,7 +128,10 @@ Queue.element();   // see the first element. throw an exception when empty.
 
 ## Binary Tree
 
-### 什么是平衡二叉树
+**Definition**
+**Binary Tree** - For each node, there are at most two children nodes.
+**Balanced Binary Tree** - For every node, the depth of the left and right subtrees differ by 1 or less.
+**Binary Search Tree**
 【平衡二叉树 Self-balancing binary search tree AVL tree】左右子树高度差不为1的二叉树。
 【二叉搜索树 Binary Search Tree】左子树上的所有节点都小于根节点。右子树上的所有节点均大于根节点。所有节点的值都不相同。
 
