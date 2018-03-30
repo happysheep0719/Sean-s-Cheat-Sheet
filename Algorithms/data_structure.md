@@ -91,13 +91,18 @@ Step 3 - Compare
 ## Queue & Stack
 _Reference: Laioffer Class 3_
 
-###Definition
+### Definition
 
-**Queue** - FIFO (First in first out)
-**Stack** - FILO (First in last out)
-**Deque** - 左右都可以进出的队列
+**Queue**
+- FIFO (First in first out)
 
+**Stack**
+- FILO (First in last out)
 
+**Deque**
+- 左右都可以进出的队列
+
+### Operations
 |    Operations    |    Queue      |    Stack    |
 |       ----       |     ----      |     ----    |
 | Add one element  |   offer / add   |    push / add |
@@ -105,12 +110,12 @@ _Reference: Laioffer Class 3_
 |See the first element| peek / element| peek / element|
 
 
-###Difference of two interfaces in Java
+**Difference of two interfaces in Java**
 
-**Queue** - offer, poll and peek cannot cause exception, while add, remove and element can.
+**For Queue** - offer, poll and peek cannot cause exception, while add, remove and element can.
 In Java, Queue is an interface and realized by LinkedList.
 
-**Stack** - peek and pop can both cause exception.
+**For Stack** - peek and pop can both cause exception.
 In Java, Stack is realized.
 
 **Code**
@@ -127,14 +132,27 @@ Queue.element();   // see the first element. throw an exception when empty.
 
 
 ## Binary Tree
+_Reference: Laioffer Class 5_
 
-**Definition**
-**Binary Tree** - For each node, there are at most two children nodes.
-**Balanced Binary Tree** - For every node, the depth of the left and right subtrees differ by 1 or less.
+###Definition
+
+**Binary Tree**
+- _Structure_ - For each node, there are at most two children nodes.
+
+**Balanced Binary Tree**
+- _Structure_ - For every node, the depth of the left and right subtrees differ by 1 or less. 对于每个节点，左右子树高度差都小于等于 1。
+- Height = O(log2(N))
+
+**Complete Binary Tree**
+- _Structure_ - 除了最后一层的节点可以为null，其他都不为null。并且最后一层的节点都挤在左边。
+
+**Perfect Binary Tree**
+- _Structure_ - 所有节点都不为null节点。
+
 **Binary Search Tree**
-【平衡二叉树 Self-balancing binary search tree AVL tree】左右子树高度差不为1的二叉树。
-【二叉搜索树 Binary Search Tree】左子树上的所有节点都小于根节点。右子树上的所有节点均大于根节点。所有节点的值都不相同。
-
+- _Value_ - 任何节点，左子节点一定是小于父节点。柚子节点一定大于父节点。不可以等于父节点的值。
+- _Structure_ - 没有要求。
+- 中序遍历In-order的遍历结果是从小到大排序的序列。
 
 ## Heap
 
