@@ -94,6 +94,8 @@ _Reference: Laioffer Class 3_
 **Definition**
 **Queue** - FIFO (First in first out)
 **Stack** - FILO (First in last out)
+**Deque** - 左右都可以进出的队列
+
 
 |    Operations    |    Queue      |    Stack    |
 |       ----       |     ----      |     ----    |
@@ -122,9 +124,6 @@ Queue.peek();      // see the first element. return null when empty.
 Queue.element();   // see the first element. throw an exception when empty.
 ```
 
-
-## Deque
-左右都可以进出的队列
 
 ## Binary Tree
 
