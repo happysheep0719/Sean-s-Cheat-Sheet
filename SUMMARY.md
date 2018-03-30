@@ -1,6 +1,8 @@
-# Sean's Cheat Sheet
+# Summary
 
 ## Part 0 Summary
+
+* [Introduction](README.md)
 * [Summary](SUMMARY.md)
 * [挖坑](wa-keng.md)
 
@@ -35,5 +37,6 @@
 * [Basics](machine-learning/basics.md)
 
 ## Part V Web
+
 * [HTML](web/html.md)
 
