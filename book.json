@@ -1,6 +1,6 @@
 {
     "plugins": [
-                "tbfed-pagefooter",
+                "page-footer-ex",
                 
                 "-lunr",
                 "-search",
@@ -21,10 +21,11 @@
            
         },
         
-        "tbfed-pagefooter": {
-            "copyright":"Copyright &copy seangone.gitbooks.io 2018",
-            "modify_label": "Updated Time: ",
-            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        "page-footer-ex": {
+            "copyright": "By <em>Shiyuan Zhu</em>",
+            "markdown": false,
+            "update_label": "<i>updated</i>",
+            "update_format": "YYYY-MM-DD HH:mm:ss"
         }
     }
     
