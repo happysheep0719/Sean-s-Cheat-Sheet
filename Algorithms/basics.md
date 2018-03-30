@@ -42,8 +42,8 @@ public int binarySearch(int[] nums, int target) {
     # initial condition. The end is included in the range of the num,
     # because the end is initialized to the length of nums minus one
     int start = 0, end = nums.length - 1;
-    # Here, the condition should be start+1<end.
-    # because when start=0 and end=1, then mid=0
+    # Here, the condition should be start + 1 < end.
+    # because when start == 0 and end == 1, then mid = 0
     # and the start may not be updated.
     while (start + 1 < end) { # Note: use start+1<end as the condition to continue
         int mid = start + (end - start) / 2;
