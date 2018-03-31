@@ -45,6 +45,7 @@ __Coding Tricks__
 - __P5. Find the last occurance of target__
 
 - __P6. Find the K closest number to target__
+    — Find largest smaller or equal number.
 
 - __P7. Find the smallest element that is larger than target__
 

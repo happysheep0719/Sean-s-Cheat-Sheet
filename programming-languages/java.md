@@ -17,11 +17,13 @@ Eg.
 ```a + b```
 
 
-## Primitive types vs. Class types:
-int/char/double
-5/5.5
-Strings are objects.
-Arrays are objects.
+## Primitive types vs. Class types
+
+__Primitive types:__
+- boolean/byte/char/short/int/long/float/double
+- 5/5.5 are objects.
+- Strings are objects.
+- Arrays are objects.
 
 ### Array
 
@@ -32,43 +34,43 @@ array[1] = new int[3];
 取subarray，使用arrays工具箱。
 
 
-
-## Memory
-Stack and heap
-stack = call stack
-
 ## Static & Final
 
-1. static
+__1. static__
 
-class variable vs. instance varible
-class method vs. instance method
+- class variable vs. instance varible
+- class method vs. instance method
+- unlike C++, local static varible is not allowed.
 
-unlike C++, local static varible is allowed.
+__2. final__
 
+- final class: A class that cannot be dereived. 最终类。不能被继承。
+- final method: A method that cannot be overridden.
+- final field/var: A varible that once assigned, cannot be assigned again.
 
-2. final
-
-final class: A class that cannot be dereived. 最终类。不能被继承。
-final method: A method that cannot be overridden.
-final field/var: A varible that once assigned, cannot be assigned again.
-
-define a constant in Java:
+define a **constant var** in Java:
 
 ```
+// Cannot change the value
 final int value = 10;
+```
+
+define a **constant reference** in Java:
+
+```
+// Cannot change the reference value
+final Boy b1 = new Boy(10);
+
+// Can change the object field varibles
+b1.girlFriend = new Girl("Lady gaga");
 ```
 
 ## parameter passing
 
-Java parameters are always passed by value.
+**Java parameters are always passed by value.**
 
-primitive type: copy of the value itself
-objects: copy of the object reference
-
-
-
-
+- **primitive type**: copy of the value itself
+- **objects**: copy of the object reference
 
 ## Interface
 **Queue**
