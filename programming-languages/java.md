@@ -90,6 +90,7 @@ class DictionaryImp1 implements Dictionary {
     }
 }
 ```
+Cannot instantiate an object by abstract class or interfaces
 
 
 ##
