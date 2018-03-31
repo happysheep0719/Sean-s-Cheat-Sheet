@@ -72,7 +72,27 @@ b1.girlFriend = new Girl("Lady gaga");
 - **primitive type**: copy of the value itself
 - **objects**: copy of the object reference
 
-## Interface
+## Abstract class and Interfaces
+
+Both can have methods declared without implementation (abstract methods).
+
+```
+interface Dictionary {
+    public Integer get(int index);
+}
+
+Dictionary myDict = new Dictionary(); // Wrong !
+
+class DictionaryImp1 implements Dictionary {
+    @Override
+    public Integer get(int index) {
+    
+    }
+}
+```
+
+
+##
 
 LinkedList
 get
