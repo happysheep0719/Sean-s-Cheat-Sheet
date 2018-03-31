@@ -73,8 +73,22 @@ b1.girlFriend = new Girl("Lady gaga");
 - **objects**: copy of the object reference
 
 ## Interface
-**Queue**
-LinkedList
-.offer()
-.poll()
 
+LinkedList
+get
+set
+add
+remove
+
+List
+- Random Access:
+    set(int index, E e)
+    get(int index)
+    add(int index, E e), add(E e)
+    remove(int index)
+
+- Search
+- Iterator
+- Range-View
+- isEmpty();
+- size();
