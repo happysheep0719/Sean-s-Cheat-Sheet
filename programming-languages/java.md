@@ -80,7 +80,7 @@ set
 add
 remove
 
-List
+List - LinkedList/ArrayList
 - Random Access:
     set(int index, E e)
     get(int index)
