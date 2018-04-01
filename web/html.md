@@ -2,7 +2,7 @@
 
 # HTML
 
-### Document
+## Document
 ```html
 <!DOCTYPE html> <!-- this is for html 5. -->
 <html>
@@ -14,7 +14,7 @@
 </html>
 ```
 
-### Elements
+## Elements
 
 Link: [MDN element reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 
@@ -64,6 +64,6 @@ __Generic Container__
 - inlined container - `<span>`
 - block level container - `<div>`
 
-### Attributes
+## Attributes
 
 Link: [Attribute List](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
