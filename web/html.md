@@ -2,6 +2,8 @@
 
 # HTML
 
+[Test](test.html)
+
 ## Document
 ```html
 <!DOCTYPE html> <!-- this is for html 5. -->
