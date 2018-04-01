@@ -17,7 +17,7 @@
 ## Part II Programming Languages
 
 * [1. Python](programming-languages/python/introduction.md)
-    * [1.1 Data Structure](programming-languages/python/data-structure.md)
+  * [1.1 Data Structure](programming-languages/python/data-structure.md)
 * [2. Java](programming-languages/java.md)
 * [3. C++](programming-languages/C++.md)
 * [4. Object-oriented vs. Procedure-oriented](oriented.md)
@@ -37,4 +37,5 @@
 ## Part V Web
 
 * [HTML](web/html.md)
+* CSS
 
