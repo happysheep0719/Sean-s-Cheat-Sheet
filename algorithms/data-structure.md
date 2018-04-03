@@ -4,13 +4,13 @@
 ## Array
 
 ## LinkedList
-_Reference: Laioffer Class 4_
+_Reference: Laioffer Class 4 & Practice4_
 
 **Note:**
 
-- Never lose the control of the head pointer of the LinkedList.
-- When dereferencing a ListNode, ensure that pointer is not NULL.
-- When changing the links of the nodes, be very careful and do not lose the pointees.
+- Never lose the control of the **head** pointer of the LinkedList.
+- When dereferencing a ListNode, ensure that pointer is not `NULL`.
+- When changing the links of the nodes, be very careful and do not lose the **reference**.
 
 
 **Coding Tricks**
@@ -34,7 +34,7 @@ _Reference: Laioffer Class 4_
 
 - __P1. Reverse a linked list__
 
-	- 改变link方向时，需要使用next或者prev去记录因为改变link可能丢失的节点。
+	- 改变link方向时，需要使用`next`或者`prev`去记录因为改变link可能丢失的节点。
 
 - __P2. Find middle node of a linked list__
 
@@ -93,6 +93,20 @@ _Reference: Laioffer Class 4_
     - Step 1 - findMiddle
     - Step 2 - Reverse
     - Step 3 - Compare
+
+## Array vs. Linked List Comparison
+
+- Memory Layout
+    - Array: consecutive allocated, no **overhead**
+    - Linked List: non-consecutive, **overhead** of multiple objects with the `next` reference
+- Random access time
+    - Array: $O(1)$
+    - Linked List: worst case $O(n)$
+- Search time in unsorted list
+    - Array, Linked List: $O(n)$
+- Search time in sorted list
+    - Array: $O(logn)$
+    - Linked List: $O(n)$
 
 
 # Logic Data Structure

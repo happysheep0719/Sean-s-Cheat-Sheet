@@ -93,15 +93,28 @@ class DictionaryImp1 implements Dictionary {
 Cannot instantiate an object by abstract class or interfaces
 
 
-##
+## Java Interfaces & Classes
 
-LinkedList
-get
-set
-add
-remove
+__Abstract class and interfaces__
 
-List - LinkedList/ArrayList
+```
+interface Dictionary {
+    public Integer get(int index);
+}
+
+Dictionary myDict = new Dictionary();
+
+```
+
+
+| Operations | List | ArrayList | LinkedList |
+|----|----|----|----|
+|length|.length()|.length()|.length()|
+|get| .get(i) | .get(i)| .get(i) |
+
+
+List Interface in Java
+
 - Random Access:
     set(int index, E e)
     get(int index)
