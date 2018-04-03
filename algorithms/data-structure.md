@@ -120,37 +120,6 @@ _Reference: Laioffer Class 3_
 
 - __Deque__ - 左右都可以进出的队列
 
-__Operations__
-
-|    Operations    |    Queue      |    Stack    |
-|       ----       |     ----      |     ----    |
-| Add one element  |   **offer** / **add**   |    **push** / **add** |
-| Remove one element | **poll** / **remove** | **pop** / **remove**  |
-|See the first element| **peek** / **element**| **peek** / **element**|
-
-
-__Difference of two interfaces in Java__
-
-- **For Queue** - offer, poll and peek cannot cause exception, while add, remove and element can.
-In Java, Queue is an interface and realized by LinkedList.
-
-- **For Stack** - peek and pop can both cause exception.
-In Java, Stack is realized.
-
-
-__Code__
-
-```java
-Queue.offer(element);  // add one element. return false when full.
-Queue.add(element);    // add one element. throw an exception when full.
-
-Queue.poll();   // remove the first element. return null when empty.
-Queue.remove(); // remove the first element. throw an exception when empty.
-
-Queue.peek();      // see the first element. return null when empty.
-Queue.element();   // see the first element. throw an exception when empty.
-```
-
 
 ## Binary Tree
 _Reference: Laioffer Class 5_

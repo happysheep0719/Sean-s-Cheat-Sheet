@@ -97,32 +97,84 @@ Cannot instantiate an object by abstract class or interfaces
 
 __Abstract class and interfaces__
 
-```
-interface Dictionary {
+[Java docs](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html)
+
+Abstract class | Interface
+----|----
+using **extends** | **implements**
+methods can be declared without implementation | same
+cannot instantiate | same
+doesn't support multiple inheritance | support
+... | ...
+
+
+```java
+interface A {
     public Integer get(int index);
 }
 
-Dictionary myDict = new Dictionary();
+A myDict = new A(); // wrong
 
+class B implements A {
+    #override
+    public Integer get(int index) {
+    }
+}
 ```
 
+## Java Collection
 
-| Operations | List | ArrayList | LinkedList |
-|----|----|----|----|
-|length|.length()|.length()|.length()|
-|get| .get(i) | .get(i)| .get(i) |
+[Collections Framework Overview](https://docs.oracle.com/javase/8/docs/technotes/guides/collections/overview.html)
 
+[Java 集合系列01之 总体框架](http://www.cnblogs.com/skywang12345/p/3308498.html)
 
-List Interface in Java
+### Interface List
 
 - Random Access:
-    set(int index, E e)
-    get(int index)
-    add(int index, E e), add(E e)
-    remove(int index)
+    - `set(int index, E e)`
+    - `get(int index)`
+    - `add(int index, E e), add(E e)`
+    - `remove(int index)`
 
 - Search
 - Iterator
 - Range-View
-- isEmpty();
-- size();
+- `isEmpty()`
+- `size()`
+
+### Class ArrayList
+
+- **inital capacity 10** and expand by **1.5 times** when there is no unused cells available 
+
+
+
+### Interface Queue & Deque
+
+- Queue - FIFO (exception PriorityQueue)
+    - `offer()` - offer at the **tail**
+    - `poll()` - poll at the **head**
+    - `peek()` - look at the **head** without polling it out
+
+- Deque - FIFO & LIFO (both queue and stack)
+    - `offer()` = `offerLast()`
+    - `push()` = `offerFirst()`
+    - `poll()` = `pop()` =  `pollFirst()` and `pollLast()`
+    - `peek()` = `peekFirst()` and `peekLast()`
+
+__Operations of Queue and Stack__
+
+|    Operations    |    Queue      |    Stack    |
+|       ----       |     ----      |     ----    |
+| Insert  |   `offer`/`add`|`push`/`add` |
+| Remove | `poll`/`remove` | `pop`/`remove`  |
+| Examine| `peek`/`element`| `peek`/`element`|
+*Note:* throw exception / return null
+
+### Class LinkedList & ArrayDeque
+
+Most popular implementation class: `LinkedList`, `ArrayDeque`.
+
+`ArrayDeque` is a newer implementation by **circular array** for `Deque`. No null values in Deque.
+
+For a queue or stack, we can just use `LinkedList`, as it implements both `Queue` and `Deque` interfaces.
+
