@@ -21,9 +21,9 @@ _Reference: Laioffer Class 4_
 
 - __2. Fast and Slow pointers__
 
-	- _Situation 1._ to find the middle node of the linkedlist
+	- _Situation 1._ to find the **middle** node of the linkedlist
 	
-	- _Situation 2._ to find if there exists a *circle* in the linkedlist
+	- _Situation 2._ to find if there exists a **circle** in the linkedlist
 
 	- Q: Why do we use fast and slow pointers instead of treverse two times?
 
