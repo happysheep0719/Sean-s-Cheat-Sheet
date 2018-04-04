@@ -9,27 +9,31 @@
 
 2. Separate reversed words and bracelets. 
 reversed words - 保留字
-Eg 1. ```for ()```
-Eg 2. ```a && b```
+
+- Eg. ```for ()```
+- Eg. ```a && b```
 
 3. Add spaces on both sides of binary or ternary operators.
-Eg.
-```a + b```
+
+- Eg. ```a + b```
 
 
 ## Primitive types vs. Class types
 
 __Primitive types:__
-- boolean/byte/char/short/int/long/float/double
-- 5/5.5 are objects.
+
+- `boolean`/`byte`/`char`/`short`/`int`/`long`/`float`/`double`
+- `5`/`5.5` are objects.
 - Strings are objects.
 - Arrays are objects.
 
 ### Array
 
+```java
 int[][] array = new int[2][];
 array[0] = new int[1];
 array[1] = new int[3];
+```
 
 取subarray，使用arrays工具箱。
 
@@ -71,27 +75,6 @@ b1.girlFriend = new Girl("Lady gaga");
 
 - **primitive type**: copy of the value itself
 - **objects**: copy of the object reference
-
-## Abstract class and Interfaces
-
-Both can have methods declared without implementation (abstract methods).
-
-```
-interface Dictionary {
-    public Integer get(int index);
-}
-
-Dictionary myDict = new Dictionary(); // Wrong !
-
-class DictionaryImp1 implements Dictionary {
-    @Override
-    public Integer get(int index) {
-    
-    }
-}
-```
-Cannot instantiate an object by abstract class or interfaces
-
 
 ## Java Interfaces & Classes
 
@@ -178,3 +161,8 @@ Most popular implementation class: `LinkedList`, `ArrayDeque`.
 
 For a queue or stack, we can just use `LinkedList`, as it implements both `Queue` and `Deque` interfaces.
 
+__Circular Array__
+
+- use varible `head` to record the index of the node before the head.
+- use varible `tail` to record the index of the node after the tail.
+- can store `n-1` elements with n-length array.
