@@ -4,16 +4,19 @@
 <title>Thins I've Learned</title>	
 </head>
 <body>
-	<h1>Internet Basics</h1>
+	<h1>Paragraph</h1>
+	<p>Normal text, <strong>Bold or Strong text</strong></p>
+	<h1>List</h1>
+	<h2>An ordered List</h2>
 	<ol>
 		<li>HTTP Requests</li>
 		<li>IP Address</li>
 		<li>Servers</li>
 	</ol>
-	<h1>HTML</h1>
+	<h2>An unordered List</h2>
 	<ul>
-		<li>Stands for <strong>Hyper Text Markup Language</strong></li>
-		<li>Lots of tags
+		<li>Single List</li>
+		<li>Nested List
 			<ul>
 				<li>Boilerplate</li>
 				<li>Headings</li>
@@ -21,7 +24,61 @@
 		</li>
 	</ul>
 
-	<h1>Rusty Steele</h1>
+	<h1>Img & Link</h1>
 	<a href="http://www.google.com"><img src="https://static.boredpanda.com/blog/wp-content/uploads/2015/08/epic-movie-scenes-screenshots-fb__700.jpg"></a>
+
+	<h1>Table</h1>
+	<h2>Old HTML</h2>
+	<table border="1">
+		<tr>
+			<th>Name</th>
+			<th>Age</th>
+		</tr>
+		<tr>
+			<td>Rusty</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Wyatt</td>
+			<td>3</td>
+		</tr>
+	</table>
+
+	<h2>HTML5</h2>
+	Trying to make tag meaningful.
+	<table border="1">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Age</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Rusty</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Wyatt</td>
+			<td>3</td>
+		</tr>
+	</tbody>
+	</table>
+
+	<h1>Form</h1>
+	<!-- It tries to get: https://www.wikipedia.org/?nUser=ass&nPW=dd-->
+	<form action="http://wikipedia.com" method="GET">
+		<!-- 1st way to write a label-->
+		<label>
+			Username:
+			<input name="nUser" type="text" placeholder="username">
+		</label>
+		<!-- 2nd way to write a label-->
+		<label for="password">Password:</label>
+		<input id="password" name="nPW" type="password" placeholder="password">
+		
+		<input type="submit">
+	</form>
+
 </body>
 </html>
