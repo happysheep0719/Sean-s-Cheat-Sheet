@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Thins I've Learned</title>	
+</head>
+<body>
+	<h1>Paragraph</h1>
+	<p>Normal text, <strong>Bold or Strong text</strong></p>
+	<h1>List</h1>
+	<h2>An ordered List</h2>
+	<ol>
+		<li>HTTP Requests</li>
+		<li>IP Address</li>
+		<li>Servers</li>
+	</ol>
+	<h2>An unordered List</h2>
+	<ul>
+		<li>Single List</li>
+		<li>Nested List
+			<ul>
+				<li>Boilerplate</li>
+				<li>Headings</li>
+			</ul>
+		</li>
+	</ul>
+
+	<h1>Img & Link</h1>
+	<a href="http://www.google.com"><img width=200 src="https://static.boredpanda.com/blog/wp-content/uploads/2015/08/epic-movie-scenes-screenshots-fb__700.jpg"></a>
+
+	<h1>Table</h1>
+	<h2>Old HTML</h2>
+	<table border="1">
+		<tr>
+			<th>Name</th>
+			<th>Age</th>
+		</tr>
+		<tr>
+			<td>Rusty</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Wyatt</td>
+			<td>3</td>
+		</tr>
+	</table>
+
+	<h2>HTML5</h2>
+	Trying to make tag meaningful.
+	<table border="1">
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Age</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Rusty</td>
+			<td>2</td>
+		</tr>
+		<tr>
+			<td>Wyatt</td>
+			<td>3</td>
+		</tr>
+	</tbody>
+	</table>
+
+	<h1>Register Form</h1>
+	<form action="/test.html" method="GET">
+		<p>
+			<label for="firstname">First Name:</label>
+			<input type="text" name="fn" id="firstname" placeholder="John" required="">
+			<label for="lastname">Last Name:</label>
+			<input type="text" name="fn" id="lastname" placeholder="Smith" required="">
+		</p>
+		<p>
+			<input type="radio" name="g" value="m" id="male">
+			<label for="male">Male</label>
+			<input type="radio" name="g" value="f" id="female">
+			<label for="female">Female</label>
+		</p>
+		<p>
+			<label for="email">Email:</label>
+			<input type="email" name="em" id="email" placeholder="your email" required>
+			<label for="password"></label>
+			<input type="password" name="pw" id="password" placeholder="your password" required title="None Empty Chars 3-6" minlength="3" maxlength="6" pattern="\w{2,}">
+		</p>
+		<p>
+			<label>Birthday:</label>
+			<select name="bd-m">
+				<option value="">Month</option>
+				<option value="1">Jan</option>
+				<option value="2">Feb</option>
+			</select>
+			<select name="bd-d">
+				<option value="">Day</option>
+				<option>1</option>
+				<option>2</option>
+			</select>
+			<select name="bd-y">
+				<option value="">Year</option>
+				<option>1994</option>
+				<option>2018</option>
+			</select>
+		</p>
+		<p>
+			<label for="agree">I agree to the terms and conditions:</label>
+			<input type="checkbox" name="agree">
+		</p>
+		<p><input type="submit" ></p>
+	</form>
+
+</body>
+</html>
