@@ -81,7 +81,8 @@ __Whether a tag should occupy one whole line__
 ### Link
 
 ```html
-<a href="http://www.google.com"></a>
+<a href="http://www.google.com" target="_blank">Open Google in a blank page</a>
+<a href="http://www.google.com" target="_self">Open Google in self page</a>
 ```
 
 ### Generic Container
