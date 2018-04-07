@@ -32,10 +32,15 @@ Link: [MDN element reference](https://developer.mozilla.org/en-US/docs/Web/HTML/
 
 Link: [Attribute List](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
 
-__Whether a tag should occupy one whole line__
+__Whether a tag occupy one whole line__
 
-- inline element: `<b>`, `<i>`, `<spam>`, `<a>`
-- block level element: `<h1>`, `<h2>`, `<h6>`, `<p>`, `<br>`, `<div>`.
+- inline element 行内（内联）元素: `<b>`, `<i>`, `<spam>`, `<a>`
+- block level element 块元素: `<h1>`, `<h2>`, `<h6>`, `<p>`, `<br>`, `<div>`.
+
+__Whether a tag is self-closing__
+
+- self-closing: `<img>`
+- not: ...
 
 ### Text
 
@@ -72,10 +77,13 @@ __Whether a tag should occupy one whole line__
 
 ### Image
 
-`<img>` is a self-closing tag.
+`<img>` is a **self-closing** tag.
+
+- `src` - is the address of image.
+- `alt` - is the name of image. It appears when the image is not successfully loaded.
 
 ```html
-<img src="">
+<img src="the address of image" alt="the name of image">
 ```
 
 ### Link
