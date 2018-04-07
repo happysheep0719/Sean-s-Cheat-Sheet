@@ -18,20 +18,39 @@ Link: [example created by me](example.html)
 </html>
 ```
 
-## Elements & Attributes
+## Head Elements & Attributes
+
+- `<meta>`
+    - `content` - 
+    - `http-equiv` - 
+    - `name`
+    - `scheme`
+
+## Body Elements & Attributes
 
 Link: [MDN element reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 
 Link: [Attribute List](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
 
+__Whether a tag should occupy one whole line__
 
 - inline element: `<b>`, `<i>`, `<spam>`, `<a>`
-- block level element: `<h1>`, `<h2>`, `<h6>`, `<p>`, `<div>`.
+- block level element: `<h1>`, `<h2>`, `<h6>`, `<p>`, `<br>`, `<div>`.
+
+### Text
+
+- `<h1>` - Usually, there is only one `<h1>` tag in one document.
+- `<p>` - new paragraph
+- `<br>` - new line
 
 ### Semantic Tags in HTML5
 
 - `<strong>` for `<b>`
 - `<em>` for `<i>`
+- `<header>` container
+- `<section>`
+- `<nav>`
+- ...
 
 ### List
 
