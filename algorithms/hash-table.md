@@ -1,4 +1,8 @@
-# Hashmap 实现
+<extoc></extoc>
+
+# Hash Table
+
+## Hashmap 实现
 存储方式：array+linkedlist（用来避免碰撞）
 存储分配：hashcode函数。Java1.8的hashmap的hashcode：(h = k.hashCode()) ^ (h >>> 16)
 扩容问题：容量、负载因子。用capacity*load factor作为新容量。然后rehash
