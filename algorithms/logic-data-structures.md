@@ -1,6 +1,6 @@
 <extoc></extoc>
 
-# Logic Data Structure
+# Logical Data Structure
 
 ## Queue & Stack
 _Reference: Laioffer Class 3_

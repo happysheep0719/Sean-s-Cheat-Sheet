@@ -1,6 +1,6 @@
 <extoc></extoc>
 
-# Data Storage
+# Physical Data Structures
 ## Array
 
 ### Basic Problems
