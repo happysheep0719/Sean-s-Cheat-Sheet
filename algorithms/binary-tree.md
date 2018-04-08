@@ -30,7 +30,7 @@ __General ways of solving problems about binary tree:__
     - solve sub problem for root
 - __Iteration__
 
-
+-----
 ## Recursion & Tree Problems
 
 __两种信息传递方式__
@@ -72,6 +72,7 @@ __两种算法写法__ - _有的问题可以用两种思路写，但是一般会
 
 - __P5. Assign the value of each note to be the total number of nodes that belong its left subtree. 求左子树数字之和__
 
+-----
 ## Treverse & Tree Problems
 
 - __P1. Pre-order treverse__
