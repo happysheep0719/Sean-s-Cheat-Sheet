@@ -2,7 +2,7 @@
 
 # Binary Search - 二分搜索
 
-__Two kinds of problems__
+__Two types of problems__
 
 - Search problems in **Binary Search Tree** or **Sorted Array**
     - Using **Binary Search**
