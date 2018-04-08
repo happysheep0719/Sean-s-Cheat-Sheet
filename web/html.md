@@ -52,9 +52,7 @@ __Whether a tag is self-closing__
 
 - `<strong>` for `<b>`
 - `<em>` for `<i>`
-- `<header>` container
-- `<section>`
-- `<nav>`
+- `<header>`, `<section>`, `<aside>`, `<nav>` and `<footer>` for containers.
 - ...
 
 ### List
@@ -97,6 +95,7 @@ __Whether a tag is self-closing__
 
 - inlined container - `<span>`
 - block level container - `<div>`
+
 
 ### Table
 
