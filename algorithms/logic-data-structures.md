@@ -1,3 +1,5 @@
+<extoc></extoc>
+
 # Logic Data Structure
 
 ## Queue & Stack
