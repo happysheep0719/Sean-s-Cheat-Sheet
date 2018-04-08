@@ -10,12 +10,22 @@
 
 ## Binary Search - 二分搜索
 
-对`sorted array`类型的问题，拆分成同样的子问题，使用循环loop和分类讨论if-else实现。
+对`sorted array`类型的问题，拆分成同样的子问题，使用**循环** `loop`和**分类讨论** `if-else`实现。
 
 __适用问题__
 
 - 每次循环会减少解空间，不能死循环。
 - 不能在循环中，把正确答案排除掉。
+
+__Time Complexity__
+
+- `search` - worst case $O(n)$, average $O(logn)$
+- `insert` - worst case $O(n)$, average $O(logn)$
+- `remove` - worst case $O(n)$, average $O(logn)$
+
+Worst case happen if the binary tree is structured like a linked list.
+
+In **Balanced Binary Search Tree**, `search`, `insert` and `remove` operations are guaranteed to be $O(logn)$. For example, **AVL Tree**, **Red-Black Tree** are balanced BST.
 
 __Coding Tricks__
 
@@ -31,43 +41,9 @@ __Coding Tricks__
         - `mid = start + (end - start) / 2`
 
 
-### Basic Problems
+### Basic Search Problems
 
-- __P1. Binary Search in Sorted Array__
-
-- __P2. Binary Search in 2D sorted matrix__
-
-- __P3. Find the closest number to target__
-    - 循环条件：`left < right - 1`
-    
-- __P4. Find the first occurance of target__
-
-- __P5. Find the last occurance of target__
-
-- __P6. Find the K closest number to target__
-    — Find largest smaller or equal number.
-
-- __P7. Find the smallest element that is larger than target__
-
-### 复杂问题
-
-- __P8. Find mountain peak in array: __
-
-    `1 3 7 23 57 ... 100 99 86 44 32 21`
-
-- __P9. Binary Search in a sorted array with unknown size__
-
-    - Step 1 - jump out
-    - Step 2 - jump in
-    
-    |    | step = 2 | step = 10 |
-    |----|----|----|
-    | Worst case | $n=2^{k-1}+1$ | $n=10^{k-1}+1$ |
-    | Jump out - Time | $log_{2}n$ | $log_{10}n$ |
-    | Jump in - Time | $log_{2}10n$ | $log_{2}2n$ |
-
-
-### Binary Search Template
+__Binary Search Template__
 Reference: [jiuzhang](http://www.jiuzhang.com/solutions/binary-search/)
 
 ```java
@@ -109,6 +85,51 @@ public int binarySearch(int[] nums, int target) {
     return -1;
 }
 ```
+
+- __P1. Binary Search in Sorted Array__
+
+- __P2. Binary Search in 2D sorted matrix__
+
+- __P3. Find the closest number to target__
+    - 循环条件：`left < right - 1`
+    
+- __P4. Find the first occurance of target__
+
+- __P5. Find the last occurance of target__
+
+- __P6. Find the K closest number to target__
+    — Find largest smaller or equal number.
+
+- __P7. Find the smallest element that is larger than target__
+
+
+### Composed Search Problems
+
+- __P8. Find mountain peak in array__
+
+    `1 3 7 23 57 ... 100 99 86 44 32 21`
+
+- __P9. Binary Search in a sorted array with unknown size__
+
+    - Step 1 - jump out
+    - Step 2 - jump in
+    
+    |    | step = 2 | step = 10 |
+    |----|----|----|
+    | Worst case | $n=2^{k-1}+1$ | $n=10^{k-1}+1$ |
+    | Jump out - Time | $log_{2}n$ | $log_{10}n$ |
+    | Jump in - Time | $log_{2}10n$ | $log_{2}2n$ |
+
+
+### Insert & Delete Problems
+
+- __P1. Insert in BST__
+    - _Problem_ : return the new root after the change.
+
+- __P2. Delete in BST__
+    - _Problem_ : return the new root of the BST.
+
+
 
 ## Divide and Conquer - 分治法
 

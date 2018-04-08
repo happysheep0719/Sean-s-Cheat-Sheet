@@ -35,6 +35,14 @@ __Definition__
     - _Value_ - 任何节点，左子节点一定是小于父节点。柚子节点一定大于父节点。不可以等于父节点的值。
     - 中序遍历In-order的遍历结果是从小到大排序的序列。
 
+__General ways of solving problems about binary tree:__
+
+- __Divide and conquer__ is the nature of binary tree. The problems can usually be divided into three parts:
+    - solve sub problems for left/right subtree
+    - solve sub problem for root
+- __Iteration__
+
+
 ### Basic Problems
 
 #### Recursion & Tree
@@ -79,13 +87,16 @@ __两种算法写法__ - _有的问题可以用两种思路写，但是一般会
 #### Treverse & Tree
 
 - __P1. Pre-order treverse__
-    - *Order* : root, root.left, root.right
+    - *Order* : root -> root.left -> root.right
 
 - __P2. In-order treverse__
-    - *Order* : root.left, root, root.right
+    - *Order* : root.left -> root -> root.right
 
 - __P3. Post-order treverse__
-    - *Order* : root.left, root.right, root
+    - *Order* : root.left -> root.right -> root
+
+- __P4. Level treverse__
+    - *Order* : low level -> high level
 
 ## Graph
 
