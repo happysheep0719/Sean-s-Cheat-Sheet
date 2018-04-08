@@ -3,7 +3,6 @@
 # Data Storage
 ## Array
 
-
 ### Basic Problems
 
 - Sorting Problems
