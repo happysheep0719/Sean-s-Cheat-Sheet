@@ -16,6 +16,7 @@
     * [Linked List](algorithms/linked-list.md)
 * [Logical Data Structures](algorithms/logic-data-structures.md)
     * [Binary Tree](algorithms/binary-tree.md) 
+    * [Heap](algorithms/heap.md)
     * [Graph](algorithms/graph.md)
 * [Big Data Situation](algorithms/bigdatasituation.md)
 * [Others](algorithms/others.md)
