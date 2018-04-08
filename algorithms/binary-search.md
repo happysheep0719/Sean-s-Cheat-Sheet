@@ -24,7 +24,7 @@ __Time Complexity__
 
     In **Balanced Binary Search Tree**, `search`, `insert` and `remove` operations are guaranteed to be $O(logn)$. For example, **AVL Tree**, **Red-Black Tree** are balanced BST.
 
-### Binary Search Problems
+## Binary Search Problems
 
 __Binary Search Code Template__
 
@@ -81,7 +81,7 @@ __Coding Tricks__
 - __二分计算__
     - `mid = start + (end - start) / 2`
 
-__Problems__
+### Basic Problems
 
 - __P1. Binary Search in Sorted Array__
 
@@ -117,7 +117,7 @@ __Problems__
     | Jump in - Time | $log_{2}10n$ | $log_{2}2n$ |
 
 
-### BST Insert & Delete Problems
+## BST Insert & Delete Problems
 
 - __P1. Insert in BST__
     - *Problem* : return the new root after the change.
