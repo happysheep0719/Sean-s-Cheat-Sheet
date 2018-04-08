@@ -122,7 +122,7 @@ _Reference: Laioffer Class 3_
 
 
 ## Binary Tree
-_Reference: Laioffer Class 5_
+_Reference: Laioffer Class 5, Practice Class 7, 8_
 
 __Definition__
 
@@ -200,6 +200,17 @@ __两种算法写法__ - _有的问题可以用两种思路写，但是一般会
 
 - __P3. Post-order treverse__
 
+## Graph
+
+**Graph** can be represented using **Adjacency Matrix** and **Adjacency List**.
+
+Following is an example undirected graph with 5 vertices.
+
+![Graph](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/undirectedgraph.png)
+
+![Adjacency Matrix](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/adjacencymatrix.png)
+
+![Adjecency List](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/listadjacency.png)
 
 ## Heap
 
