@@ -79,6 +79,7 @@ __两种算法写法__ - _有的问题可以用两种思路写，但是一般会
 #### Treverse & Tree
 
 - __P1. Pre-order treverse__
+    - root, root.left, root.right
 
 - __P2. In-order treverse__
 
