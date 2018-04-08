@@ -26,7 +26,7 @@ _Reference: Laioffer Class 4 & Practice4_
 
 		A: Online algorithm vs. Offline algorithm: We can stop in the middle of the program and record the two nodes without losing information.
 
-
+-----
 ## Basic Problems
 
 - __P1. Reverse a linked list__
@@ -54,6 +54,7 @@ _Reference: Laioffer Class 4 & Practice4_
     - 使用dummy head
 
 
+-----
 ## Composed Problems
 
 - __P5 Follow-up. change N1->N2->...->Nn->null into N1->Nn->N2->Nn-1->...__
