@@ -82,7 +82,7 @@ __Coding Tricks__
 - __二分计算__
     - `mid = start + (end - start) / 2`
 
-### Basic Problems
+### Basic Binary Search Problems
 
 - __P1. Binary Search in Sorted Array__
 
