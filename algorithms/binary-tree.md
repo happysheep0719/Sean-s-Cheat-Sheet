@@ -1,3 +1,5 @@
+<extoc></extoc>
+
 # Binary Tree
 _Reference: Laioffer Class 5, Practice Class 7, 8_
 
