@@ -6,6 +6,8 @@ In this section, all kinds of basic data structures are discussed, including:
     - Array
     - Linked List
 - Logic Data Structures
+    - Queue & Stack
     - Binary Tree
     - Graph
+    - Heap
     
