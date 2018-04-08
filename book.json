@@ -10,7 +10,7 @@
                 "prism",
                 "-highlight",
                 
-                "katex",
+                "mathjax",
                 "new-flowchart"],
     
     "pluginsConfig": {
