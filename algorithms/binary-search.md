@@ -99,7 +99,7 @@ __Coding Tricks__
 - __P7. Find the smallest element that is larger than target__
 
 
-### Composed Search Problems
+### Composed Binary Search Problems
 
 - __P8. Find mountain peak in array__
 
@@ -117,6 +117,7 @@ __Coding Tricks__
     | Jump in - Time | $log_{2}10n$ | $log_{2}2n$ |
 
 
+-----
 ## BST Insert & Delete Problems
 
 - __P1. Insert in BST__
