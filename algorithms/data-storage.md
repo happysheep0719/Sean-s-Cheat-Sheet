@@ -5,22 +5,18 @@
 
 __Note:__
 
-- String Problems can be seen as char array problems.
 
 ### Basic Problems
 
-#### Sorting Problems
-
-See **Sorting Algorithms**.
-
-#### Partition Problems
-
-See **Two Pointers**.
-
-#### Sorted Array & Binary Search
-
-See **Binary Search**.
-
+- Sorting Problems
+    - See **Sorting Algorithms**.
+- Partition Problems
+    - See **Two Pointers**.
+- Sorted Array & Binary Search
+    - See **Binary Search**.
+- String Problems
+    - String Problems can be seen as char array problems.
+    - See **String**
 
 ## Linked List
 _Reference: Laioffer Class 4 & Practice4_

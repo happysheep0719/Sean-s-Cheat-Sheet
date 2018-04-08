@@ -4,7 +4,7 @@
 
 ## 算法解题思路
 
-- 使用**循环**拆成相同的子问题 - `loop`
+- 使用**循环**拆成重复的子问题 - `loop`
 - 使用**分类讨论**拆分多种情况 - `if-else`
 - 使用**分治法(divide and conquer)**拆成**可继续拆分的子问题**直到**最小情况(base case)** - `recursion / iteration`
 
