@@ -7,7 +7,7 @@
 
 ## Part I Algorithms
 
-* [1. Basic Framework](algorithms/basic-framework.md)
+* [Basic Framework](algorithms/basic-framework.md)
 * [Time & Space Complexity Analysis](algorithms/time-and-space-complexity-analysis.md)
 * [Data Structure](algorithms/data-structure.md)
   * [Data Storage](algorithms/data-storage.md)
