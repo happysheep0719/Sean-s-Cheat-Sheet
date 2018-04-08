@@ -1,3 +1,5 @@
+<extoc></extoc>
+
 # Array
 
 ## Basic Problems
