@@ -9,23 +9,7 @@ _Reference: Laioffer Class 3_
 - __Stack__ - FILO (First in last out)
 - __Deque__ - 左右都可以进出的队列
 
-
-
-## Graph
-
-**Graph** can be represented using **Adjacency Matrix** and **Adjacency List**.
-
-Following is an example undirected graph with 5 vertices.
-
-![Graph](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/undirectedgraph.png)
-
-![Adjacency Matrix](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/adjacencymatrix.png)
-
-![Adjecency List](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/listadjacency.png)
-
-## Heap
-
-# Hashmap 实现
+## Hashmap 实现
 存储方式：array+linkedlist（用来避免碰撞）
 存储分配：hashcode函数。Java1.8的hashmap的hashcode：(h = k.hashCode()) ^ (h >>> 16)
 扩容问题：容量、负载因子。用capacity*load factor作为新容量。然后rehash
