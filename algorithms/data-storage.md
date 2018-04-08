@@ -8,7 +8,7 @@ _Reference: Laioffer Class 4 & Practice4_
 
 **Note:**
 
-- Never lose the control of the **head** pointer of the LinkedList.
+- Never lose the control of the **head** pointer of the Linked List.
 - When dereferencing a ListNode, ensure that pointer is not `NULL`.
 - When changing the links of the nodes, be very careful and do not lose the **reference**.
 
@@ -17,13 +17,13 @@ _Reference: Laioffer Class 4 & Practice4_
 
 - __1. Dummy head__
 
-	- _Situation 1._ When the head of the returning linkedlist could be changed, we should use dummy head.
+	- _Situation 1._ When the head of the returning linked list could be changed, we should use dummy head.
 
 - __2. Fast and Slow pointers__
 
-	- _Situation 1._ to find the **middle** node of the linkedlist
+	- _Situation 1._ to find the **middle** node of the linked list
 	
-	- _Situation 2._ to find if there exists a **circle** in the linkedlist
+	- _Situation 2._ to find if there exists a **circle** in the linked list
 
 	- Q: Why do we use fast and slow pointers instead of treverse two times?
 
@@ -41,7 +41,7 @@ _Reference: Laioffer Class 4 & Practice4_
 	- 快慢指针
 	- 尽量去找middle左边的节点，方便后续调用。
 
-- __P3. determine if there exists a circle in a linkedlist__
+- __P3. determine if there exists a circle in a linked list__
 
     - 快慢指针
 
@@ -72,7 +72,7 @@ _Reference: Laioffer Class 4 & Practice4_
     - 把节点小于target放在左边，大于等于的放在右边。
     - Step 1 - 使用两个dummy head
     - Step 2 - 分配节点
-    - Step 3 - 合并两个linkedlist
+    - Step 3 - 合并两个linked lists
     - 易错点 - 合并需要两个步骤，循环+剩余节点链接。
 
 - __P7. Merge Sort__
@@ -84,9 +84,9 @@ _Reference: Laioffer Class 4 & Practice4_
 
 - __P8. Add Two Numbers__
     
-    - Step 1 - Reverse two linkedlists
-    - Step 2 - Add the number and create one new Linkedlist
-    - Step 3 - Reverse the new linkedlist
+    - Step 1 - Reverse two linked lists
+    - Step 2 - Add the number and create one new linked list
+    - Step 3 - Reverse the new linked list
 
 - __P9. Check if a linked list is palindrome__
 
