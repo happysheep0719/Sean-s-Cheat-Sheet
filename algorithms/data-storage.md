@@ -3,8 +3,6 @@
 # Data Storage
 ## Array
 
-__Note:__
-
 
 ### Basic Problems
 
