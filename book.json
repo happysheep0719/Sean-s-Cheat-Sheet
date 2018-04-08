@@ -7,10 +7,11 @@
                 
                 "anchor-navigation-ex",
                 
+                "katex",
                 "prism",
                 "-highlight",
                 
-                "mathjax",
+                "katex",
                 "new-flowchart"],
     
     "pluginsConfig": {
