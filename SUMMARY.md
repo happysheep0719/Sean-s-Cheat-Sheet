@@ -9,10 +9,9 @@
 
 * [Basic Framework](algorithms/basic-framework.md)
 * [Time & Space Complexity Analysis](algorithms/time-and-space-complexity-analysis.md)
-* [Data Structure](algorithms/data-structure.md)
-  * [Data Storage](algorithms/data-storage.md)
-  * [Logic Data Structures](algorithms/logic-data-structures.md)
+* [Data Storage](algorithms/data-storage.md)
 * [Sorting algorithms](algorithms/sort.md)
+* [Logic Data Structures](algorithms/logic-data-structures.md)
 * [Big Data Situation](algorithms/bigdatasituation.md)
 * [Others](algorithms/others.md)
 
