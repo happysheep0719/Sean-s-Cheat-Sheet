@@ -1,20 +1,6 @@
 <extoc></extoc>
 
 # Physical Data Structures
-## Array
-
-### Basic Problems
-
-- Sorting Problems
-    - See **Sorting Algorithms**.
-- Sorted Array & Binary Search
-    - See **Binary Search**.
-- Partition Problems
-    - See **Two Pointers**.
-- String Problems
-    - String Problems can be seen as char array problems.
-    - See **String**
-
 ## Linked List
 _Reference: Laioffer Class 4 & Practice4_
 
