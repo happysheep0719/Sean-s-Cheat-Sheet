@@ -6,9 +6,7 @@
 _Reference: Laioffer Class 3_
 
 - __Queue__ - FIFO (First in first out)
-
 - __Stack__ - FILO (First in last out)
-
 - __Deque__ - 左右都可以进出的队列
 
 
@@ -58,11 +56,12 @@ __两种算法写法__ - _有的问题可以用两种思路写，但是一般会
 
 取决于是否存在这样的可能，在还没有遍历到底部，就可以终止的情况。如果存在这种可能，说明判断的信息
     
-- **P1. determine if it is BST**
+- __P1. determine if it is BST__
     - @ parameter: the should-be range of root
     - 下层节点为BST = 上层节点为BST
     - 可能提前终止
-- **P2. isSymmetric/isIdentical (Node root1, Node root2)**
+    
+- __P2. isSymmetric/isIdentical (Node root1, Node root2)__
     - @ return: boolean isSymmetric
     - 对称 = 该层key相同 && 该层结构相同
     - 上层对称 = 该层对称 + 下层对称
@@ -71,22 +70,21 @@ __两种算法写法__ - _有的问题可以用两种思路写，但是一般会
 
 2. 只有在从下往上的过程里，才能结束程序 - 需要遍历到最底层、需要遍历所有节点的情况
 
-- **P3. getHeight (Node root)**
+- __P3. getHeight (Node root)__
     - @ return: int Height
     - 上层的层数 = Max(左子树的层数, 右子树的层数) + 1
     - base case 最下层高度为1
     - 上层对高度的计算依赖对下层的遍历
-- **P4. isBalanced (Node root)**
+    
+- __P4. isBalanced (Node root)__
     - @ return: boolean isbalanced
     - 上层节点是否平衡 = 下层节点平衡 && 左右子树高度差小于等于1
     - base case 最下层平衡 && 最下层高度为1
     - 上层对高度的计算和平衡的判断依赖对下层的遍历
-- **P5. Assign the value of each note to be the total number of nodes that belong its left subtree. 求左子树数字之和**
 
+- __P5. Assign the value of each note to be the total number of nodes that belong its left subtree. 求左子树数字之和__
 
 #### Treverse & Tree
-
-
 
 - __P1. Pre-order treverse__
     - *Order* : root -> root.left -> root.right
@@ -94,13 +92,15 @@ __两种算法写法__ - _有的问题可以用两种思路写，但是一般会
 
 - __P2. In-order treverse__
     - *Order* : root.left -> root -> root.right
-    - 
+    - 画图，然后观察prev和curr的关系。
 
 - __P3. Post-order treverse__
     - *Order* : root.left -> root.right -> root
+    - 画图，然后观察prev和curr的关系。
 
 - __P4. Level treverse__
     - *Order* : low level -> high level
+    - BFS
 
 ## Graph
 

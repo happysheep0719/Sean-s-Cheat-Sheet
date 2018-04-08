@@ -133,7 +133,7 @@ public int binarySearch(int[] nums, int target) {
     | Jump in - Time | $log_{2}10n$ | $log_{2}2n$ |
 
 
-### Insert & Delete Problems
+### BST Insert & Delete Problems
 
 - __P1. Insert in BST__
     - *Problem* : return the new root after the change.
