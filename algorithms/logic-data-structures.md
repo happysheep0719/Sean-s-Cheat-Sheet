@@ -86,11 +86,15 @@ __两种算法写法__ - _有的问题可以用两种思路写，但是一般会
 
 #### Treverse & Tree
 
+
+
 - __P1. Pre-order treverse__
     - *Order* : root -> root.left -> root.right
+    - Remember to add the right child first, so the left child is popped first.
 
 - __P2. In-order treverse__
     - *Order* : root.left -> root -> root.right
+    - 
 
 - __P3. Post-order treverse__
     - *Order* : root.left -> root.right -> root

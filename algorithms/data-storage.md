@@ -33,16 +33,14 @@ _Reference: Laioffer Class 4 & Practice4_
 ### Basic Problems
 
 - __P1. Reverse a linked list__
-
-	- 改变link方向时，需要使用`next`或者`prev`去记录因为改变link可能丢失的节点。
+    - Space Complexity: $O(1)$
+    - 改变link方向时，需要使用`next`或者`prev`去记录因为改变link可能丢失的节点。
 
 - __P2. Find middle node of a linked list__
-
-	- 快慢指针
-	- 尽量去找middle左边的节点，方便后续调用。
+    - 快慢指针
+    - 尽量去找middle左边的节点，方便后续调用。
 
 - __P3. determine if there exists a circle in a linked list__
-
     - 快慢指针
 
 - __P3 Follow-up. 寻找环的开始__

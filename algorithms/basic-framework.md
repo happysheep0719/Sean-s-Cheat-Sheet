@@ -8,14 +8,26 @@
 - 使用**分类讨论**拆分多种情况 - `if-else`
 - 使用**分治法(divide and conquer)**拆成**可继续拆分的子问题**直到**最小情况(base case)** - `recursion / iteration`
 
+## Two Pointers - 双指针
+
+- 使用`Pivot`分隔数组。
+- 使用**循环**`loop`不断地移动指针`pivot`。
+- 使用**分类讨论**`if-else`控制指针`pivot`的移动。
+
+__适用问题__
+
+- 要求space complexity为$O(1)$的问题
+
 ## Binary Search - 二分搜索
 
-对`sorted array`类型的问题，拆分成同样的子问题，使用**循环** `loop`和**分类讨论** `if-else`实现。
+- 使用**循环**`loop`不断地移动指针`curr`。
+- 使用**分类讨论**`if-else`控制指针`curr`的移动。
 
 __适用问题__
 
 - 每次循环会减少解空间，不能死循环。
 - 不能在循环中，把正确答案排除掉。
+- **Sorted Array** or **Binary Search Tree**(In-order treverse is sorted.).
 
 __Time Complexity__
 
@@ -124,10 +136,16 @@ public int binarySearch(int[] nums, int target) {
 ### Insert & Delete Problems
 
 - __P1. Insert in BST__
-    - _Problem_ : return the new root after the change.
+    - *Problem* : return the new root after the change.
 
 - __P2. Delete in BST__
-    - _Problem_ : return the new root of the BST.
+    - *Problem* : return the new root of the BST.
+    - **Step 1**: find the node to be deleted
+    - **Step 2**: delete the nodes
+    - **case 1** - the node has no children.
+    - **case 2** - the node has no left child.
+    - **case 3** - the node has no right child.
+    - **case 4** - the node has both left and right children.
 
 
 
