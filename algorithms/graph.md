@@ -1,3 +1,5 @@
+<extoc></extoc>
+
 # Graph
 
 **Graph** can be represented using **Adjacency Matrix** and **Adjacency List**.
