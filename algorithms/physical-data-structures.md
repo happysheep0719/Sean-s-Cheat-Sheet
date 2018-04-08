@@ -2,8 +2,8 @@
 
 # Physical Data Structures
 
-## Array
-## Linked List
+- Array
+- Linked List
 
 ## Array vs. Linked List Comparison
 
