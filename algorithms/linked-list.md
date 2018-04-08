@@ -27,7 +27,7 @@ _Reference: Laioffer Class 4 & Practice4_
 		A: Online algorithm vs. Offline algorithm: We can stop in the middle of the program and record the two nodes without losing information.
 
 
-### Basic Problems
+## Basic Problems
 
 - __P1. Reverse a linked list__
     - Space Complexity: $O(1)$
@@ -54,7 +54,7 @@ _Reference: Laioffer Class 4 & Practice4_
     - 使用dummy head
 
 
-### Composed Problems
+## Composed Problems
 
 - __P5 Follow-up. change N1->N2->...->Nn->null into N1->Nn->N2->Nn-1->...__
     
@@ -88,19 +88,3 @@ _Reference: Laioffer Class 4 & Practice4_
     - Step 1 - findMiddle
     - Step 2 - Reverse
     - Step 3 - Compare
-
-## Array vs. Linked List Comparison
-
-- Memory Layout
-    - Array: consecutive allocated, no **overhead**
-    - Linked List: non-consecutive, **overhead** of multiple objects with the `next` reference
-- Random access time
-    - Array: $O(1)$
-    - Linked List: worst case $O(n)$
-- Search time in unsorted list
-    - Array, Linked List: $O(n)$
-- Search time in sorted list
-    - Array: $O(logn)$
-    - Linked List: $O(n)$
-
-
