@@ -2,7 +2,7 @@
 
 # Array
 
-## Basic Problems
+__Four types of problems__
 
 - Sorting Problems
     - See **Sorting Algorithms**.
