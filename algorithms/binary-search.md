@@ -123,6 +123,7 @@ __Coding Tricks__
 
 - __P1. Insert in BST__
     - *Problem* : return the new root after the change.
+    - corner case: if the root is null, return the new node.
 
 - __P2. Delete in BST__
     - *Problem* : return the new root of the BST.
