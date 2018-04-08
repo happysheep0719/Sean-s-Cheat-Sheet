@@ -8,4 +8,27 @@ Link: [example created by me](example.html)
 
 ## Link CSS to HTML
 
+**Priority**: Inline Style > Internal Style > External Style > Default Style
+
+- **Inline Style**
+- **Internal Style**
+- **External Style**
+- **Default Style**
+
+### CSS Syntax and Selectors
+
+Selector
+
+实际开发中，一般把Class给CSS用，把ID给JavaScript用。
+
+Combinator
+
+- `element element` - select descendents
+- `element > element` - select all sons
+- `element, element` - select the union of two elements
+- `[attribute]` - select all elements with a given attribute 
+    - Eg. `p[class="right"]`
+    - `[attribute = value]` 
+    - `[attribute ~= value]`
+
 ## Styles
