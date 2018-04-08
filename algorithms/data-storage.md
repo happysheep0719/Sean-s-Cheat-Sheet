@@ -16,12 +16,10 @@ _Reference: Laioffer Class 4 & Practice4_
 **Coding Tricks**
 
 - __1. Dummy head__
-
-	- _Situation 1._ When the head of the returning linked list could be changed, we should use dummy head.
+    - _Situation 1._ When the head of the returning linked list could be changed, we should use dummy head.
 
 - __2. Fast and Slow pointers__
-
-	- _Situation 1._ to find the **middle** node of the linked list
+    - _Situation 1._ to find the **middle** node of the linked list
 	
 	- _Situation 2._ to find if there exists a **circle** in the linked list
 
