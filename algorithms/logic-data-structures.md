@@ -3,6 +3,7 @@
 # Logical Data Structure
 
 ## Queue & Stack
+
 _Reference: Laioffer Class 3_
 
 - __Queue__ - FIFO (First in first out)
