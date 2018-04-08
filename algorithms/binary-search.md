@@ -1,3 +1,5 @@
+<extoc></extoc>
+
 # Binary Search - 二分搜索
 
 __Two kinds of problems__
