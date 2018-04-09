@@ -78,7 +78,22 @@ b1.girlFriend = new Girl("Lady gaga");
 
 ## Java Interfaces & Classes
 
-__Abstract class and interfaces__
+- 为什么要用List作为Interface？
+
+    ```java
+    List<Integer> myList = new LinkedList<>();
+    ```
+
+    把接口和实现分开实现。因为这里我们仅仅需要List的语义，我们要的不是一个特定的List。实现可能会变化。
+    
+    Eg.
+     
+    ```java
+    List<Integer> myList = creatListFromConfig(conf);
+    ```
+
+
+__Abstract class vs. interfaces__
 
 [Java docs](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html)
 
@@ -96,12 +111,19 @@ interface A {
     public Integer get(int index);
 }
 
+interface B {
+    public void put(int index, E e);
+}
+
 A myDict = new A(); // wrong
 
-class B implements A {
-    #override
+class myList implements A, B {
+    @override
     public Integer get(int index) {
     }
+    @override
+    public void put(int index, E e) {
+    }    
 }
 ```
 
