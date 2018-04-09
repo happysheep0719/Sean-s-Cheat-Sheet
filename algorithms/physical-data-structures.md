@@ -12,11 +12,11 @@
     - Linked List: non-consecutive, **overhead** of multiple objects with the `next` reference
 - Random access time
     - Array: $$O(1)$$
-    - Linked List: worst case $O(n)$
+    - Linked List: worst case $$O(n)$$
 - Search time in unsorted list
-    - Array, Linked List: $O(n)$
+    - Array, Linked List: $$O(n)$$
 - Search time in sorted list
-    - Array: $O(logn)$
-    - Linked List: $O(n)$
+    - Array: $$O(logn)$$
+    - Linked List: $$O(n)$$
 
 

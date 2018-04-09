@@ -16,13 +16,13 @@ __Idea__
 
 __Time Complexity__
 
-- `search` - worst case $O(n)$, average $O(logn)$
-- `insert` - worst case $O(n)$, average $O(logn)$
-- `remove` - worst case $O(n)$, average $O(logn)$
+- `search` - worst case $$O(n)$$, average $$O(logn)$$
+- `insert` - worst case $$O(n)$$, average $$O(logn)$$
+- `remove` - worst case $$O(n)$$, average $$O(logn)$$
 
     Worst case happen if the binary tree is structured like a linked list.
 
-    In **Balanced Binary Search Tree**, `search`, `insert` and `remove` operations are guaranteed to be $O(logn)$. For example, **AVL Tree**, **Red-Black Tree** are balanced BST.
+    In **Balanced Binary Search Tree**, `search`, `insert` and `remove` operations are guaranteed to be $$O(logn)$$. For example, **AVL Tree**, **Red-Black Tree** are balanced BST.
 
 __优化__
 
@@ -122,9 +122,9 @@ __Coding Tricks__
     
     | | step = 2 | step = 10 |
     |----|----|----|
-    | Worst case | $n=2^{k-1}+1$ | $n=10^{k-1}+1$ |
-    | Jump out - Time | $log_{2}n$ | $log_{10}n$ |
-    | Jump in - Time | $log_{2}10n$ | $log_{2}2n$ |
+    | Worst case | $$n=2^{k-1}+1$$ | $$n=10^{k-1}+1$$ |
+    | Jump out - Time | $$log_{2}n$$ | $$log_{10}n$$ |
+    | Jump in - Time | $$log_{2}10n$$ | $$log_{2}2n$$ |
 
 
 -----

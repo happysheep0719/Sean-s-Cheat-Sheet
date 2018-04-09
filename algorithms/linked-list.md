@@ -31,7 +31,7 @@ _Reference: Laioffer Class 4 & Practice4_
 ## Basic Problems
 
 - __P1. Reverse a linked list__
-    - Space Complexity: $O(1)$
+    - Space Complexity: $$O(1)$$
     - 改变link方向时，需要使用`next`或者`prev`去记录因为改变link可能丢失的节点。
 
 - __P2. Find middle node of a linked list__

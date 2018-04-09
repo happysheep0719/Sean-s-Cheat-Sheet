@@ -35,7 +35,7 @@ __优化方向__
 
 __适用问题__
 
-- 要求space complexity为$O(1)$的问题
+- 要求space complexity为$$O(1)$$的问题
 
 
 ## Divide and Conquer - 分治法
