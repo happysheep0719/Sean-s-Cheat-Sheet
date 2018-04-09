@@ -196,10 +196,10 @@ __Circular Array__
 ### ArrayList vs. LinkedList
 
 How do we choose ArrayList or LinkedList?
-1. if there are very many random access, use ArrayList.
-2. always add/remove at the end, use ArrayList.
+1. if there are **very many random access**, use ArrayList.
+2. **always add/remove at the end**, use ArrayList.
 3. If time complexity is similar for both, use ArrayList. Because LinkedList is memory-cost.
-4. Queue/Stack -> LinkedList
+4. **Queue/Stack** -> LinkedList
 5. Stack & Vector现在不用了，这两个是线程安全的，但是额外消耗了很多开销。
-Stack->use LinkedList(ArrayDeque)
-Vector->use ArrayList
+    Stack->use LinkedList(ArrayDeque)
+    Vector->use ArrayList
