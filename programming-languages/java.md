@@ -91,6 +91,8 @@ b1.girlFriend = new Girl("Lady gaga");
     ```java
     List<Integer> myList = creatListFromConfig(conf);
     ```
+    
+- 父类List有的功能，子类LinkedList一定有。
 
 
 __Abstract class vs. interfaces__
@@ -150,7 +152,9 @@ class myList implements A, B {
 ### Class ArrayList
 
 - **inital capacity 10** and expand by **1.5 times** when there is no unused cells available 
-
+- **size** = `ArrayList.size()`
+- **capacity** = `ArrayList.length` 当前内存容量
+- 在删除很多元素后，容量减少到一定程度之后，ArrayList不会主动trimToSize，一般需要人工调用该方法。
 
 
 ### Interface Queue & Deque
@@ -177,11 +181,11 @@ __Operations of Queue and Stack__
 
 ### Class LinkedList & ArrayDeque
 
-Most popular implementation class: `LinkedList`, `ArrayDeque`.
+- Most popular implementation class: `LinkedList`, `ArrayDeque`.
+- `ArrayDeque` is a newer implementation by **circular array** for `Deque`. No null values in Deque.
+- For a queue or stack, we can just use `LinkedList`, as it implements both `Queue` and `Deque` interfaces.
+- Java的LinkedList是Doubly Linked List，存有Head/Tail
 
-`ArrayDeque` is a newer implementation by **circular array** for `Deque`. No null values in Deque.
-
-For a queue or stack, we can just use `LinkedList`, as it implements both `Queue` and `Deque` interfaces.
 
 __Circular Array__
 
