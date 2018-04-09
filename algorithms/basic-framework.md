@@ -63,6 +63,15 @@ __Conquer 的顺序__
 - recursion 递归 / iteration 迭代
 - DFS 纵向 / BFS 横向
 
+### recursive implementation to iterative implementation
+
+1. if it is a tail recursion, it can be easily written as iterative.
+Tail recursion: the recursive call is always the last execution statement
+2. call stack
+3. Iteration写法中，如果需要回到目标节点的上一层，需要加入prev节点。
+4. 真实工作，很多应用是recursion写的。
+
+
 ### Recursion Template
 
 __Note:__
@@ -94,24 +103,5 @@ def recurhelper(background, thisnode, results):
     return results
 ```
 
-### Generic Tree Search Algorithm (BFS and DFS)
 
-Reference - [USC-CSCI561-Lecture-Week2]
 
-```c
-function TREE_SEARCH(problem) return a solution or failure
-
-frontier <- MAKE_QUEUE(MAKE_NODE(problem.INITIAL_STATE))
-loop do
-    if ISEMPTY(frontiers) then return failure
-    node <- REMOVE_FIRST(frontiers)
-    if problem.GOAL_TEST() applied to node.STATE succeeds
-        then return SOLUTION(node)
-    frontiers <- INSERT_ALL(EXPAND(node, problem), frontiers)
-```
-
-__Note:__
-
-- Always remove elements from the front
-- BFS places new elements at the end of the queue. FIFO.
-- DFS places new elements at the front of the queue(stack). LILO.

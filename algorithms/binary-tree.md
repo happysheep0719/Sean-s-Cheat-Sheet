@@ -30,6 +30,7 @@ __General ways of solving problems about binary tree:__
     - solve sub problems for left/right subtree
     - solve sub problem for root
 - __Iteration__
+    - could be complicated for binary tree but we need to know how.
 
 -----
 ## Recursion & Tree Problems
@@ -78,6 +79,7 @@ __两种算法写法__ - _有的问题可以用两种思路写，但是一般会
 
 __Coding 注意点__
 
+- Iteration写法中，如果需要回到目标节点的上一层，需要加入prev节点。
 - 使用prev时，记得先更新prev，再更新curr
 
 __Problems__

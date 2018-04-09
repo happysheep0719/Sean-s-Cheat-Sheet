@@ -24,6 +24,15 @@ __Time Complexity__
 
     In **Balanced Binary Search Tree**, `search`, `insert` and `remove` operations are guaranteed to be $O(logn)$. For example, **AVL Tree**, **Red-Black Tree** are balanced BST.
 
+__优化__
+
+- 怎么样让BST效率更高？ - 更加Balanced
+- **balanced binary search tree**
+    - Eg. AVL tree, Red-black tree, etc 但是面试不会考定义，可能会借这个定义考基本能力。
+    - Red-Black tree Implementations
+        - in Java: TreeMap/TreeSet
+        - in C++: map/set
+
 -----
 ## Binary Search Problems
 
