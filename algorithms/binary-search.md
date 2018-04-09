@@ -124,7 +124,6 @@ __Coding Tricks__
 - __P1. Insert in BST__
     - *Problem* : return the new root after the change.
     - corner case: if the root is null, return the new node.
-    - always add the node to the bottom of one subtree.
 
 - __P2. Delete in BST__
     - *Problem* : return the new root of the BST.
