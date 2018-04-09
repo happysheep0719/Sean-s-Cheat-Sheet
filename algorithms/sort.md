@@ -13,7 +13,7 @@ __特点__
 
 - 比较次数 = (N-1)+(N-2)+(N-3)+...+2+1~N^2/2
 - 交换次数 = N
-- **Time** = $O(n^2)$
+- **Time** = $$O(n^2)$$
 - 运行时间与输入分布无关
 - 数据移动最少
 
@@ -24,10 +24,10 @@ __特点__
 
 __特点__
 
-- Divide Time = $2n-1 = O(n)$
-- Merge Time = $n * log2n = O(nlogn)$
-- Time = $O(nlogn)$
-- Space = $2n-1 = O(n)$
+- Divide Time = $$2n-1 = O(n)$$
+- Merge Time = $$n * log2n = O(nlogn)$$
+- Time = $$O(nlogn)$$
+- Space = $$2n-1 = O(n)$$
 - 需要使用额外的空间来存储归并后的数据
 
 -----
@@ -40,7 +40,7 @@ __特点__
 
 __特点__
 
-- **Worst Case** - `pivot`选择不lucky，最差是$O(n^2)$
+- **Worst Case** - `pivot`选择不lucky，最差是$$O(n^2)$$
 
 __Coding Tricks__
 
@@ -117,10 +117,10 @@ AAABBBxxxxxxCCC
 ```
 把序列分区为三个部分：
 
-- $[0, i-1]$ are all As.
-- $[i, j-1]$ are all Bs.
-- $[j, k]$ are all xes.
-- $[k+1, size-1]$ are all Cs.
+- $$[0, i-1]$$ are all As.
+- $$[i, j-1]$$ are all Bs.
+- $$[j, k]$$ are all xes.
+- $$[k+1, size-1]$$ are all Cs.
 
 __算法步骤__
 
@@ -130,5 +130,5 @@ __算法步骤__
 
 __特点__
 
-- Time = $O(n)$
+- Time = $$O(n)$$
 
