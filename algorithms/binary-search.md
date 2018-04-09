@@ -130,6 +130,9 @@ __Coding Tricks__
 -----
 ## Binary Search Tree Maintenance Problems
 
+- 为什么BST里面没有重复数据？
+    - 工业界中，BST是用来查找的。
+
 - __P1. Insert in BST__
     - *Problem* : return the new root after the change.
     - corner case: if the root is null, return the new node.
@@ -138,10 +141,12 @@ __Coding Tricks__
     - *Problem* : return the new root of the BST.
     - **Step 1**: find the node to be deleted
         - By transforming the problem into ONE sub problem that delete the key in one of the sub tree.
-    - **Step 2**: delete the nodes
+    - **Step 2**: delete the node
         - **case 1** - the node has no children.
         - **case 2** - the node has no left child.
         - **case 3** - the node has no right child.
         - **case 4** - the node has both left and right children.
             - The problem is transformed into three parts
-            - part 1. 
+            - **part 1**: find the largest node in the left subtree or the smallest node in the right subtree and record the replacement
+            - **part 2**: delete the replacement in the tree - can be realized using recursive call. It must only hit one of case 1, case 2 and case 3.
+            - **part 3**: set the children of the replacement

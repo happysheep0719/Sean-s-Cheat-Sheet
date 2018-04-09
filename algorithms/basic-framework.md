@@ -67,9 +67,11 @@ __Conquer 的顺序__
 
 1. if it is a tail recursion, it can be easily written as iterative.
 Tail recursion: the recursive call is always the last execution statement
+    - preorder/in/post都是dfs都不是tail recursion
 2. call stack
 3. Iteration写法中，如果需要回到目标节点的上一层，需要加入prev节点。
-4. 真实工作，很多应用是recursion写的。
+4. recursion缺点，可能会stackoverflow
+5. 但真实工作，很多应用是recursion写的。
 
 
 ### Recursion Template

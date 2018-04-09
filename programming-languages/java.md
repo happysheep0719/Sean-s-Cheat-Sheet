@@ -135,6 +135,8 @@ class myList implements A, B {
 
 [Java 集合系列01之 总体框架](http://www.cnblogs.com/skywang12345/p/3308498.html)
 
+
+
 ### Interface List
 
 - Random Access:
@@ -158,6 +160,8 @@ class myList implements A, B {
 
 
 ### Interface Queue & Deque
+
+- Java里面实现Stack最好的接口是Deque，用LinkedList实现，不能用List，更不能直接用LinkedList。
 
 - Queue - FIFO (exception PriorityQueue)
     - `offer()` - offer at the **tail**

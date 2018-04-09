@@ -90,11 +90,13 @@ __Problems__
 
 - __P2. In-order treverse__
     - *Order* : root.left -> root -> root.right
-    - 画图，然后观察prev和curr的关系。
+    - 使用Stack记录访问顺序 - 但是并不是遍历顺序
+    - 画图，然后观察prev和curr的关系，从而分类讨论处理节点
 
 - __P3. Post-order treverse__
     - *Order* : root.left -> root.right -> root
-    - 画图，然后观察prev和curr的关系。
+    - 使用Stack记录访问顺序 - 但是并不是遍历顺序
+    - 画图，然后观察prev和curr的关系，从而分类讨论处理节点
 
 - __P4. Level treverse__
     - *Order* : low level -> high level
