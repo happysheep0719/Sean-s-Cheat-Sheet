@@ -136,6 +136,6 @@ __Coding Tricks__
             - The problem is transformed into three parts
 
 ```flow
-
+st=>start:Start
 
 ```
