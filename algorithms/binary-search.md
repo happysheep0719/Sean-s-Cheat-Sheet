@@ -133,3 +133,9 @@ __Coding Tricks__
         - **case 2** - the node has no left child.
         - **case 3** - the node has no right child.
         - **case 4** - the node has both left and right children.
+            - The problem is transformed into three parts
+
+```flow
+
+
+```

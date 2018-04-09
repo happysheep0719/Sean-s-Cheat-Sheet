@@ -76,6 +76,12 @@ __两种算法写法__ - _有的问题可以用两种思路写，但是一般会
 -----
 ## Treverse & Tree Problems
 
+__Coding 注意点__
+
+- 使用prev时，记得先更新prev，再更新curr
+
+__Problems__
+
 - __P1. Pre-order treverse__
     - *Order* : root -> root.left -> root.right
     - Remember to add the right child first, so the left child is popped first.
