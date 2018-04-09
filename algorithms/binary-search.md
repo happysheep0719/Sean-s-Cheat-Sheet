@@ -119,7 +119,7 @@ __Coding Tricks__
 
 
 -----
-## BST Insert & Delete Problems
+## Binary Search Tree Maintenance Problems
 
 - __P1. Insert in BST__
     - *Problem* : return the new root after the change.
