@@ -8,6 +8,26 @@
 - 使用**分类讨论**拆分多种情况 - `if-else`
 - 使用**分治法(divide and conquer)**拆成**可继续拆分的子问题**直到**最小情况(base case)** - `recursion / iteration`
 
+__优化方向__
+
+- in-place - 减少额外空间的使用
+- Java的垃圾回收机制，不会立即回收垃圾。所以过多创建局部变量是开销更大的。所以在merge sort中，只创建一次临时变量，减少开销。
+- 尽可能避免使用global varible。 state是field。
+
+    ```java
+    // 1) stateful
+    int[] helper;
+    public void mergeSort(int[] array){
+    	mergeSort(array, 0, array.length - 1);
+    }
+    
+    // 2) stateless
+    public void mergetSort(int[] array){
+    	int[] helper = new int[array.length];
+    	mergeSort(array, helper, 0, array.length - 1);
+    }
+    ```
+
 ## Two Pointers - 双指针
 
 - 使用`Pivot`分隔数组。
