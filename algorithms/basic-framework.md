@@ -10,10 +10,9 @@
 
 __优化方向__
 
-- in-place - 减少额外空间的使用
+- **in-place** - 减少额外空间的使用
 - Java的垃圾回收机制，不会立即回收垃圾。所以过多创建局部变量是开销更大的。所以在merge sort中，只创建一次临时变量，减少开销。
 - 尽可能避免使用global varible。 state是field。
-
     ```java
     // 1) stateful
     int[] helper;
