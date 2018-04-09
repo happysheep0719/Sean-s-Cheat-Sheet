@@ -124,18 +124,16 @@ __Coding Tricks__
 - __P1. Insert in BST__
     - *Problem* : return the new root after the change.
     - corner case: if the root is null, return the new node.
+    - always add the node to the bottom of one subtree.
 
 - __P2. Delete in BST__
     - *Problem* : return the new root of the BST.
     - **Step 1**: find the node to be deleted
+        - By transforming the problem into ONE sub problem that delete the key in one of the sub tree.
     - **Step 2**: delete the nodes
         - **case 1** - the node has no children.
         - **case 2** - the node has no left child.
         - **case 3** - the node has no right child.
         - **case 4** - the node has both left and right children.
             - The problem is transformed into three parts
-
-```flow
-st=>start:Start
-
-```
+            - part 1. 
