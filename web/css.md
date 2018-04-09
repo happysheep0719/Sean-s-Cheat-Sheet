@@ -30,5 +30,11 @@ Combinator
     - Eg. `p[class="right"]`
     - `[attribute = value]` 
     - `[attribute ~= value]`
+- pseudo classes
+    - `:link` - (`a:link`) select all unvisited links
+    - `:hover` - (`a:hover`) select links on mouse over
+    - `:active` - (`a:active`) select the active link
+    - `:visited` - (`a:visited`) select all visited links
+    - `:first-child`- (`p:first-child`)select every `<p>` element
 
 ## Styles
