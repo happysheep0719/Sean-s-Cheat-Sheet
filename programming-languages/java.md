@@ -69,7 +69,7 @@ final Boy b1 = new Boy(10);
 b1.girlFriend = new Girl("Lady gaga");
 ```
 
-## parameter passing
+## Parameter Passing
 
 **Java parameters are always passed by value.**
 
