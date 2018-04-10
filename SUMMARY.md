@@ -28,7 +28,7 @@
 * [Python](programming-languages/python/introduction.md)
   * [Data Structure](programming-languages/python/data-structure.md)
 * [Java](programming-languages/java.md)
-* [Collections](programming-languages/java-collections)
+    * [Collections](programming-languages/java-collections.md)
 * [C++](programming-languages/C++.md)
 * [Object-oriented vs. Procedure-oriented](oriented.md)
 * [Operating Systems](operating-systems.md)
