@@ -132,3 +132,9 @@ __特点__
 
 - Time = $$O(n)$$
 
+
+-----
+## Heap Sort
+
+- Step 1 - heapify
+- Step 2 - pop the heap for k times
