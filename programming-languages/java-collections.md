@@ -7,8 +7,7 @@
 [Java 集合系列01之 总体框架](http://www.cnblogs.com/skywang12345/p/3308498.html)
 
 
-
-### Interface List
+## Interface List
 
 - Random Access:
     - `set(int index, E e)`
@@ -22,7 +21,7 @@
 - `isEmpty()`
 - `size()`
 
-### Class ArrayList
+## Class ArrayList
 
 - **inital capacity 10** and expand by **1.5 times** when there is no unused cells available 
 - **size** = `ArrayList.size()`
@@ -54,7 +53,7 @@ __Operations of Queue and Stack__
 | Examine| `peek`/`element`| `peek`/`element`|
 *Note:* throw exception / return null
 
-### Class LinkedList & ArrayDeque
+## Class LinkedList & ArrayDeque
 
 - Most popular implementation class: `LinkedList`, `ArrayDeque`.
 - `ArrayDeque` is a newer implementation by **circular array** for `Deque`. No null values in Deque.
@@ -68,7 +67,7 @@ __Circular Array__
 - use varible `tail` to record the index of the node after the tail.
 - can store `n-1` elements with n-length array.
 
-### ArrayList vs. LinkedList
+## ArrayList vs. LinkedList
 
 How do we choose ArrayList or LinkedList?
 1. if there are **very many random access**, use ArrayList.
