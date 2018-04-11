@@ -91,6 +91,7 @@ _How do we choose ArrayList or LinkedList?_
     - `size()` - $$O(1)$$
     - `isEmpty()` - $$O(1)$$
     - `private heapify()` - $$O(n)$$
+- **heapify** - use one `ArrayList` as initial argument
 - **Order** of the elements
     - It is defaulted by returning -1 if x1 < x2;
     - `Comparator.compare(E o1, E o2)` provided when newing a PriorityQueue
