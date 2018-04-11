@@ -94,8 +94,10 @@ _How do we choose ArrayList or LinkedList?_
 - **Order** of the elements
     - It is defaulted by returning -1 if x1 < x2;
     - `Comparator.compare(E o1, E o2)` provided when newing a PriorityQueue
+        - needs not to change the original class
     - `Comparable.compareTo(E another)` interface in class
     - use `Collections.reverseOrder()`
+    - use `Collections.reverseOrder(myComparator)`
 
     ```java    
     class Cell implements Comparable<Cell>{
@@ -137,6 +139,7 @@ _How do we choose ArrayList or LinkedList?_
     
     // will use compare() in the provided Comparator
     PriorityQueue<Cell> minHeap = new PriorityQueue<Cell>(11, new MyComparator()); 
+    // PriorityQueue<Cell> minHeap = new PriorityQueue<Cell>(11, new Comparator<Cell>(){...});
     ```
 
 __Heap Implementation__

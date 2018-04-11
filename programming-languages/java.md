@@ -128,3 +128,9 @@ class myList implements A, B {
     }    
 }
 ```
+
+## Nested Class
+
+- Static nested class - can access class varibles and methods
+- Nonstatic nested class / Inner class - can access instance varibles and methods
+把class定义在另一个class里面

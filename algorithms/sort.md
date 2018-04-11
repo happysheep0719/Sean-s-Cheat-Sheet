@@ -143,14 +143,19 @@ __特点__
 ## Compare
 
 - **stable** - remains the relative order of records with equal keys
+- **Cache Locality** - 连续访问容易会出现cache hit。
+    - 内存分层，各部分访问时间：Memory 100ns, L1 cache 1ns
+    - 访问的时候，cache会读取一部分连续的内存。所以跳着访问会受到影响。
 
-Sorting Algorithms | Time (worst case) | Time (average) | Space (worst case) | Space (average)| Stable
-----|----|----|----|----|----
-quick sort | $$O(n^2)$$ | $$O(nlogn)$$ | $$O(n)$$ | $$O(logn)$$ | unstable
-merge sort | $$O(nlogn)$$ | $$O(nlogn)$$ | $$O(n)$$ | $$O(n)$$ | stable
-heap sort  | $$O(nlogn)$$ | $$O(nlogn)$$ | $$O(1)$$ | $$O(1)$$ | unstable
+
+Sorting Algorithms | Time (worst case) | Time (average) | Space (worst case) | Space (average)| Stable | Locality
+----|----|----|----|----|----|----
+quick sort | $$O(n^2)$$ | $$O(nlogn)$$ | $$O(n)$$ | $$O(logn)$$ | unstable | good
+merge sort | $$O(nlogn)$$ | $$O(nlogn)$$ | $$O(n)$$ | $$O(n)$$ | stable | unknown
+heap sort  | $$O(nlogn)$$ | $$O(nlogn)$$ | $$O(1)$$ | $$O(1)$$ | unstable | bad
 
 - **heap sort**
+    - poll出来放在最后。
     - typical runtime overhead 额外运行时间 - 建立堆需要额外的时间
     - poor spatial locality, might swao from first to last (prefer to access data nearby / poor use of cache memory)
-    - hard to parallelize/distribute
+    - **hard to parallelize/distribute**

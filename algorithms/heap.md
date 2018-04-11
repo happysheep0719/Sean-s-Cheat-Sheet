@@ -3,7 +3,7 @@
 # Heap
 
 1. Also called **Priority Queue**
-2. It is a **Complete tree** and can be implemented using an array.
+2. It is implemented by a **Complete binary tree** and can be stored in an array. So the index can be computed easily.
     - _index of left child = index of parent * 2 + 1_
     - _index of right child = index of parent * 2 + 2_
     - _index of parent = (index of child - 1) / 2_
@@ -19,6 +19,11 @@ __Operations__
 - `pop` - $$O(logn)$$ - `percolateDown`
 - `heapify` - make an unsorted array into a heap. $$O(n)$$
     - heap sort
+
+__Useless Operations__
+
+- *`find`* - $$O(n)$$ 因为左右儿子没关系
+- *`remove(int index)`* - $$O(n)$$ 需要先find
 
 ## Problems
 
