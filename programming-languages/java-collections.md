@@ -91,14 +91,19 @@ _How do we choose ArrayList or LinkedList?_
     - `size()` - $$O(1)$$
     - `isEmpty()` - $$O(1)$$
     - `private heapify()` - $$O(n)$$
-- **heapify** - use one `ArrayList` as initial argument
+- **heapify** - use one `Collection` as initial argument
 - **Order** of the elements
     - It is defaulted by returning -1 if x1 < x2;
     - `Comparator.compare(E o1, E o2)` provided when newing a PriorityQueue
         - needs not to change the original class
     - `Comparable.compareTo(E another)` interface in class
     - use `Collections.reverseOrder()`
-    - use `Collections.reverseOrder(myComparator)`
+    - use `Collections.reverseOrder(new myComparator)`
+- **Possible ways to provide a comparator class**
+    - top-level class (recommended) 
+    - Static nested class
+    - Anonymous class (not recommended)
+    - Lambda expressions (since Java 8)
 
     ```java    
     class Cell implements Comparable<Cell>{
@@ -139,8 +144,20 @@ _How do we choose ArrayList or LinkedList?_
     }
     
     // will use compare() in the provided Comparator
+    PriorityQueue<Cell> minHeap = new PriorityQueue<Cell>(11, Collections.reverseOrder());
+    // self-defined comparator class
     PriorityQueue<Cell> minHeap = new PriorityQueue<Cell>(11, new MyComparator()); 
-    // PriorityQueue<Cell> minHeap = new PriorityQueue<Cell>(11, new Comparator<Cell>(){...});
+    // anonymous comparator class
+    PriorityQueue<Cell> minHeap = new PriorityQueue<Cell>(11, new Comparator<Cell>(){
+        public int compare(Integer one, Integer two){
+            return 0;
+        }
+    });
+    // lambda
+    PriorityQueue<Cell> minHeap = new PriorityQueue<Cell>(11, (lhs, rhs) ->{
+        return 0;
+     }
+    );
     ```
 
 __Heap Implementation__
