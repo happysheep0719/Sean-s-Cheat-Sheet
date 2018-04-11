@@ -6,20 +6,44 @@
 
 [Java 集合系列01之 总体框架](http://www.cnblogs.com/skywang12345/p/3308498.html)
 
+## Overview
+
+__Interface__
+
+- `List`
+    - `ArrayList`
+    - _`Stack`_ (Not Recommended)
+    - `LinkedList`
+- `Queue`
+    - `LinkedList`
+    - `ArrayDeque`
+    - `PriorityQueue`
+- `Deque` (inherited from `Queue`)
+    - `LinkedList`
+    - `ArrayDeque`
+
+__List vs. Queue__
+
+- List有index概念，支持随机访问
+- Queue没有index概念
+- java的Stack被淘汰了，因为性能不够好。
 
 ## Interface - List
 
-- Random Access:
-    - `set(int index, E e)`
-    - `get(int index)`
-    - `add(int index, E e), add(E e)`
-    - `remove(int index)`
+__API__
 
+- `size()`
+- `isEmpty()`
+- **Random Access**
+    - `set(int index, E e)`
+    - `E get(int index)`
+    - `add(int index, E e)`
+    - `add(E e)`
+    - `remove(int index)`
+    - `remove(E e)`
 - Search
 - Iterator
 - Range-View
-- `isEmpty()`
-- `size()`
 
 ## Class - ArrayList
 
@@ -31,18 +55,35 @@
 
 ## Interface - Queue & Deque
 
+[Java Doc Deque](https://docs.oracle.com/javase/7/docs/api/java/util/Deque.html)
+
+- Queue is a FIFO queue. (exception PriorityQueue)
+- Deque is short for double-ended queue.  Deque is FIFO & LIFO. (both queue and stack)
 - Java里面实现Stack最好的接口是Deque，用LinkedList实现，不能用List，更不能直接用LinkedList。
 
-- Queue - FIFO (exception PriorityQueue)
-    - `offer()` - offer at the **tail**
-    - `poll()` - poll at the **head**
-    - `peek()` - look at the **head** without polling it out
+__API__
 
-- Deque - FIFO & LIFO (both queue and stack)
-    - `offer()` = `offerLast()`
-    - `push()` = `offerFirst()`
-    - `poll()` = `pop()` =  `pollFirst()` and `pollLast()`
-    - `peek()` = `peekFirst()` and `peekLast()`
+- Queue
+    - `offer(E e)` - offer at the **tail**
+    - `E poll()` - poll at the **head**
+    - `E peek()` - look at the **head** without polling it out
+
+- Deque
+    - `offerFirst(E e)`
+    - `offerLast(E e)` = `offer(E e)`
+    - `addFirst(E e)` = `push(E e)`
+    - `E pollFirst()` = `E poll()`
+    - `E pollLast()`
+    - `E removeFirst()` = `E pop()`
+    - `E peekFirst()` = `E peek()`
+    - `E peekLast()`
+
+```
+Locations-------First-----------------Last
+Operations-----add/push---------------offer
+--------------remove/pop------------------
+----------------poll----------------------
+```
 
 __Operations of Queue and Stack__
 
@@ -51,7 +92,11 @@ __Operations of Queue and Stack__
 | Insert  |   `offer`/`add`|`push`/`add` |
 | Remove | `poll`/`remove` | `pop`/`remove`  |
 | Examine| `peek`/`element`| `peek`/`element`|
-*Note:* throw exception / return null
+
+_Note:_
+
+- `add`, `remove` and `get` throw exception if error happens
+- `offer`, `poll` and `peek` return special value if error happens
 
 ## Class - LinkedList & ArrayDeque
 
@@ -94,6 +139,7 @@ _How do we choose ArrayList or LinkedList?_
 - **heapify** - use one `Collection` as initial argument
 - **Order** of the elements
     - It is defaulted by returning -1 if x1 < x2;
+    - be CAREFUL not to return an overflowed value.
     - `Comparator.compare(E o1, E o2)` provided when newing a PriorityQueue
         - needs not to change the original class
     - `Comparable.compareTo(E another)` interface in class
@@ -178,9 +224,71 @@ __Heap Implementation__
     - find the element in $$O(n)$$
     - use either `percolateUp` or `percolateDown`
 
-__Implementation of Capacity Limited Min Heap__
+    
+## Interface - Set
+
+## Class - HashSet/TreeSet/LinkedHashSet
+
+## Interface - Map
+
+## Class - HashMap/TreeMap/LinkedHashMap
+
+__API__
+
+- `HashMap`
+    - `V put(K key, V value)`
+    - `V get(K key)`
+    - `V remove(K key)`
+    - `boolean containsKey(K key)`
+    - `Set<Map.Entry<K, V>> entrySet()`
+    - `Set<K> keySet()`
+    - `Collection<V> values()`
+    - `boolean containsValue(V value)` - $$O(n)$$
+    - `void clear()`
+    - `int size()`
+    - `boolean isEmpty()`
+    - Time Complexity
+    
+    Operation | Average | Worst
+    ----|----|----
+    search: containsKey/get | $$O(1)$$ | $$O(n)$$
+    insert/update: put | $$O(1)$$ | $$O(n)$$
+    delete: remove| $$O(1)$$ | $$O(n)$$
+
+- `HashSet`
+    - It is backed up by a `HashMap` instance.
+    - `boolean add(E e)`
+    - `boolean remvoe(Object o)`
+    - `boolean contains(Object o)`
+    - `void clear()`
+    - `int size()`
+    - `boolean isEmpty()`
+
+__Override equals(), hashCode()__
 
 ```java
+public class Element {
+    int x;
+    int y;
+    int sum;
+    ...
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj){
+            return ture;
+        }
+        if (!(obj instanceof Element)) {
+            return false;
+        }
+        Element other = (Element) obj;
+        return this.x == other.x && this.y == other.y && this.sum == other.sum;
+    }
+    
+    @Override
+    public int hashCode(){
+        return this.x * 31 * 31 + this.y * 31 + this.sum;
+    }
 
-
+}
 ```
+    
