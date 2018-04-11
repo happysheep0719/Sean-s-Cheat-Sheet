@@ -6,6 +6,8 @@
 2. It is a **Complete tree** and can be implemented using an array.
     - _index of left child = index of parent * 2 + 1_
     - _index of right child = index of parent * 2 + 2_
+    - _index of parent = (index of child - 1) / 2_
+    - _index of root = 0m_
 3. 任意节点小于它的所有后裔，最小元素在堆的根上（堆序性）。
 4. 根最小的堆叫最小堆，根最大的堆叫最大堆。
 
@@ -40,4 +42,17 @@ k~~n|O(n log n)|O(n log n)
     - average time = $$O(n)$$
     - worst time = $$O(n^2)$$
 
-    
+__Q2. Kth smallest number in sorted matrix__
+
+```
+12345
+34569
+489AB
+```
+
+- use a N * N-size min heap to store everything and poll k times - $$O(N*N + k* log(N^2))$$
+- Best First Search
+    - use a priority queue to store the candidates and pop the smallest every time
+    - pop the smallest for k times
+    - $$O(k * log k)$$
+- Merge K sorted lists and use a k-size max heap to store the heads of the lists

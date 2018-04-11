@@ -138,3 +138,19 @@ __特点__
 
 - Step 1 - heapify
 - Step 2 - pop the heap for k times
+
+-----
+## Compare
+
+- **stable** - remains the relative order of records with equal keys
+
+Sorting Algorithms | Time (worst case) | Time (average) | Space (worst case) | Space (average)| Stable
+----|----|----|----|----|----
+quick sort | $$O(n^2)$$ | $$O(nlogn)$$ | $$O(n)$$ | $$O(logn)$$ | unstable
+merge sort | $$O(nlogn)$$ | $$O(nlogn)$$ | $$O(n)$$ | $$O(n)$$ | stable
+heap sort  | $$O(nlogn)$$ | $$O(nlogn)$$ | $$O(1)$$ | $$O(1)$$ | unstable
+
+- **heap sort**
+    - typical runtime overhead 额外运行时间 - 建立堆需要额外的时间
+    - poor spatial locality, might swao from first to last (prefer to access data nearby / poor use of cache memory)
+    - hard to parallelize/distribute

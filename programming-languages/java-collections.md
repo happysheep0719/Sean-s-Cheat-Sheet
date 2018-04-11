@@ -95,6 +95,7 @@ _How do we choose ArrayList or LinkedList?_
     - It is defaulted by returning -1 if x1 < x2;
     - `Comparator.compare(E o1, E o2)` provided when newing a PriorityQueue
     - `Comparable.compareTo(E another)` interface in class
+    - use `Collections.reverseOrder()`
 
     ```java    
     class Cell implements Comparable<Cell>{
@@ -137,3 +138,28 @@ _How do we choose ArrayList or LinkedList?_
     // will use compare() in the provided Comparator
     PriorityQueue<Cell> minHeap = new PriorityQueue<Cell>(11, new MyComparator()); 
     ```
+
+__Heap Implementation__
+
+- `percolateUp(int index)`
+    - when need to move up one element
+    - eg. offering a new element into the heap.
+- `offer()` - use `percolateUp`
+- `percolateDown(int index)`
+    - when need to poll the root element from the heap.
+- `poll()` - use `percolateDown`
+- `heapify()`
+    - convert an array into a heap in $$O(n)$$ time.
+    - perform `percolateDown` action in the order of from the nodes on the deepest level to the root. Only needs to do for the first half of the array. range: $$[0, n/2-1]$$
+        - No need to know how to prove
+    - if we perform `offer()` and `percolateUp`, the time complexity becomes $$O(nlogn)$$
+- `update()`
+    - find the element in $$O(n)$$
+    - use either `percolateUp` or `percolateDown`
+
+__Implementation of Capacity Limited Min Heap__
+
+```java
+
+
+```
