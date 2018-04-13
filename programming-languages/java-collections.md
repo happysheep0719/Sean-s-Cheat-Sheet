@@ -52,6 +52,13 @@ __API__
 - **capacity** = `ArrayList.length` 当前内存容量
 - 在删除很多元素后，容量减少到一定程度之后，ArrayList不会主动trimToSize，一般需要人工调用该方法。
 
+### Create an ArrayList from an Array
+
+[Initialization of an arraylist in one line](https://stackoverflow.com/questions/1005073/initialization-of-an-arraylist-in-one-line)
+
+[create arraylist from array](https://stackoverflow.com/questions/157944/create-arraylist-from-array/13421319#13421319?newreg=32b203911ced49a097bb491d40217190)
+
+[how to convert int[] into list<integer> in java](https://stackoverflow.com/questions/1073919/how-to-convert-int-into-listinteger-in-java)
 
 ## Interface - Queue & Deque
 
