@@ -19,6 +19,7 @@
     - `StringBuffer append(String s)`
     - `StringBuffer reverse()`
     - `delete(int start, int end)`
+    - `deleteCharAt(int index)`
     - `insert(int offset, int i)`
     - `replace(int start, int end, String str)`
 
