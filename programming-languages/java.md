@@ -83,11 +83,10 @@ __Inheritance（继承）__ - Base class（父类）, Derived Class（子类）
 C++: Abstract class
 Java: Interface and Abstract Class
 
-### Java Interfaces & Classes
+### Java Interfaces & Abstract Classes
 
-Interface helps you (or enforces you) to focus on the API signature definition.
-Abstract Class provides a common base class implementation to derived classes. Use abstract class (or even concrete class) for base class if the derived classes share common implementation
-
+**Interface** helps you (or enforces you) to focus on the API signature definition.
+**Abstract Class** provides a common base class implementation to derived classes. Use abstract class (or even concrete class) for base class if the derived classes share common implementation
 
 - 为什么要用List作为Interface？
 
@@ -140,6 +139,12 @@ class myList implements A, B {
     }    
 }
 ```
+
+### Polymorphism and Overriding
+
+Polymorphism 多态 : 函数参数不同是不同的函数。
+
+Override: a 
 
 ## Nested Class
 
