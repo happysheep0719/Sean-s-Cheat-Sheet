@@ -83,6 +83,10 @@ __Inheritance（继承）__ - Base class（父类）, Derived Class（子类）
 C++: Abstract class
 Java: Interface and Abstract Class
 
+class extends class
+class implements interface
+interface extends interface
+
 ### Java Interfaces & Abstract Classes
 
 **Interface** helps you (or enforces you) to focus on the API signature definition.
