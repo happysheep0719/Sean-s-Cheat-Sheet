@@ -46,10 +46,40 @@ __P3. Determine whether a binary tree is a complete binary tree__
 - find the first node that misses one or two children node.
 - ensure the nodes behind have no child.
 
+### Best-First Search (BFS-2)
 
-## Generic Tree Search Algorithm (BFS and DFS)
+Dijkstra's algorithm
+
+__Problems__
+
+__P1. find the shortest path cost from source node to  any other nodes in the graph__
+
+- 点到面
+- 使用Min Heap记录candidates
+- Any node can only be expanded once but can be generated more than once.
+
+### Depth First Search (DFS)
+
+__Problems__
+
+__P1. subsets__
+
+__P2. permutations__
+
+__P3. make up 99 cents with 4 kinds of coins__
+
+__P4. Too many to list all__
+
+
+### Generic Tree Search Algorithm (BFS and DFS)
 
 Reference - [USC-CSCI561-Lecture-Week2]
+
+__Three points__
+
+- Initial state
+- Expansion/generation rule
+- Termination condition
 
 ```c
 function TreeSearch(problem) return a solution or failure

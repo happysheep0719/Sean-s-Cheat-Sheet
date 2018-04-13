@@ -26,19 +26,9 @@ __优化方向__
     	mergeSort(array, helper, 0, array.length - 1);
     }
     ```
+    
 
-## Two Pointers - 双指针
-
-- 使用`Pivot`分隔数组。
-- 使用**循环**`loop`不断地移动指针`pivot`。
-- 使用**分类讨论**`if-else`控制指针`pivot`的移动。
-
-__适用问题__
-
-- 要求space complexity为$$O(1)$$的问题
-
-
-## Divide and Conquer - 分治法
+### Divide and Conquer - 分治法
 
 __适用问题__
 
@@ -106,4 +96,15 @@ def recurhelper(background, thisnode, results):
 ```
 
 
+## Common Algorithms
+
+### Two Pointers - 双指针
+
+- 使用`Pivot`分隔数组。
+- 使用**循环**`loop`不断地移动指针`pivot`。
+- 使用**分类讨论**`if-else`控制指针`pivot`的移动。
+
+__适用问题__
+
+- 要求space complexity为$$O(1)$$的问题
 
