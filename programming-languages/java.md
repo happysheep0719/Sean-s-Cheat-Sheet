@@ -144,7 +144,7 @@ class myList implements A, B {
 
 Polymorphism 多态 : 调用override的function
 
-Override: a 
+java会根据实际的object而决定调用的行为。
 
 ## Nested Class
 
