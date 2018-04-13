@@ -4,14 +4,14 @@
 
 - `String`
     - `int capacity()`
-    - `char charAt(int index)`
+    - **`char charAt(int index)`**
     - `int indexOf(String str)`
     - `int indexOf(String str, int fromIndex)`
     - `int lastIndexOf(String str)`
     - `int lastIndexOf(String str, int fromIndex)`
-    - `int length()`
+    - **`int length()`**
     - `String substring(int start)`
-    - `String substring(int start, int end)`
+    - **`String substring(int start, int end)`**
     - `String toString()`
 - `StringBuilder`
 - `StringBuffer`
@@ -19,7 +19,7 @@
     - `StringBuffer append(String s)`
     - `StringBuffer reverse()`
     - `delete(int start, int end)`
-    - `deleteCharAt(int index)`
+    - **`deleteCharAt(int index)`**
     - `insert(int offset, int i)`
     - `replace(int start, int end, String str)`
 

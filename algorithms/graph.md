@@ -69,12 +69,12 @@ __Problems__
 
 __P1. subsets__
 
-__P2. permutations__
+__P2. make up 99 cents with 4 kinds of coins__
+    - 4 levels in total
 
-__P3. make up 99 cents with 4 kinds of coins__
+__P3. Too many to list all__
 
-__P4. Too many to list all__
-
+__P4. permutations__
 
 ### Generic Tree Search Algorithm (BFS and DFS)
 
