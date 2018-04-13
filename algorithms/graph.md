@@ -26,6 +26,11 @@ __Adjacency Matrix vs. Adjacency Lists__
 
 ## Graph Search Algorithms
 
+__Draw the Search Graph of Problems__
+
+- What does it store on each level?
+- How many different states should we try to put on each level?
+
 ### Breadth-First Search (BFS-1)
 
 __Problems__
@@ -58,7 +63,7 @@ __P1. find the shortest path cost from source node to  any other nodes in the gr
 - 使用Min Heap记录candidates
 - Any node can only be expanded once but can be generated more than once.
 
-### Depth First Search (DFS)
+### Depth First Search (DFS, Back-tracking) 
 
 __Problems__
 
