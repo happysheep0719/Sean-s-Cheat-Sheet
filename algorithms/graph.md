@@ -118,7 +118,7 @@ __Note:__
 - BFS places new elements at the end of the queue. FIFO.
 - DFS places new elements at the front of the queue(stack). LILO.
 
-## Generic Graph Search Algorithm
+### Generic Graph Search Algorithm
 
 ```c
 function GraphSearch(problem) return a solution or failure
