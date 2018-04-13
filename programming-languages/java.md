@@ -142,7 +142,7 @@ class myList implements A, B {
 
 ### Polymorphism and Overriding
 
-Polymorphism 多态 : 不同的函数参数是不同的函数。
+Polymorphism 多态 : 调用override的function
 
 Override: a 
 
