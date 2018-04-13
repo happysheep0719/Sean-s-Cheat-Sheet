@@ -76,7 +76,18 @@ b1.girlFriend = new Girl("Lady gaga");
 - **primitive type**: copy of the value itself
 - **objects**: copy of the object reference
 
-## Java Interfaces & Classes
+## Inheritance, Interface, Abstract Class
+
+__Inheritance（继承）__ - Base class（父类）, Derived Class（子类）
+
+C++: Abstract class
+Java: Interface and Abstract Class
+
+### Java Interfaces & Classes
+
+Interface为了标注API
+Abstract Class provides a common base class implementation to derived classes. Use abstract class (or even concrete class) for base class if the derived classes share common implementation
+
 
 - 为什么要用List作为Interface？
 
@@ -104,6 +115,7 @@ Abstract class | Interface
 using **extends** | **implements**
 methods can be declared without implementation | same
 cannot instantiate | same
+can give implementation | cannot
 doesn't support multiple inheritance | support
 ... | ...
 
