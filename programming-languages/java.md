@@ -150,6 +150,10 @@ Polymorphism 多态 : 调用override的function
 
 java会根据实际的object而决定调用的行为。
 
+### Design
+
+残疾人是一个有残疾状态的人，不应该是子类。
+
 ## Nested Class
 
 - Static nested class - can access class varibles and methods
