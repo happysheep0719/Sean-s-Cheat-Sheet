@@ -51,10 +51,13 @@ __Implementation__
     - `Vector` and `Hashtable` operations are synchronized.
 - `HashSet` is backed up by a `HashMap` instance.
 - Data Storage - `array` + `linkedlist`
+    - array of entries
+    - each entry is actually a single linked list(handle collision)
+    - contains the (key, value) pair
 - Distribution - hashcode() 
     - Java1.8的hashmap的hashcode：(h = k.hashCode()) ^ (h >>> 16)
 - **Capacity Expansion**
-    - check load factor
+    - check load factor if exceeds 0.75 and double the size
     - rehash
 - **Access key (get / put)**
     - hash - `int hash = hashCode(key)`
@@ -88,8 +91,7 @@ __Two ways of update__
 
 __Contract between equals() and hashCode()__
 
-- if `equals`, `hashCode` must be the same
-- if hashCodes are the same, not necessarily `.equals`
+- true `equals` => same `hashCode`
 - reduce collesion as much as you can.
 
 __Override equals(), hashCode()__
@@ -120,8 +122,16 @@ public class Element {
 }
 ```
 
-__Simple hashCode__
+__hashCode Design__
 
 ```java
 return x * 31 + y;
 ```
+
+```java
+return hashNumber & 0x7fffffff;
+```
+
+- 需要取绝对值，位运算计算效率最快。
+    - 10 % 3 = -1，会影响后续取index
+- pair设计hashcode，当交换Pair(A, B)得到Pair(B, A)，应该得到同样的hashcode
