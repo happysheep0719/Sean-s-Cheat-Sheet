@@ -13,6 +13,7 @@
   * [Array](algorithms/array.md)
   * [Sorting Algorithms](algorithms/sort.md)
   * [Binary Search](algorithms/binary-search.md)
+  * [String](algorithms/string.md)
   * [Linked List](algorithms/linked-list.md)
 * [Logical Data Structures](algorithms/logic-data-structures.md)
   * [Binary Tree](algorithms/binary-tree.md)
