@@ -29,6 +29,7 @@
 
 * [Java](programming-languages/java.md)
     * [Collections](programming-languages/java-collections.md)
+    * [Map](programming-languages/java-map.md)
     * [String](programming-languages/java-string.md)
 * [Python](programming-languages/python/introduction.md)
   * [Data Structure](programming-languages/python/data-structure.md)
