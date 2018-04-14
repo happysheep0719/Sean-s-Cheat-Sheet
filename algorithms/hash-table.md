@@ -6,15 +6,16 @@
 - **NO duplicate keys**
 - Hash Table is a general data structure
     - `HashMap` and `HashSet` are its implementationclasses in Java.
-- hash collision
-    - chaining
-    - open address (probe + rehash)
+- **hash collision**
+    - **close addressing (separate chaining)** - use singly linked list
+    - open addressing (probe + rehash) - put in the next available bucket
 
 __Open Addressing__
 
 - Linear probing - low cache miss when load factor is low.
 - Quadratic probing
 - Double hashing
+
 
 ## Problems
 
