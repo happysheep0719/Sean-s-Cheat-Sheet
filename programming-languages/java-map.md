@@ -41,25 +41,23 @@ __Implementation Classes__
 3. LinkedHashSet
     - It is a HashSet and also a LinkedList.
 
-
 ## Class - HashMap / HashSet
-
-__Implementation__
 
 - `HashMap` and `Hashtable` are like `ArrayList` and `Vector`. 
     - `HashMap` allows one null key.
     - `Vector` and `Hashtable` operations are synchronized.
 - `HashSet` is backed up by a `HashMap` instance.
 - Data Storage - `array` + `linkedlist`
-    - array of entries
-    - each entry is actually a single linked list(handle collision)
-    - contains the (key, value) pair
+    - maintain array of entries
+        - **`Node<K, V>[] array`**
+        - `ArrayList<Node<K, V>> array` Java supports better.
+        - each entry is actually a single linked list(handle collision) and contains the (key, value) pairs
 - Distribution - hashcode() 
     - Java1.8的hashmap的hashcode：(h = k.hashCode()) ^ (h >>> 16)
 - **Capacity Expansion**
     - check load factor if exceeds 0.75 and double the size
     - rehash
-- **Access key (get / put)**
+- **Access key (get / put)** process
     - hash - `int hash = hashCode(key)`
     - index - `int index = hash % table.length()`
     - iterate the bucket
@@ -83,11 +81,6 @@ __Check key__
     - determine if two reference are pointed to the same object
 - `.hashCode()`
 - `.equals()`
-
-__Two ways of update__
-
-- `containsKey -> get // two times`
-- `Integer sc = hm.get("snap") // one time`
 
 __Contract between equals() and hashCode()__
 
@@ -135,3 +128,16 @@ return hashNumber & 0x7fffffff;
 - 需要取绝对值，位运算计算效率最快。
     - 10 % 3 = -1，会影响后续取index
 - pair设计hashcode，当交换Pair(A, B)得到Pair(B, A)，应该得到同样的hashcode
+
+### Efficient way of accessing the HashMap
+
+> Laioffer Practice Class 13
+
+- count the occurence
+    - `containsKey -> get // two times`
+    - `Integer sc = hm.get("snap") // one time`
+    - `getOrDefault // one time`
+- remove when traverse
+    - `for (Map.Entry<String, Integer> entry : map.entrySet())` NOT RECOMMENDED
+    - `Iterator<Map.Entry<String, Integer>> iter = map.entrySet().iterator();` and `while (iter.hasNext())`
+
