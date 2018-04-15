@@ -11,7 +11,7 @@
     - `int lastIndexOf(String str, int fromIndex)`
     - **`int length()`**
     - `String substring(int start)`
-    - **`String substring(int start, int end)`**
+    - **`String substring(int start, int end)`** output = input[start, end)
     - `String toString()`
 - `StringBuilder`
 - `StringBuffer`
@@ -35,4 +35,22 @@ public class Test{
   }
 }
 
+```
+
+## String to Char Array & Char Array to String
+
+[s, e)
+
+```java
+public char[] convert(String input){
+    return input.toCharArray();
+}
+
+public String convert(char[] input, int s, int e){
+    return new String(input, s, e);
+}
+
+public String substring(String input, int s, int e){
+    return input.substring(s, e);
+}
 ```
