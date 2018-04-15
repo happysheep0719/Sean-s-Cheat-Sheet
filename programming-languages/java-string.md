@@ -39,18 +39,20 @@ public class Test{
 
 ## String to Char Array & Char Array to String
 
-[s, e)
+- [startIndex, endIndex)
+- [offset, offset + count)
 
 ```java
 public char[] convert(String input){
     return input.toCharArray();
 }
 
-public String convert(char[] input, int s, int e){
-    return new String(input, s, e);
+public String substring(String input, int offset, int count){
+    return new String(input, offset, count);
 }
 
-public String substring(String input, int s, int e){
-    return input.substring(s, e);
+
+public String convert(char[] input, int startIndex, int endIndex){
+    return input.substring(startIndex, endIndex);
 }
 ```
