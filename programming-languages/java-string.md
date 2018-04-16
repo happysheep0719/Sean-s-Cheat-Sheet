@@ -55,4 +55,7 @@ public String substring(String input, int offset, int count){
 public String convert(char[] input, int startIndex, int endIndex){
     return input.substring(startIndex, endIndex);
 }
+
+// String definition
+
 ```
