@@ -22,6 +22,7 @@
   * [Queue & Stack](algorithms/queue-stack.md)
   * [Heap](algorithms/heap.md)
   * [Hash Table](algorithms/hash-table.md)
+* [Dynamic Programming](algorithms/dynamic-programming.md)
 * [Big Data Situation](algorithms/bigdatasituation.md)
 * [Others](algorithms/others.md)
 
