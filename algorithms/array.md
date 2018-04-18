@@ -2,12 +2,14 @@
 
 # Array
 
-__Four types of problems__
+__Five types of problems__
 
 - Sorting Problems
     - See **Sorting Algorithms**.
-- Sorted Array & Binary Search
+- Binary Search in Sorted Array & Binary Search Tree
     - See **Binary Search**.
+- Selectively Copying Problems
+    - See **Two Pointers**
 - Partition Problems
     - See **Two Pointers**.
 - String Problems
