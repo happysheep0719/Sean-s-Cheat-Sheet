@@ -34,6 +34,62 @@ _Reference: Laioffer Class 4 & Practice4_
     - Space Complexity: $$O(1)$$
     - 改变link方向时，需要使用`next`或者`prev`去记录因为改变link可能丢失的节点。
 
+```java
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    public ListNode reverseListRecursively(ListNode head) {
+        if (head == null || head.next == null){
+            return head;
+        }
+        
+        ListNode newhead = reverseListRecursively(head.next);
+        head.next.next = head;
+        head.next = null;
+        return newhead;
+    }
+    
+    public ListNode reverseListIteratively(ListNode head){
+        if (head == null || head.next == null){
+            return head;
+        }
+        
+        // prev head->next becomes prev<-head next
+        // ListNode prev = null, next = head.next;
+        // while (head != null){
+        //     head.next = prev;
+        //     if (next == null){
+        //         return head;
+        //     }
+        //     // update loop control listnodes
+        //     prev = head;
+        //     head = next;
+        //     next = next.next;
+        // }
+        // return prev;
+        ListNode prev = null;
+        while (head != null){
+            ListNode next = head.next;
+            head.next = prev;
+            prev = head;
+            head = next;
+        }
+        return prev;
+    }
+    
+    public ListNode reverseList(ListNode head) {
+        // return reverseListRecursively(head);
+        return reverseListIteratively(head);
+    }
+}
+```
+
 - __P2. Find middle node of a linked list__
     - 快慢指针
     - 尽量去找middle左边的节点，方便后续调用。
