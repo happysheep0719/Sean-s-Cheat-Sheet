@@ -50,7 +50,8 @@ __P5. String Replacement__
     - use **Two Pointers**
 - Case 2: pattern.length < replacement.length
     - Step 1: count how many times show up in the original string and extend the string to new string with empty space in the right.
-    - Step 2: use **Two Pointers** 同向双指针，**从右往左**扫描。未扫描区域 | 待复制区域 | 已处理区域
+    - Step 2: use **Two Pointers**
+    - **从右往左**扫描利用输入的array。未扫描区域 | 待复制区域 | 已处理区域
 
 
 ## Advanced Problems

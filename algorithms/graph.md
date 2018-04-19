@@ -74,7 +74,19 @@ __P2. make up 99 cents with 4 kinds of coins__
 
 __P3. Too many to list all__
 
-__P4. permutations__
+__P4. Permutations__
+
+- **Types of Problems**
+    - _All Permutations I_ (input has no duplicate characters)
+    - _All Permutations II_ (input has duplicate charcters)
+- **in-place** tricks
+    - Can **split the input array into two parts** by using `swap`
+        - `Arranged characters | Candidate characters`
+    - Can **use two resizable container respectively record the arranged charcters and candidate charcters**. In Java, use `StringBuilder` to record arranged characters and use `Set`/`List`/`boolean[]` to record candidates.
+- In order to **generate no-duplicate results**, use extra space like `Set`/`boolean`/`List` to record used characters in each level or `Sort` the input set at first.
+    - first sort the input array
+    - if use extra space, use `i > 0 && array[i] == array[i - 1]` to remove duplicate results
+    - if use `Sort`, use `i > curIndex && array[i] == array[i - 1]` to remove duplicate results
 
 ### Generic Tree Search Algorithm (BFS and DFS)
 
