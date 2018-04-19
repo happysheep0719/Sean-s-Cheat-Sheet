@@ -53,7 +53,6 @@ __P5. String Replacement__
     - Step 2: use **Two Pointers**
     - **从右往左**扫描利用输入的array。未扫描区域 | 待复制区域 | 已处理区域
 
-
 ## Advanced Problems
 
 __P1. String Shuffling__
