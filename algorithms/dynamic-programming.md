@@ -1,3 +1,5 @@
+<extoc></extoc>
+
 # Dynamic Programming
 
 - 把大问题分解为很多个小问题，思考如何用小问题的solution构建大问题的solution。

@@ -24,14 +24,15 @@
   * [Hash Table](algorithms/hash-table.md)
 * [Dynamic Programming](algorithms/dynamic-programming.md)
 * [Big Data Situation](algorithms/bigdatasituation.md)
-* [Others](algorithms/others.md)
+* [Bit Operation](algorithms/bit-operation.md)
+* [Inteview](algorithms/others.md)
 
 ## Part II Programming Languages
 
 * [Java](programming-languages/java.md)
-    * [Collections](programming-languages/java-collections.md)
-    * [Map](programming-languages/java-map.md)
-    * [String](programming-languages/java-string.md)
+  * [Collections](programming-languages/java-collections.md)
+  * [Map](programming-languages/java-map.md)
+  * [String](programming-languages/java-string.md)
 * [Python](programming-languages/python/introduction.md)
   * [Data Structure](programming-languages/python/data-structure.md)
 * [C++](programming-languages/C++.md)
