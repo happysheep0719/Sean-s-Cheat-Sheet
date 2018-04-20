@@ -30,6 +30,7 @@ use 32bits for each number
 - | or
 - ~ not
 - ^ xor
+    - same bits = 0, different bits = 1
 - arithmetical shift
     - << left shift
         - add 0 to the right of positive number
