@@ -24,7 +24,7 @@
   * [Hash Table](algorithms/hash-table.md)
 * [Dynamic Programming](algorithms/dynamic-programming.md)
 * [Big Data Situation](algorithms/bigdatasituation.md)
-* [Bit Operation](algorithms/bit-operation.md)
+* [Bit](algorithms/bit.md)
 * [Inteview](algorithms/others.md)
 
 ## Part II Programming Languages
