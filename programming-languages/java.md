@@ -27,7 +27,20 @@ __Primitive types:__
 - Strings are objects.
 - Arrays are objects.
 
-### Array
+### Autoboxing and Unboxing
+
+- Wrapper class
+    - allow null
+    - immutable internal values
+- **Autoboxing & unboxing are done only when it is necessary.**
+- `==` vs. `equals`
+    - `Integer a == Integer b` can be wrong
+    - `(Integer)a.equals((Integer)b)` or `Integer.compare(o1, o2)` should be used!
+- `int[]` vs. `Integer[]`
+    - there is no auto conversion directly between them.
+
+
+## Array
 
 ```java
 int[][] array = new int[2][];
