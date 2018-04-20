@@ -12,7 +12,7 @@
 - recursion：从大到小解决问题，不记录任何sub-solution
     - base case
     - recursive rule
-- DP：从小到大解决问题，记录sub-solution
+- DP：从小到大解决问题，记录sub-solution（数学归纳法）
     - size(<n) subsolution -> size(n) subsolution
     - base case
     - induction rule
@@ -21,10 +21,11 @@
 
 __P1. Longest Ascending Subarray__
 
-Array vs. Sequence
-
-sub-Array: phsical contiguous elements in an array
-sub-Sequence: not necessarily contiguous
+- Array vs. Sequence
+    - sub-Array: phsical contiguous elements in an array
+    - sub-Sequence: not necessarily contiguous
+- M[i] represents in substring [0, i] the max length of the ascending subarrays.
+- M[i] = M[i - 1] + 1
 
 __P2. Cut ropes__
 
