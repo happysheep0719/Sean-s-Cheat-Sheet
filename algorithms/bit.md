@@ -30,13 +30,17 @@ use 32bits for each number
 - | or
 - ~ not
 - ^ xor
-- << left shift
-    - add 0 to the right of positive number
-- >> right shift
-    - add 0 to the left of positive number
-    - add 1 to the left of negative number
-    - `3 >> 1 = 3 / 2 = 1`
-    - `-3 >> 1 = -2` 负数除法不建议用位运算做
+- arithmetical shift
+    - << left shift
+        - add 0 to the right of positive number
+    - >> right shift
+        - add 0 to the left of positive number
+        - add 1 to the left of negative number
+        - `3 >> 1 = 3 / 2 = 1`
+        - `-3 >> 1 = -2` 负数除法不建议用位运算做
+- logical shift
+    - >>> right shift 
+        - always add 0 to the left of number
 
 ## bit check
 
