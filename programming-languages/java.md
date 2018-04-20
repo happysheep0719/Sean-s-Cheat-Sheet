@@ -33,11 +33,28 @@ __Primitive types:__
     - allow null
     - immutable internal values
 - **Autoboxing & unboxing are done only when it is necessary.**
+    - Mannual: `Integer a = Integer.valueOf(4);`
 - `==` vs. `equals`
     - `Integer a == Integer b` can be wrong
     - `(Integer)a.equals((Integer)b)` or `Integer.compare(o1, o2)` should be used!
 - `int[]` vs. `Integer[]`
     - there is no auto conversion directly between them.
+
+### Converting Number to/from Strings
+
+```java
+int i = 0;
+String si = i + "";
+si = String.valueOf(i);
+si = Integer.toString(i);
+
+Integer w = null;
+si = w.toString(); // "null"
+si = String.valueOf(w);
+
+Integer.valueOf(si);
+Integer.parseInt(si);
+```
 
 
 ## Array

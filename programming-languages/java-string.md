@@ -13,10 +13,22 @@
     - `String substring(int start)`
     - **`String substring(int start, int end)`** output = input[start, end)
     - `String toString()`
+    - `boolean startsWith(String prefix)`
+    - `boolean endsWith(String suffix)`
+    - `int compareTo(String anotherString)`
+        - compares two strings lexicographically.
+        - `"abc"` < `"abcd"`
+        - `"abc"` < `"abcd"`
+        - `"abc"` < `"b"`
+    - `String[] split(String regex)`
+    - `String[] split(String regex, int limit)`
+        - `"a/b/c/d"` -> `.split("/", 2)`
+    - `String trim()`
+        - remove leading and trailing white spaces.
 - `StringBuilder`
-- `StringBuffer`
+- `StringBuffer` - thread-safe / *synchronized*
     - same as `String`
-    - `StringBuffer append(String s)`
+    - **`StringBuffer append(String s)`**
     - `StringBuffer reverse()`
     - `delete(int start, int end)`
     - **`deleteCharAt(int index)`**
@@ -24,7 +36,6 @@
     - `replace(int start, int end, String str)`
 
 ```java
-
 public class Test{
   public static void main(String args[]){
     StringBuffer sBuffer = new StringBuffer("菜鸟教程官网：");
@@ -39,8 +50,8 @@ public class Test{
 
 ## String to Char Array & Char Array to String
 
-- [startIndex, endIndex)
-- [offset, offset + count)
+- `substring` - [startIndex, endIndex)
+- `new String` - [offset, offset + count)
 
 ```java
 public char[] convert(String input){
