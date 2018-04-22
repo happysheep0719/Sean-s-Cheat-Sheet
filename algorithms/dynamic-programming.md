@@ -17,6 +17,7 @@
     - base case
     - induction rule
 - 满足一定条件的recursion可以用dp
+- 空间复杂度可能可以通过只记录M[n-1]从$$O(n)$$优化到$$O(1)$$
 
 
 __P1. Longest Ascending Subarray__
