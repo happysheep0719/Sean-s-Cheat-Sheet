@@ -46,11 +46,6 @@ __特点__
 
 - **Worst Case** - `pivot`选择不lucky，最差是$$O(n^2)$$
 
-__Coding Tricks__
-
-- 初始`pivot`选取后，放在最左边或者最右边，循环完之后需要把`pivot`放在中间。
-
-
 __Code__
 
 ```java
