@@ -36,7 +36,7 @@ Note: 之所以说DP是从小到大解决问题，是因为我们只解决每个
 
 __P3. Larget Sum of a Subarrays__
 
-- $$M[i]$$ represents among all subarrays that ends with i, the one with the largest sum.
+- $$M[i]$$ represents the subarray with the largest sum among all subarrays that ends with i.
 
 __P4. Dictionary Concat__
 
