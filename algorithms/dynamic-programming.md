@@ -27,7 +27,7 @@ __P1. Longest Ascending Subarray__
     - sub-Array: phsical contiguous elements in an array
     - sub-Sequence: not necessarily contiguous
 - M[i] represents in String[0, i] the max length of the ascending subarrays. The substring must include i-th element.**(以i结尾的最长的substring)**
-- $$M[i] = M[i - 1] + 1, input[i] > input[i - 1]$$
+- $$M[i] = M[i - 1] + 1, if input[i] > input[i - 1]$$
 - $$M[i] = 1, otherwise$$
 
 __P2. Cut ropes__
@@ -37,6 +37,8 @@ Note: 之所以说DP是从小到大解决问题，是因为我们只解决每个
 __P3. Larget Sum of a Subarrays__
 
 - $$M[i]$$ represents the subarray with the largest sum among all subarrays that ends with i.
+- $$M[i] = M[i - 1] + input[i], if M[i - 1] > 0$$
+- $$M[i] = input[i], otherwise$$
 
 __P4. Dictionary Concat__
 
