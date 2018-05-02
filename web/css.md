@@ -1,6 +1,6 @@
 <extoc></extoc>
 
-# CSS
+# Cascading Style Sheets (CSS)
 
 Reference: [Udemy - The Web Developer Bootcamp Section 1-4](https://www.udemy.com/the-web-developer-bootcamp/learn/v4/content)
 
