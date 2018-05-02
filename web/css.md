@@ -133,12 +133,14 @@ li:nth-of-type(3){
 }
 ```
 
-- **pseudo classes**
+- **Pseudo classes**
     - `:link` - (`a:link`) select all unvisited links
     - `:hover` - (`a:hover`) select links on mouse over 鼠标在上面停靠
     - `:active` - (`a:active`) select the active link
     - `:visited` - (`a:visited`) select all visited links
     - `:first-child`- (`p:first-child`)select every `<p>` element
+-**Pseudo elements**
+    - `::first-element` does not work on inline elements, such as span
 
 
 ## Specificity 
