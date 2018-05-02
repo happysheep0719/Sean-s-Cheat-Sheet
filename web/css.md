@@ -47,9 +47,16 @@ selector {
 - **Default Style**
 
 
-### CSS Syntax and Selectors
+### CSS Selectors
 
-Selector
+- ID Selector
+
+```css
+#idOfElement {
+    color: yellow;
+}
+```
+
 
 实际开发中，一般把Class给CSS用，把ID给JavaScript用。
 
