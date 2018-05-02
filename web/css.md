@@ -11,7 +11,7 @@ Link: [example created by me](example.html)
 ```css
 selector {
     property: value;
-    antoherProperty: value;
+    anotherProperty: value;
 }
 ```
 
