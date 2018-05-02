@@ -62,7 +62,7 @@ h1 {
 - **ID Selector** - Select an element with a given ID. Only one per page
 
 ```css
-#IDOfElement {
+#ID1 {
     color: yellow;
 }
 ```
@@ -70,9 +70,14 @@ h1 {
 - **Class Selector** - Select all elements with a given class
 
 ```css
-.CLASSOfElement{
+.CLASS1{
     color: purple;
 }
+```
+
+- **Muiltiple Class** for one element
+```html
+<p class="CLASS1 CLASS2">
 ```
 
 实际开发中，一般把Class给CSS用，把ID给JavaScript用。
@@ -143,7 +148,7 @@ li:nth-of-type(3){
     - `::first-element` does not work on inline elements, such as span
 
 
-## Specificity 
+### Specificity 
 
 [Specificity Calculator](https://www.google.com/search?q=specificity+calculator&rlz=1C5CHFA_enUS760US761&oq=specificity+calc&aqs=chrome.1.69i57j0l5.5799j0j7&sourceid=chrome&ie=UTF-8)
 
@@ -183,3 +188,26 @@ h4 {
     color: rgba(11, 99, 150, .2)
 }
 ```
+
+### Font
+
+Tools:
+
+[Google Fonts](https://fonts.google.com/)
+
+- `font-family`
+- `font-size`
+    - `16px`, `1.0em` relative around 16px
+- `font-weight`
+    - `normal`, `bold`, `100` - `800`
+- `text-decoration`
+    - `underlined`
+
+## The Box Model
+
+- **Content**
+- **Padding** - inside
+- **Border**
+- **Margin** - outside
+    - `20px 20px 20px 20px`
+    - `auto` for left and right margin. If we set left or right margins to be auto, it will center for us.
