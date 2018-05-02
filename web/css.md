@@ -2,9 +2,13 @@
 
 # Cascading Style Sheets (CSS)
 
-Reference: [Udemy - The Web Developer Bootcamp Section 1-4](https://www.udemy.com/the-web-developer-bootcamp/learn/v4/content)
+Reference: 
 
-Link: [example created by me](example.html)
+[Udemy - The Web Developer Bootcamp Section 1-4](https://www.udemy.com/the-web-developer-bootcamp/learn/v4/content)
+
+[Morilla MDN](https://developer.mozilla.org/zh-CN/)
+
+[example created by me](example.html)
 
 ## General Rule
 
@@ -16,8 +20,6 @@ selector {
 ```
 
 ## Link CSS to HTML
-
-**Priority**: Inline Style > Internal Style > External Style > Default Style
 
 - **Inline Style**
     - put in the element you want to select
@@ -47,36 +49,109 @@ selector {
 - **Default Style**
 
 
-### CSS Selectors
+## CSS Selectors
 
-- ID Selector
+- **Element Selector** - Select all instances of a given element
 
 ```css
-#idOfElement {
+h1 {
+    background: green;
+}
+```
+
+- **ID Selector** - Select an element with a given ID. Only one per page
+
+```css
+#IDOfElement {
     color: yellow;
 }
 ```
 
+- **Class Selector** - Select all elements with a given class
 
-
+```css
+.CLASSOfElement{
+    color: purple;
+}
+```
 
 实际开发中，一般把Class给CSS用，把ID给JavaScript用。
 
-Combinator
+### Combinator Selectors
 
-- `element element` - select descendents
+- **Star** - `*` - select all
+
+```css
+* {
+    border: 1px solid;
+}
+```
+
+- **Descendant Selectors** - `element1 element2`
+
+```css
+li a {
+    color: red;    
+}
+
+li .hello{
+    color: green;
+}
+```
+
 - `element > element` - select all sons
-- `element, element` - select the union of two elements
-- `[attribute]` - select all elements with a given attribute 
-    - Eg. `p[class="right"]`
+
+- **Adjacent Selectors**
+
+```css
+h4 + ul {
+    border: 4px solid red;
+}
+```
+
+- **AND Selector** - `element : element`
+- **OR Selector** - `element , element`
+- **Attribute Selector** - `[attribute]` - select all elements with a given attribute 
+    - `p[class="right"]`
     - `[attribute = value]` 
     - `[attribute ~= value]`
-- pseudo classes
+
+```css
+a[herf="http://www.google.com"] {
+    background: blue;
+}
+```
+
+- **n-th of type**
+
+```css
+li:nth-of-type(even){
+    background: blue;
+}
+li:nth-of-type(3){
+    background: red;
+}
+```
+
+- **pseudo classes**
     - `:link` - (`a:link`) select all unvisited links
-    - `:hover` - (`a:hover`) select links on mouse over
+    - `:hover` - (`a:hover`) select links on mouse over 鼠标在上面停靠
     - `:active` - (`a:active`) select the active link
     - `:visited` - (`a:visited`) select all visited links
     - `:first-child`- (`p:first-child`)select every `<p>` element
+
+
+## Specificity 
+
+[Specificity Calculator](https://www.google.com/search?q=specificity+calculator&rlz=1C5CHFA_enUS760US761&oq=specificity+calc&aqs=chrome.1.69i57j0l5.5799j0j7&sourceid=chrome&ie=UTF-8)
+
+when we have Multiple styles for one element:
+
+- **More Specific** rules win
+    - **Inline Styles** > **IDs** > **Classes, Attributes and pseudo-classes** > **Elements and peseudo-elements** 
+- **Closer** rules win
+    - **Inline Style** > **Internal Style** > **External Style** > **Default Style**
+
 
 ## Properties
 
