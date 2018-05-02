@@ -150,7 +150,7 @@ li:nth-of-type(3){
 when we have Multiple styles for one element:
 
 - **More Specific** rules win
-    - **Inline Styles** > **IDs** > **Classes, Attributes and pseudo-classes** > **Elements and peseudo-elements** 
+    - **Inline Styles** > **IDs** > **Classes, Attributes and pseudo-classes** > **Elements and peseudo-elements** > **Inherited Style**
 - **Closer** rules win
     - **Inline Style** > **Internal Style** > **External Style** > **Inherited Style** > **Default Style**
 
