@@ -20,6 +20,11 @@ selector {
 **Priority**: Inline Style > Internal Style > External Style > Default Style
 
 - **Inline Style**
+    - put in the element you want to select
+    
+    ```html
+    <li style="color:purple;">Playing</li>
+    ```
 - **Internal Style**
     - put in the head
     
