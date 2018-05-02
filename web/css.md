@@ -46,6 +46,7 @@ selector {
     
 - **Default Style**
 
+
 ### CSS Syntax and Selectors
 
 Selector
@@ -68,4 +69,19 @@ Combinator
     - `:visited` - (`a:visited`) select all visited links
     - `:first-child`- (`p:first-child`)select every `<p>` element
 
-## Styles
+## Properties
+
+### color
+
+```css
+h1 {
+    color: #FF0000;
+}
+h2 {
+    color: #00FF00;
+}
+h3 {
+    color: #0000FF;
+}
+
+```
