@@ -32,16 +32,18 @@ selector {
     ```html
     <style type="text/css">
         li {
-            color: red;
+            color: #000000;
         }
     </style>
     ```
 
 - **External Style**
     - put link tag in the head
+    
     ```html
     <link rel="stylesheet" type="style/css" href="css.css">
     ```
+    
 - **Default Style**
 
 ### CSS Syntax and Selectors
