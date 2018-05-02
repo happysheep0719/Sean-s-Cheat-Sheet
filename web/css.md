@@ -21,6 +21,13 @@ selector {
 
 - **Inline Style**
 - **Internal Style**
+```html
+<style type="text/css">
+    li {
+        color: red;
+    }
+</style>
+```
 - **External Style**
 - **Default Style**
 
