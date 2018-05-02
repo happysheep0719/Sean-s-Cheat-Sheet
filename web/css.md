@@ -38,6 +38,10 @@ selector {
     ```
 
 - **External Style**
+    - put link tag in the head
+    ```html
+    <link rel="stylesheet" type="style/css" href="css.css">
+    ```
 - **Default Style**
 
 ### CSS Syntax and Selectors
