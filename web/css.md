@@ -71,7 +71,10 @@ Combinator
 
 ## Properties
 
-### color
+### Color
+
+Tool: 
+[Color Picker](https://www.google.com/search?q=color+picker&rlz=1C5CHFA_enUS760US761&oq=color+picker&aqs=chrome..69i57j0l5.4985j0j7&sourceid=chrome&ie=UTF-8)
 
 ```css
 h1 {
