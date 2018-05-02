@@ -79,7 +79,7 @@ Tool:
 - Built-in color
 - Hexidecimal
 - RGB
-
+- RGBA - alpha makes color transparent
 
 ```css
 h1 {
@@ -90,5 +90,8 @@ h2 {
 }
 h3 {
     color: rgb(0, 0, 255);
+}
+h4 {
+    color: rgba(11, 99, 150, .0)
 }
 ```
