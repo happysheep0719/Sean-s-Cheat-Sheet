@@ -79,7 +79,9 @@ Tool:
 - Built-in color
 - Hexidecimal
 - RGB
-- RGBA - alpha makes color transparent
+- RGBA
+    - alpha makes color transparent.
+    - in range [0, 1]
 
 ```css
 h1 {
