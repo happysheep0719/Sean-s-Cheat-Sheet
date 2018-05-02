@@ -152,7 +152,7 @@ when we have Multiple styles for one element:
 - **More Specific** rules win
     - **Inline Styles** > **IDs** > **Classes, Attributes and pseudo-classes** > **Elements and peseudo-elements** 
 - **Closer** rules win
-    - **Inline Style** > **Internal Style** > **External Style** > **Default Style**
+    - **Inline Style** > **Internal Style** > **External Style** > **Inherited Style** > **Default Style**
 
 
 ## Properties
