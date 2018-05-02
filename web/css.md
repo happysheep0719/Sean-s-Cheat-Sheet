@@ -58,6 +58,8 @@ selector {
 ```
 
 
+
+
 实际开发中，一般把Class给CSS用，把ID给JavaScript用。
 
 Combinator
