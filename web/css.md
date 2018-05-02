@@ -25,6 +25,7 @@ selector {
     ```html
     <li style="color:purple;">Playing</li>
     ```
+    
 - **Internal Style**
     - put in the head
     
