@@ -6,6 +6,15 @@ Reference: [Udemy - The Web Developer Bootcamp Section 1-4](https://www.udemy.co
 
 Link: [example created by me](example.html)
 
+## General Rule
+
+```css
+selector {
+    property: value;
+    antoherProperty: value;
+}
+```
+
 ## Link CSS to HTML
 
 **Priority**: Inline Style > Internal Style > External Style > Default Style
