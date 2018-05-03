@@ -1,6 +1,5 @@
 # Objected-Oriented Design
 
-# 问题收集
 入门 <head first java>
 进阶 <effective java>
 Computer Systems: A programmer's perspective CSAPP
