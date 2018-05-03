@@ -36,7 +36,7 @@
 * [Python](programming-languages/python/introduction.md)
   * [Data Structure](programming-languages/python/data-structure.md)
 * [C++](programming-languages/C++.md)
-* [Object-oriented vs. Procedure-oriented](oriented.md)
+* [Object-oriented](oriented.md)
 * [Operating Systems](operating-systems.md)
 
 ## Part III Data Processing
