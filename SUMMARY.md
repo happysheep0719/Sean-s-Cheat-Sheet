@@ -36,7 +36,8 @@
 * [Python](programming-languages/python/introduction.md)
   * [Data Structure](programming-languages/python/data-structure.md)
 * [C++](programming-languages/C++.md)
-* [Object-Oriented Design](OOD.md)
+* [Object-Oriented Design](OOD/OOD.md)
+    * [Design Pattern](OOD/design-pattern.md)
 * [Operating Systems](operating-systems.md)
 
 ## Part III Data Processing
