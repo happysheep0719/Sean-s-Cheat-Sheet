@@ -25,6 +25,7 @@
 * [Dynamic Programming](algorithms/dynamic-programming.md)
 * [Big Data Situation](algorithms/bigdatasituation.md)
 * [Bit](algorithms/bit.md)
+* [Probility, Sampling, Randomization](algorithms/prob.md)
 * [Inteview](algorithms/others.md)
 
 ## Part II Programming
