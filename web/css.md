@@ -205,10 +205,22 @@ Tools:
 
 ## The Box Model
 
-- **Content**
-- **Padding** - inside
-- **Border**
-- **Margin** - outside
-    - `20px 20px 20px 20px`
-    - `auto` for left and right margin. If we set left or right margins to be auto, it will center for us.
-    - **margin collapsing**
+- Composition
+    - **`Content`**
+    - **`Padding`** - inside
+    - **`Border`**
+    - **`Margin`** - outside
+        - `20px 20px 20px 20px`
+        - `auto` for left and right margin. If we set left or right margins to be auto, it will center for us.
+        - **margin collapsing**
+- `float`
+    - `none` / `left` / `right` / `initial` / `inherit`
+    - put float elements in front of non-float elements first
+    - `clear` property specifies on which side of one element other floating elements are not allowed to float
+- `position`
+    - `static` / `dafault` - non-positioned
+    - `relative` - relative to its original position
+    - `absolute` - relative to the nearest positioned ancestor
+    - `fixed` - relative to the viewport (stays in the exact same place even if the page is scrolled)
+- `z-index`
+    - only valid for positioned elements
