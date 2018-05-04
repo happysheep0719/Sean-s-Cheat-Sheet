@@ -211,3 +211,4 @@ Tools:
 - **Margin** - outside
     - `20px 20px 20px 20px`
     - `auto` for left and right margin. If we set left or right margins to be auto, it will center for us.
+    - **margin collapsing**
