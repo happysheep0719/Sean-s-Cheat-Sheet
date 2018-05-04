@@ -52,6 +52,20 @@ Note:
 **重载**：使用同名函数，但是形参不同，可以是个数，也可以是类型，顺序。
 
 
+## Three ways of OOD
+
+- **Encapsulation** **封装**
+    - encapsulate data and methods in class
+    - Data Abstraction and Access Lebels
+- **Inheritance** **继承**
+    - base class and derived class
+    - In Java, Interface and Abstract class
+- **Polymorphism** **多态**
+    - Overriding 
+    - In Java, `List.get()` has different implementations. It is different for each call of different class implementation.
+
+### Encapsulation
+
 __Data Encapsulation: Data Abstrction and Access Levels__
 
 - Providing only essential information to the outside world and hiding their background details
@@ -81,15 +95,6 @@ As strict as possible.
     - Protected methods: sometimes useful when we want to override an implementation in subclasses
     - Protected attributes: be careful, try to use private first
 - default in java(package-private)
-
-## Three ways of OOD
-
-- **Encapsulation** **封装**
-    - encapsulate data and methods in class
-- **Inheritance** **继承**
-    
-- **Polymorphism** **多态**
-    - `List.get()`有个不同的实现，每次调用是不一样的。
 
 ## General steps for OOD
 
