@@ -27,7 +27,7 @@
 * [Bit](algorithms/bit.md)
 * [Inteview](algorithms/others.md)
 
-## Part II Programming Languages
+## Part II Programming
 
 * [Java](programming-languages/java.md)
   * [Collections](programming-languages/java-collections.md)
@@ -36,7 +36,7 @@
 * [Python](programming-languages/python/introduction.md)
   * [Data Structure](programming-languages/python/data-structure.md)
 * [C++](programming-languages/C++.md)
-* [Object-oriented](OOD.md)
+* [Object-Oriented Design](OOD.md)
 * [Operating Systems](operating-systems.md)
 
 ## Part III Data Processing
