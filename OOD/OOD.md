@@ -164,5 +164,3 @@ Colltions.unmodifiableList(list);
 HashMap<Vehicle, ParkingSpot>
 ```
 
-
-
