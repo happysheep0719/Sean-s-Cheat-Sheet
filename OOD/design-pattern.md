@@ -1,0 +1,3 @@
+<extoc></extoc>
+
+# Design Pattern
