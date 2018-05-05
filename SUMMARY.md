@@ -38,7 +38,7 @@
   * [Data Structure](programming-languages/python/data-structure.md)
 * [C++](programming-languages/C++.md)
 * [Object-Oriented Design](OOD/OOD.md)
-    * [Design Pattern](OOD/design-pattern.md)
+  * [Design Pattern](OOD/design-pattern.md)
 * [Operating Systems](operating-systems.md)
 
 ## Part III Data Processing
@@ -56,4 +56,5 @@
 
 * [HTML](web/html.md)
 * [CSS](web/css.md)
+* [Javascript](javascript.md)
 
