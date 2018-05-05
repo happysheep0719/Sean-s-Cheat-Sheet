@@ -56,5 +56,5 @@
 
 * [HTML](web/html.md)
 * [CSS](web/css.md)
-* [Javascript](javascript.md)
+* [Javascript](web/javascript.md)
 
