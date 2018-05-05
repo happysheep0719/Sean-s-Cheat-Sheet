@@ -65,7 +65,10 @@ Tail recursion: the recursive call is always the last execution statement
 5. 但真实工作，很多应用是recursion写的。
 
 
-### Recursion Template
+### Recursion Implementation
+
+- Base case
+- Recursive rule
 
 __Note:__
 
