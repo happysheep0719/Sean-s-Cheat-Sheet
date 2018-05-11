@@ -4,4 +4,8 @@
 
 ## MySQL
 
-## M
+## MongoDB
+
+**Sharding and Replication**
+
+**Consistency and Availability**
