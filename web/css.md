@@ -220,7 +220,7 @@ Tools:
     - `margin: 0 auto` - Centers the block elements to the center of the container.
     - `text-align: center` - Centers the text content.
     - `display:flex; justify-content: center;` - Centers the items in a flex box horizontally.
-    - `display:flex; align-items: center;`
+    - `display:flex; align-items: center;` - Centers the items in a flex box vertically.
 
 - `float`
     - `none` / `left` / `right` / `initial` / `inherit`
