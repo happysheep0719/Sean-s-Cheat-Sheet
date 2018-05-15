@@ -221,7 +221,6 @@ Tools:
     - `text-align: center` - Centers the text content.
     - `display:flex; justify-content: center;` - Centers the items in a flex box horizontally.
     - `display:flex; align-items: center;` - Centers the items in a flex box vertically.
-
 - `float`
     - `none` / `left` / `right` / `initial` / `inherit`
     - put float elements in front of non-float elements first
