@@ -214,6 +214,7 @@ Tools:
         - `auto` for left and right margin. If we set left or right margins to be auto, it will center for us.
         - **margin collapsing**
 - `display`
+    - `none`
     - `block` - A block-level element starts on a new line and stretches out to the left and right as far as it can
     - `inline` - An inline element can wrap some text inside a paragraph without disrupting the flow of that paragraph.
 - center
