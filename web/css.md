@@ -213,6 +213,15 @@ Tools:
         - `20px 20px 20px 20px`
         - `auto` for left and right margin. If we set left or right margins to be auto, it will center for us.
         - **margin collapsing**
+- `display`
+    - `block` - A block-level element starts on a new line and stretches out to the left and right as far as it can
+    - `inline` - An inline element can wrap some text inside a paragraph without disrupting the flow of that paragraph.
+- center
+    - `margin: 0 auto` - Centers the block elements to the center of the container.
+    - `text-align: center` - Centers the text content.
+    - `display:flex; justify-content: center;` - Centers the items in a flex box horizontally.
+    - `display:flex; align-items: center;`
+
 - `float`
     - `none` / `left` / `right` / `initial` / `inherit`
     - put float elements in front of non-float elements first
