@@ -58,4 +58,5 @@
 * [CSS](web/css.md)
 * [Javascript](web/javascript.md)
 * [Database](web/database.md)
+* [Vue](web/vue.md)
 
