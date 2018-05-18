@@ -32,3 +32,11 @@ Vue.component('blog-post', {
 <blog-post post-title="hello!"></blog-post>
 ```
 
+## router
+
+通过检测hashtag的变化，改变出现的组件
+
+同时满足以下需求：
+
+- hashtag以子路径作为标识，每个独特的hashtag url可以映射到一个资源
+- 所有的子应用都可以放在单页中。
