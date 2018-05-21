@@ -14,6 +14,7 @@ for intermediates:
 Book on Computer Systems: *A programmer's perspective CSAPP*
 
 *Design Pattern*
+*Java tutorial*
 
 **3 advices to answering design questions**
 
