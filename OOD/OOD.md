@@ -13,6 +13,8 @@ for intermediates:
 
 Book on Computer Systems: *A programmer's perspective CSAPP*
 
+*Design Pattern*
+
 **3 advices to answering design questions**
 
 1. 文（design）无第一，武（coding）无第二
