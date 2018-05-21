@@ -2,7 +2,7 @@
 
 # Objected-Oriented Design
 
-**Books Recommendation**
+## Books Recommendation
  
 for beginners: *head first java*
 
@@ -16,6 +16,8 @@ Book on Computer Systems: *A programmer's perspective CSAPP*
 *Design Pattern*
 *Java tutorial*
 *The Pragmatic Programmer: from Journeyman to Master*
+
+## Introduction
 
 **3 advices to answering design questions**
 
@@ -167,4 +169,95 @@ Colltions.unmodifiableList(list);
 ```java
 HashMap<Vehicle, ParkingSpot>
 ```
+
+## Steps
+
+1. Understand / Analyze the **functionality** and its **use case**
+    
+    What is the problem and its use case?
+
+    Details: Describe the parking lot building? Vehicle monitoring? What kind of parking lot?
+    
+    **use cases** -> **functionalities** -> **APIs**
+    
+    **functionalities**
+    
+    - the main functionality
+    - input/output of the main functionality
+        - **Request** -> **Schedule & move elevator** -> Load onto elevator -> schedule and move elevator -> unload
+
+    
+    **Modeling**
+    
+    - Visble
+        - Elevators
+        - Users
+        - Floors
+    - Invisble
+        - Requests
+        - Controller
+        - Simulation program itself
+
+2. Classes and their relationships
+    
+    Data - Classes and their member fields
+    Action - Methods
+    
+    Single-responsibility Principle: A class should have only one job.
+    
+    **Abstraction** & **Decouple**: to sperate logics. 
+
+---------
+**Example 1.** **Parking Lot**
+
+
+**Example 2.** In card games like **BlackJack**, the data are to describe the states of cards and game. 
+
+- Data - 公共道具（牌堆）
+- Action - 流程规则
+
+
+The actions are the rules and the game process.
+
+1. What **data** are used.
+2. What manipulation are done on the data.
+
+**Example 3. Elevators**
+
+Elevator
+
+- State
+    - id
+    - maximum capacity
+    - current laod size
+    - current location
+    - loaded requests
+    - next destination
+    - moving direction
+- Behavior
+    - load(weight)
+    - unload(weight)
+    - move design
+        - X--moveTo(floor)--
+        - moveUp()/moveDown() (stateless design)
+        - move()/stop()/Change moving direction (stateful design)
+
+    
+Note:这里的目的是为了把电梯的行为拆分，分析的关键在于把调度的功能和移动的功能解耦。调度功能放在simulator里面。
+
+
+Users
+
+- State
+    - current location
+    - request
+- Behavior
+    - send request
+    - enter elevator
+    - leave elevator
+
+Requests
+
+Simulator
+
 
