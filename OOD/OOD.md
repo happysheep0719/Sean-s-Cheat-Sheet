@@ -15,6 +15,7 @@ Book on Computer Systems: *A programmer's perspective CSAPP*
 
 *Design Pattern*
 *Java tutorial*
+*The Pragmatic Programmer: from Journeyman to Master*
 
 **3 advices to answering design questions**
 
