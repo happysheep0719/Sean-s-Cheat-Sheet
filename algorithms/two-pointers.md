@@ -25,10 +25,10 @@ __问题类型__
 
 ## 同向双指针
     
-P1. Remove Particular Char    
-P2. Remove all leading/trailing and duplicate empty spaces
-P3. Remove duplicated and adjacent letters
-P4. Remove duplicated and adjacent letters repeatedly
+- P1. Remove Particular Char    
+- P2. Remove all leading/trailing and duplicate empty spaces
+- P3. Remove duplicated and adjacent letters
+- P4. Remove duplicated and adjacent letters repeatedly
 
 - Use extra data structure, eg. array/queue/stack
     - compare the end of the Queue and the fast pointed element
