@@ -23,8 +23,10 @@ __问题类型__
 
     
 
-## 同向双指针
-    
+## 同向双指针 
+
+Problems:
+
 - P1. Remove Particular Char    
 - P2. Remove all leading/trailing and duplicate empty spaces
 - P3. Remove duplicated and adjacent letters
@@ -34,6 +36,7 @@ __问题类型__
     - compare the end of the Queue and the fast pointed element
     - compare the top of the Stack and the fast pointed element
 - **In-place** way of two pointers
-    - a good way of split the array: [0, s), [s, f), [f, len)
+    - **a good way of split the array: [0, s), [s, f), [f, len)**
+        - imagine the slow pointer points to right of the end of the dealt part
     - move the fast pointer for each time
     - not necessarily move the slow pointer
