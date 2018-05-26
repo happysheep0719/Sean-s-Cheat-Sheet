@@ -37,6 +37,6 @@ Problems:
     - compare the top of the Stack and the fast pointed element
 - **In-place** way of two pointers
     - **a good way of split the array: [0, s), [s, f), [f, len)**
-        - imagine the slow pointer points to right of the end of the dealt part
+        - imagine the index of the slow pointer is the length of new array
     - move the fast pointer for each time
     - not necessarily move the slow pointer
