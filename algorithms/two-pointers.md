@@ -31,7 +31,7 @@ P3. Remove duplicated and adjacent letters
 P4. Remove duplicated and adjacent letters repeatedly
 
 
-第一层次：使用额外的数据结构
+第一层次：使用额外的数据结构，可以是额外的Queue/Stack/Array
 
 第二层次：in-place双指针，每次一定移动fast指针
 
