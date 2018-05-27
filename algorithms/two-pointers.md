@@ -29,7 +29,9 @@ Problems:
 
 - P1. Remove Particular Char    
 - P2. Remove all leading/trailing and duplicate empty spaces
-- P3. Remove duplicated and adjacent letters
+- P3. Remove duplicated and adjacent letters but keep at most one
+    - Follow-up. Remove duplicated and adjacent letters but keep at most two
+    - Follow-up. Remove duplicated and adjacent letters and keep none
 - P4. Remove duplicated and adjacent letters repeatedly
 
 - Use extra data structure, eg. array/queue/stack
