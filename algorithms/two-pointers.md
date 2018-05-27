@@ -32,6 +32,7 @@ Problems:
 - P3. Remove duplicated and adjacent letters but keep at most one
     - Follow-up. Remove duplicated and adjacent letters but keep at most two
     - Follow-up. Remove duplicated and adjacent letters and keep none
+        - use two fast pointers to check the duplicated elements
 - P4. Remove duplicated and adjacent letters repeatedly
 
 - Use extra data structure, eg. array/queue/stack
