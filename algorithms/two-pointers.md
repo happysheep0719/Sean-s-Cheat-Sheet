@@ -39,5 +39,6 @@ Problems:
     - **a good way of split the array: [0, s), [s, f), [f, len)**
         - imagine the index of the slow pointer is the length of new array
         - usually comes with `s++`
+        - if including the slow pointer, use ++s
     - move the fast pointer for each time
     - not necessarily move the slow pointer
