@@ -40,6 +40,7 @@ Problems:
 - **In-place** way of two pointers
     - **a good way of split the array: [0, s), [s, f), [f, len)**
         - imagine the index of the slow pointer is the length of new array
+        - if excluding the slow pointer, we do not need to think about too many corner cases
         - usually comes with `s++`
         - if including the slow pointer, use ++s
     - move the fast pointer for each time
