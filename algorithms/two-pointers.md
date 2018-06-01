@@ -14,8 +14,10 @@ __适用问题__
 
 __问题类型__
 
-- 同向双指针 - Two Sum
+- 同向双指针
+    - Two Sum
 - 相向双指针
+    - Cannot reserve the initial order of the array
 - Partition - Quick Select
     - k-th smallest
 - 双数组双指针
