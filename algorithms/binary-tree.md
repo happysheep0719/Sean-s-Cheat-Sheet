@@ -74,6 +74,8 @@ __两种算法写法__ - _有的问题可以用两种思路写，但是一般会
 
 - __P5. Assign the value of each note to be the total number of nodes that belong its left subtree. 求左子树数字之和__
 
+- __P6. Lowest Common Ancestor 共同子祖先__
+
 -----
 ## Treverse & Tree Problems
 
