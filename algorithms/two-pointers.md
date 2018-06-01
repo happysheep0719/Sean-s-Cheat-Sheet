@@ -16,6 +16,7 @@ __问题类型__
 
 - **同向双指针**
     - Array Deduplication
+    - Remove leading/tailing spaces
     - Two Sum
 - 相向双指针
     - Cannot reserve the initial order of the array
