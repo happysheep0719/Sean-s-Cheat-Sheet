@@ -97,6 +97,11 @@ __两种算法写法__ - _有的问题可以用两种思路写，但是一般会
     //            =>  return root
     //      2.3: return null
 
+- __Follow-up. LCA (one or two is not guranteed in the tree)__
+
+    - check two twice if root == one 
+    - check one twice if root == two
+
 - __P7. Tree Node Path__
 
 -----
