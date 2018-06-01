@@ -14,7 +14,8 @@ __适用问题__
 
 __问题类型__
 
-- 同向双指针
+- **同向双指针**
+    - Array Deduplication
     - Two Sum
 - 相向双指针
     - Cannot reserve the initial order of the array
