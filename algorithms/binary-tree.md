@@ -44,6 +44,7 @@ __算法的几个要点__
 
 - What do you expect from lchild, rchild?
 - What do you want to tell to your lchild, rchild?
+- How do you want to divide the problems into subproblems?
 - What do you want to do in the current layer?
 - What do you want to report to your parent?
 
