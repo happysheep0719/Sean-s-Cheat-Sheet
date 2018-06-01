@@ -40,6 +40,12 @@ __两种信息传递方式__
 - 把信息**从上往下**传 - 用**函数参数 parameters**传递
 - 把信息**从下往上**传 - 用**返回值 return type**传递
 
+__算法的几个要点__
+
+- What do you expect from lchild, rchild?
+- What do you want to do in the current layer?
+- What do you want to report to your parent?
+
 __两种算法写法__ - _有的问题可以用两种思路写，但是一般会有一种思路写法更简单，实际中选择好写的写法。_
 
 1. 在从上往下的过程中，就可以提前终止程序
