@@ -85,9 +85,9 @@ __两种算法写法__ - _有的问题可以用两种思路写，但是一般会
 - __P6. Lowest Common Ancestor 共同子祖先__
 
     // case 1: root is one or two
-    //      1.1: root.left == one or two || root.right == one or two
+    //      1.1: root.left == one or two || root.right == one or two (may not be answer if answer is not gurantee)
     //            =>  return root
-    //      1.2: root.left != one either two && root.right != one either two
+    //      1.2: root.left != one either two && root.right != one either two (may not be answer if answer is not gurantee)
     //            =>  return root
     // ----> root is one or two  =>  return root
     // case 2: root is not one or two
