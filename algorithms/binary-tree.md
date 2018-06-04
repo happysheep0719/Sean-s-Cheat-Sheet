@@ -99,8 +99,8 @@ __两种算法写法__ - _有的问题可以用两种思路写，但是一般会
 
 - __Follow-up. LCA (one or two is not guranteed in the tree)__
 
-    - check if children return two twice if root == one 
-    - check if children return one twice if root == two
+    - check if children return two if root == one 
+    - check if children return one if root == two
 
 - __P7. Tree Node Path__
 
