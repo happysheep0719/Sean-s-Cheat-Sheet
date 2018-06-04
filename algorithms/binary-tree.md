@@ -97,6 +97,11 @@ __两种算法写法__ - _有的问题可以用两种思路写，但是一般会
     //            =>  return root
     //      2.3: return null
 
+- __Follup-up. LCA (with parent node)__
+
+    - Solution 1 - go to the parent recursively and get the number of level
+    - Solution 2 - go to the parent from one of the node, and record the path of going up.
+
 - __Follow-up. LCA (one or two is not guranteed in the tree)__
 
     - check if children return two if root == one 
