@@ -146,3 +146,7 @@ class Solution {
     - Step 1 - findMiddle
     - Step 2 - Reverse
     - Step 3 - Compare
+
+------
+
+- __P1. Graph copy __
