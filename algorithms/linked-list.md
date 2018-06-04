@@ -149,4 +149,10 @@ class Solution {
 
 ------
 
-- __P1. Graph copy __
+- __P1. Graph copy with other pointer__
+
+N1 -> N2 (next)
+N1 -> N3 (other)
+N2 -> N3 (next)
+
+N3 is pointed twice, so we need a data structure to avoid duplicated copy.
