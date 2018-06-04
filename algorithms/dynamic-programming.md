@@ -30,6 +30,8 @@ __P1. Longest Ascending Subarray__
 - $$M[i] = M[i - 1] + 1, if input[i] > input[i - 1]$$
 - $$M[i] = 1, otherwise$$
 
+__Follow-up. Longest Ascending Subsequence__
+
 __P2. Cut ropes__
 
 Note: 之所以说DP是从小到大解决问题，是因为我们只解决每个子问题一遍，而且严格地按照从规模小到规模大的问题的顺序解决。使用Recursion比较不容易控制解决问题的顺序。
