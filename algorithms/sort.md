@@ -21,7 +21,6 @@ __特点__
 ## Merge Sort
 将两个有序对数组归并成一个更大的有序数组。通常做法为递归排序，并将两个不同的有序数组归并到第三个数组中。典型的分治法应用
 
-
 __特点__
 
 - Divide Time = $$2n-1 = O(n)$$
@@ -29,6 +28,19 @@ __特点__
 - Time = $$O(nlogn)$$
 - Space = $$2n-1 = O(n)$$
 - 需要使用额外的空间来存储归并后的数据
+
+### k-way merge
+
+- S1. iterative reduction
+    - Time O(kn * logk)
+    - Space O(kn)
+- S2. binary reduction
+    - Time O(kn * logk)
+    - Space O(kn)
+- S3. heap k-way altogether
+    - Time O(kn * logk)
+    - Space O(k)
+    - Best when data is to big to fit in memory
 
 -----
 ## Quick Sort
