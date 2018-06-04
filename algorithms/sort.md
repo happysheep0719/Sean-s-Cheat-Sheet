@@ -34,6 +34,7 @@ __特点__
 - S1. iterative reduction
     - Time O(kn * logk)
     - Space O(kn)
+    - Best when only using memory
 - S2. binary reduction
     - Time O(kn * logk)
     - Space O(kn)
