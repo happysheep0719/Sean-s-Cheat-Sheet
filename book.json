@@ -24,6 +24,10 @@
            "mode": "float"
         }
         
+        "disqus": {
+            "shortName": "gitbookuse"
+        }
+        
     }
     
 }
