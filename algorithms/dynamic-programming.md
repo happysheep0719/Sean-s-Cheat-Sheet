@@ -19,7 +19,9 @@
 - 满足一定条件的recursion可以用dp
 - 空间复杂度可能可以通过只记录M[n-1]从$$O(n)$$优化到$$O(1)$$
 
-__One Dimension DP__
+### One Dimension DP
+
+最小不可分的问题是similar和identical的。
 
 __P1. Longest Ascending Subarray__
 
@@ -44,7 +46,7 @@ __P3. Larget Sum of a Subarrays__
 
 __P4. Dictionary Concat__
 
-__Two Dimension DP__
+### Two Dimension DP
 
 __P1. Edit Distance__
 
