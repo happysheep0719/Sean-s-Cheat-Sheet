@@ -12,7 +12,10 @@
                 "-highlight",
                 
                 "katex",
-                "new-flowchart"],
+                "new-flowchart",
+                "disqus"
+                ],
+                
     
     "pluginsConfig": {
     
