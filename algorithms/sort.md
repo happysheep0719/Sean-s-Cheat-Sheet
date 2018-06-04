@@ -41,8 +41,8 @@ __特点__
 - S3. heap k-way altogether
     - Time O(kn * logk)
     - Space O(k)
-    - Best when data is to big to fit in memory
-    - Least writing times
+    - Best when data is to big to fit in memory, Least writing times
+    - Online Algortihm
 
 -----
 ## Quick Sort
