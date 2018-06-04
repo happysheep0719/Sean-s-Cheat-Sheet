@@ -42,7 +42,7 @@ __特点__
     - Time O(kn * logk)
     - Space O(k)
     - Best when data is to big to fit in memory, Least writing times
-    - Online Algortihm
+    - Online Algortihm (Can input n streams)
 
 -----
 ## Quick Sort
