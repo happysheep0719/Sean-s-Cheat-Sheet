@@ -43,7 +43,7 @@ __P2. Cut ropes__
 
 Note: 之所以说DP是从小到大解决问题，是因为我们只解决每个子问题一遍，而且严格地按照从规模小到规模大的问题的顺序解决。使用Recursion比较不容易控制解决问题的顺序。
 
-__P3. Larget Sum of a Subarrays__
+__P3. Maximum subarray sum__
 
 - $$M[i]$$ represents the subarray with the largest sum among all subarrays that ends with i.
 - $$M[i] = M[i - 1] + input[i], if M[i - 1] > 0$$
