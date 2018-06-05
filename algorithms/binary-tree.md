@@ -121,7 +121,8 @@ __几种类型__
 - __P1. Maximum Path Sum Binary Tree II__
 
     - update maximum的逻辑和recursion传递逻辑有区别
-    - update maximum在每个节点，不仅要考虑人字形，也要考虑单臂型
+        - update maximum在每个节点，不仅要考虑人字形，也要考虑单臂型
+        - recursion传递逻辑只考虑传递其中一条单臂信息
 
 -----
 ## Treverse & Tree Problems
