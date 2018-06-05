@@ -48,7 +48,7 @@ __算法的几个要点__
 - What do you want to do in the current layer?
 - What do you want to report to your parent?
 
-__两种算法写法__ - _有的问题可以用两种思路写，但是一般会有一种思路写法更简单，实际中选择好写的写法。_
+__几种类型__
 
 1. 在从上往下的过程中，就可以提前终止程序
 
@@ -115,6 +115,13 @@ __两种算法写法__ - _有的问题可以用两种思路写，但是一般会
         - update global_max
     
 - __Follow-up. max Node-to-Node path sum__
+
+3. 人字形
+
+- __P1. Maximum Path Sum Binary Tree II__
+
+    - update maximum的逻辑和recursion传递逻辑有区别
+    - update maximum在每个节点，不仅要考虑人字形，也要考虑单臂型
 
 -----
 ## Treverse & Tree Problems
