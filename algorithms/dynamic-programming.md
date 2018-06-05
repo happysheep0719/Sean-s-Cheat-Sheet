@@ -26,7 +26,7 @@
 
 最小不可分的问题是similar和identical的。
 ->是->linear scan回帖都看
-->否->右大段有可能有不同的pattern
+->否->右大段有可能有不同的pattern （cut postion类型问题）
 
 __P1. Longest Ascending Subarray__
 
