@@ -123,6 +123,10 @@ __几种类型__
     - update maximum的逻辑和recursion传递逻辑有区别
         - update maximum在每个节点，不仅要考虑人字形，也要考虑单臂型
         - recursion传递逻辑只考虑传递其中一条单臂信息
+        
+4. Path Problem in Binary Tree
+
+- 问法可以和一维数组问题结合，比如Maximum Subarray sum，比如2 Sum
 
 -----
 ## Treverse & Tree Problems
