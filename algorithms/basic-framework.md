@@ -67,7 +67,7 @@ Tail recursion: the recursive call is always the last execution statement
 
 ### Recursion Implementation
 
-- Base case
+- Base case // terminated condition
 - Recursive rule
 
 __Note:__
