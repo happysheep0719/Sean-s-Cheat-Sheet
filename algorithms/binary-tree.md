@@ -109,10 +109,12 @@ __两种算法写法__ - _有的问题可以用两种思路写，但是一般会
 
 - __P7. Maximum Leaf-to-Leaf Path__
 
-- What do we expect from left child / right child? / What do we want to report to the parent node?
-    - max single path in the left / right subtree
-- What do we want to do in the current layer?
-    - update global_max
+    - What do we expect from left child / right child? / What do we want to report to the parent node?
+        - max single path in the left / right subtree
+    - What do we want to do in the current layer?
+        - update global_max
+    
+- __Follow-up. max Node-to-Node path sum__
 
 -----
 ## Treverse & Tree Problems
