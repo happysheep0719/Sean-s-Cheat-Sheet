@@ -107,7 +107,12 @@ __两种算法写法__ - _有的问题可以用两种思路写，但是一般会
     - check if children return two if root == one 
     - check if children return one if root == two
 
-- __P7. Tree Node Path__
+- __P7. Maximum Leaf-to-Leaf Path__
+
+- What do we expect from left child / right child?
+    - max single path in the left / right subtree
+- What do we want to do in the current layer?
+    - update global_max
 
 -----
 ## Treverse & Tree Problems
