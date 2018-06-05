@@ -129,7 +129,7 @@ __几种类型__
 - 问法可以和一维数组问题结合，比如Maximum Subarray sum，比如2 Sum
 
 -----
-## Treverse & Tree Problems
+## Treverse & Tree (Serialization) Problems
 
 __Coding 注意点__
 
@@ -155,3 +155,6 @@ __Problems__
 - __P4. Level treverse__
     - *Order* : low level -> high level
     - BFS
+   
+----- 
+## Deserialization Problems
