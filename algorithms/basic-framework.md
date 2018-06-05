@@ -1,6 +1,6 @@
 <extoc></extoc>
 
-# Basic Framework
+# Basic Algorithms
 
 ## 算法解题思路
 
@@ -69,6 +69,7 @@ Tail recursion: the recursive call is always the last execution statement
 
 - Base case
 - Recursive rule
+- Termination Condition
 
 __Note:__
 
