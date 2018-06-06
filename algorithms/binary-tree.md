@@ -159,4 +159,4 @@ __Problems__
 ----- 
 ## Deserialization Problems
 
-把大问题分成两个小问题，每半边返回一个subtree
+把大问题分成两个小问题，每半边返回一个subtree的root
