@@ -39,6 +39,7 @@
 * [C++](programming-languages/C++.md)
 * [Object-Oriented Design](OOD/OOD.md)
   * [Design Pattern](OOD/design-pattern.md)
+* [Concurrency](programming-languages/concurrency.md)
 * [Operating Systems](operating-systems.md)
 
 ## Part III Data Processing
