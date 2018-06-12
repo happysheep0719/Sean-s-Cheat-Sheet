@@ -159,4 +159,5 @@ __Problems__
 ----- 
 ## Deserialization Problems
 
-把大问题分成两个小问题，每半边返回一个subtree的root
+每一层需要得到左右子树各自的输入（比如是in-order和post-order），左右子树分别返回构造好的tree的root。
+
