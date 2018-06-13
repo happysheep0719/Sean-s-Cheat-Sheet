@@ -14,7 +14,7 @@ __Idea__
 - 使用**循环**`loop`不断地移动指针`curr`。
 - 使用**分类讨论**`if-else`控制指针`curr`的移动。
 
-__Time Complexity__
+__Time Complexity in BST__
 
 - `search` - worst case $$O(n)$$, average $$O(logn)$$
 - `insert` - worst case $$O(n)$$, average $$O(logn)$$
