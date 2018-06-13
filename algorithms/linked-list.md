@@ -86,7 +86,7 @@ class Solution {
 }
 ```
 
-### Follow-up. reversePair
+### Follow-up. reverse a linked list by pair
 
 ### P2. Find middle node of a linked list
     - 快慢指针
