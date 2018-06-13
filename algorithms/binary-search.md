@@ -83,9 +83,11 @@ public int binarySearch(int[] nums, int target) {
 __Coding Tricks__
 
 - __循环进入条件__
-    - `start + 1 < end` - 取决于最后一次循环是否需要检查左右两个pivot确定答案
-    - `start < end`
-    - `start <= end`
+    - `left + 1 < right`
+        - 取决于最后一次循环是否需要检查左右两个pivot确定答案
+        - 需要做post processing
+    - `left < right`
+    - `left <= right`
 - __调试方法__
     - 使用一个元素的input调试，检测死循环
     - 使用如下的会触发边界条件的例子测试, Eg. `[0]`, `[0, 1]`, `[0, 1, 2]`
