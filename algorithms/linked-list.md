@@ -14,6 +14,8 @@ _Reference: Laioffer Class 4 & Practice4_
     - Never lose the control of the **head** pointer of the Linked List.
     - When **constructing new linked list**
     - When the **head** of the returning linked list **could be changed**
+- __use a group of pointers when iterating a linked list__
+    - use `Prev` and `Cur` pointers
 
 - __Fast and Slow pointers__
 
