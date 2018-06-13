@@ -36,6 +36,20 @@ __优化__
 -----
 ## Binary Search Problems
 
+__Coding Tricks__
+
+- __循环进入条件__
+    - `left + 1 < right`
+        - 取决于最后一次循环是否需要检查左右两个pivot确定答案
+        - 需要做post processing
+    - `left < right`
+    - `left <= right`
+- __调试方法__
+    - 使用一个元素的input调试，检测死循环
+    - 使用如下的会触发边界条件的例子测试, Eg. `[0]`, `[0, 1]`, `[0, 1, 2]`
+- __二分计算__
+    - `mid = start + (end - start) / 2`
+
 __Binary Search Code Template__
 
 Reference: [jiuzhang](http://www.jiuzhang.com/solutions/binary-search/)
@@ -79,20 +93,6 @@ public int binarySearch(int[] nums, int target) {
     return -1;
 }
 ```
-
-__Coding Tricks__
-
-- __循环进入条件__
-    - `left + 1 < right`
-        - 取决于最后一次循环是否需要检查左右两个pivot确定答案
-        - 需要做post processing
-    - `left < right`
-    - `left <= right`
-- __调试方法__
-    - 使用一个元素的input调试，检测死循环
-    - 使用如下的会触发边界条件的例子测试, Eg. `[0]`, `[0, 1]`, `[0, 1, 2]`
-- __二分计算__
-    - `mid = start + (end - start) / 2`
 
 ### Basic Binary Search Problems
 
