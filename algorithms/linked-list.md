@@ -110,13 +110,15 @@ class Solution {
 -----
 ## Composed Problems
 
-- __P5 Follow-up. change N1->N2->...->Nn->null into N1->Nn->N2->Nn-1->...__
+### P5 Follow-up. change order
+
+```N1->N2->...->Nn->null into N1->Nn->N2->Nn-1->...```
     
     - Step 1 - find the middle node
     - Step 2 - reverse the second hal
     - Step 3 - merge two halves into one solution
 
-- __P6. Partition List__
+### P6. Partition List
 
     - 把节点小于target放在左边，大于等于的放在右边。
     - Step 1 - 使用两个dummy head
@@ -124,20 +126,20 @@ class Solution {
     - Step 3 - 合并两个linked lists
     - 易错点 - 合并需要两个步骤，循环+剩余节点链接。
 
-- __P7. Merge Sort__
+### P7. Merge Sort
     
     - Step 1 - Find the middle
     - Step 2 - Split the list into two halves
     - Step 3 - Recurse: sort each half
     - Step 4 - Merge two halves
 
-- __P8. Add Two Numbers__
+### P8. Add Two Numbers
     
     - Step 1 - Reverse two linked lists
     - Step 2 - Add the number and create one new linked list
     - Step 3 - Reverse the new linked list
 
-- __P9. Check if a linked list is palindrome__
+### P9. Check if a linked list is palindrome
 
     - Step 1 - findMiddle
     - Step 2 - Reverse
