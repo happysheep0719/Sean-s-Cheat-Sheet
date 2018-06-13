@@ -148,8 +148,8 @@ class Solution {
     - Step 3 - Compare
 
 ------
-
-- __P1. Graph copy with other pointer__
+## Graph copy
+### P1. Graph copy with other pointer__
 
 N1 -> N2 (next)
 N1 -> N3 (other)
