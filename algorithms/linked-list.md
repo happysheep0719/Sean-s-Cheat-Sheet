@@ -89,25 +89,29 @@ class Solution {
 ### Follow-up. reverse a linked list by pair
 
 ### P2. Find middle node of a linked list
-    - 快慢指针
-    - 尽量去找middle左边的节点，方便后续调用。
+- 快慢指针
+- 尽量去找middle左边的节点，方便后续调用。
 
 ### P3. determine if there exists a circle in a linked list
-    - 快慢指针
+- 快慢指针
 
 ### P3 Follow-up. 寻找环的开始
 
-    - 快慢指针相遇后，在head节点新放一只慢速指针，最终会和slow相遇。
+- 快慢指针相遇后，在head节点新放一只慢速指针，最终会和slow相遇。
 
 ### P4. insert a node in a sorted linked list
 
-    - corner case - node插入在head之前，tail之后。
-    - 使用dummy head，因为node可能需要插在head之前。
+- corner case - node插入在head之前，tail之后。
+- 使用dummy head，因为node可能需要插在head之前。
 
 ### P5. merge two linked list
+- 使用dummy head
 
-    - 使用dummy head
+### P6. Determine if two linked lists intersect
 
+- Step1 - find the length of two linekd lists
+- Step2 - get the difference and move the pointer `diff` steps forward in the longer linked list
+- Step3 - move two pointers in the two linked lists until find the same node
 
 -----
 ## Composed Problems
@@ -116,36 +120,36 @@ class Solution {
 
 ```N1->N2->...->Nn->null into N1->Nn->N2->Nn-1->...```
     
-    - Step 1 - find the middle node
-    - Step 2 - reverse the second hal
-    - Step 3 - merge two halves into one solution
+- Step 1 - find the middle node
+- Step 2 - reverse the second hal
+- Step 3 - merge two halves into one solution
 
 ### P6. Partition List
 
-    - 把节点小于target放在左边，大于等于的放在右边。
-    - Step 1 - 使用两个dummy head
-    - Step 2 - 分配节点
-    - Step 3 - 合并两个linked lists
-    - 易错点 - 合并需要两个步骤，循环+剩余节点链接。
+- 把节点小于target放在左边，大于等于的放在右边。
+- Step 1 - 使用两个dummy head
+- Step 2 - 分配节点
+- Step 3 - 合并两个linked lists
+- 易错点 - 合并需要两个步骤，循环+剩余节点链接。
 
 ### P7. Merge Sort
     
-    - Step 1 - Find the middle
-    - Step 2 - Split the list into two halves
-    - Step 3 - Recurse: sort each half
-    - Step 4 - Merge two halves
+- Step 1 - Find the middle
+- Step 2 - Split the list into two halves
+- Step 3 - Recurse: sort each half
+- Step 4 - Merge two halves
 
 ### P8. Add Two Numbers
     
-    - Step 1 - Reverse two linked lists
-    - Step 2 - Add the number and create one new linked list
-    - Step 3 - Reverse the new linked list
+- Step 1 - Reverse two linked lists
+- Step 2 - Add the number and create one new linked list
+- Step 3 - Reverse the new linked list
 
 ### P9. Check if a linked list is palindrome
 
-    - Step 1 - findMiddle
-    - Step 2 - Reverse
-    - Step 3 - Compare
+- Step 1 - findMiddle
+- Step 2 - Reverse
+- Step 3 - Compare
 
 ------
 ## Graph copy

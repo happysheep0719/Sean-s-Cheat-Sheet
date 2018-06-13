@@ -12,7 +12,7 @@ __Two types of problems__
 __Idea__
 
 - 使用**循环**`loop`不断地移动指针`curr`。
-- 使用**分类讨论**`if-else`控制指针`curr`的进入其中一个分支。
+- 使用**分类讨论**`if-else`控制指针`curr`的进入其中一个分支，扔掉一半的选项。
 
 -----
 ## Binary Search Problems
@@ -132,9 +132,11 @@ public int largestSmaller(int[] nums, int target) {
     - `2 4 5 6 0 1`
     - `6 0 1 2 4 5`
 - cases
-    - `array[mid] > array[right]`
-    - ``
-
+    - case 1: `array[mid] > array[right]` => `array[left:mid]` is sorted and continue to search in `array[mid+1:right]`
+    - case 2: `array[mid] < array[right]` => `array[mid:right]` is sorted and continue to search in `array[left:mid]`
+- if we have duplication in input
+    - case 3: `array[mid] == array[right]`
+        - worst case - all the elements are the same
 
 ### P5. Binary Search in a sorted array with unknown size
 - Step 1 - jump out
@@ -172,19 +174,19 @@ __优化__
         - in C++: map/set
 
 ### P1. Insert in BST
-    - *Problem* : return the new root after the change.
-    - corner case: if the root is null, return the new node.
+- *Problem* : return the new root after the change.
+- corner case: if the root is null, return the new node.
 
 ### P2. Delete in BST
-    - *Problem* : return the new root of the BST.
-    - **Step 1**: find the node to be deleted
-        - By transforming the problem into ONE sub problem that delete the key in one of the sub tree.
-    - **Step 2**: delete the node
-        - **case 1** - the node has no children.
-        - **case 2** - the node has no left child.
-        - **case 3** - the node has no right child.
-        - **case 4** - the node has both left and right children.
-            - The problem is transformed into three parts
-            - **part 1**: find the largest node in the left subtree or the smallest node in the right subtree and record the replacement
-            - **part 2**: delete the replacement in the tree - can be realized using recursive call. It must only hit one of case 1, case 2 and case 3.
-            - **part 3**: set the children of the replacement
+- *Problem* : return the new root of the BST.
+- **Step 1**: find the node to be deleted
+    - By transforming the problem into ONE sub problem that delete the key in one of the sub tree.
+- **Step 2**: delete the node
+    - **case 1** - the node has no children.
+    - **case 2** - the node has no left child.
+    - **case 3** - the node has no right child.
+    - **case 4** - the node has both left and right children.
+        - The problem is transformed into three parts
+        - **part 1**: find the largest node in the left subtree or the smallest node in the right subtree and record the replacement
+        - **part 2**: delete the replacement in the tree - can be realized using recursive call. It must only hit one of case 1, case 2 and case 3.
+        - **part 3**: set the children of the replacement
