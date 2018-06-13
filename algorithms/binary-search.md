@@ -57,25 +57,25 @@ public int binarySearch(int[] nums, int target) {
     if (nums == null || nums.length == 0) {
         return -1;
     }
-    int start = 0, end = nums.length - 1;
-    # Here, the entry condition should be start + 1 < end.
-    # because when start == 0 and end == 1, then mid = 0
+    int left = 0, right = nums.length - 1;
+    # Here, the entry condition should be left + 1 < right.
+    # because when left == 0 and right == 1, then mid = 0
     # and the start may not be updated.
-    while (start + 1 < end) {
-        int mid = start + (end - start) / 2;
+    while (left + 1 < right) {
+        int mid = left + (right - left) / 2;
         if (nums[mid] == target) {
-            end = mid;
+            right = mid;
         } else if (nums[mid] < target) {
-            start = mid;
+            left = mid;
         } else {
-            end = mid;
+            right = mid;
         }
     }
-    if (nums[start] == target) {
-        return start;
+    if (nums[left] == target) {
+        return left;
     }
-    if (nums[end] == target) {
-        return end;
+    if (nums[right] == target) {
+        return right;
     }
     return -1;
 }
@@ -83,6 +83,52 @@ public int binarySearch(int[] nums, int target) {
 
 ### Follow-up. Find the largest element that is smaller than target
 
+```java
+public int largestSmaller(int[] nums, int target) {
+    if (nums == null || nums.length == 0) {
+        return -1;
+    }
+    int left = 0, right = nums.length - 1;
+    # Here, the entry condition should be left + 1 < right.
+    # because when left == 0 and right == 1, then mid = 0
+    # and the start may not be updated.
+    while (left + 1 < right) {
+        int mid = left + (right - left) / 2;
+        if (nums[mid] < target) {
+            left = mid;
+        } else {
+            right = mid - 1; // IMPORTANT
+        }
+    }
+    if (nums[right] < target) {
+        return right;
+    }
+    return left;
+}
+```
+
+```java
+public int largestSmaller(int[] nums, int target) {
+    if (nums == null || nums.length == 0) {
+        return -1;
+    }
+    int left = 0, right = nums.length - 1;
+    int res = -1;
+    # Here, the entry condition should be left + 1 < right.
+    # because when left == 0 and right == 1, then mid = 0
+    # and the start may not be updated.
+    while (left <= right) {
+        int mid = left + (right - left) / 2;
+        if (nums[mid] < target) {
+            res = mid;
+            left = mid + 1;
+        } else {
+            right = mid - 1; // IMPORTANT
+        }
+    }
+    return res;
+}
+```
 
 ### P2. Binary Search in 2D sorted matrix
 ### P3. Find the closest number to target
