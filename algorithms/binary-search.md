@@ -50,40 +50,27 @@ __Coding Tricks__
 - __二分计算__
     - `mid = start + (end - start) / 2`
 
-__Binary Search Code Template__
-
-Reference: [jiuzhang](http://www.jiuzhang.com/solutions/binary-search/)
+### P1. Binary Search in Sorted Array
 
 ```java
-/**
-* @param nums: The integer array.
-* @param target: Target to find.
-* @return: The first position of target. Position starts from 0.
-*/
 public int binarySearch(int[] nums, int target) {
-    # First consider the case that the input is null or empty array.
     if (nums == null || nums.length == 0) {
         return -1;
     }
-    # initial condition. The end is included in the range of the num,
-    # because the end is initialized to the length of nums minus one
     int start = 0, end = nums.length - 1;
-    # Here, the condition should be start + 1 < end.
+    # Here, the entry condition should be start + 1 < end.
     # because when start == 0 and end == 1, then mid = 0
     # and the start may not be updated.
-    while (start + 1 < end) { # Note: use start+1<end as the condition to continue
+    while (start + 1 < end) {
         int mid = start + (end - start) / 2;
         if (nums[mid] == target) {
             end = mid;
         } else if (nums[mid] < target) {
             start = mid;
-            // or start = mid + 1
         } else {
             end = mid;
-            // or end = mid - 1
         }
     }
-    # When the loop is end, decide where the first postion of target is.
     if (nums[start] == target) {
         return start;
     }
@@ -94,8 +81,9 @@ public int binarySearch(int[] nums, int target) {
 }
 ```
 
-### P1. Binary Search in Sorted Array
 ### Follow-up. Find the largest element that is smaller than target
+
+
 ### P2. Binary Search in 2D sorted matrix
 ### P3. Find the closest number to target
 - 循环条件：`left < right - 1`
