@@ -14,25 +14,6 @@ __Idea__
 - 使用**循环**`loop`不断地移动指针`curr`。
 - 使用**分类讨论**`if-else`控制指针`curr`的进入其中一个分支。
 
-__Time Complexity in BST__
-
-- `search` - worst case $$O(n)$$, average $$O(logn)$$
-- `insert` - worst case $$O(n)$$, average $$O(logn)$$
-- `remove` - worst case $$O(n)$$, average $$O(logn)$$
-
-    Worst case happen if the binary tree is structured like a linked list.
-
-    In **Balanced Binary Search Tree**, `search`, `insert` and `remove` operations are guaranteed to be $$O(logn)$$. For example, **AVL Tree**, **Red-Black Tree** are balanced BST.
-
-__优化__
-
-- 怎么样让BST效率更高？ - 更加Balanced
-- **balanced binary search tree**
-    - Eg. AVL tree, Red-black tree, etc 但是面试不会考定义，可能会借这个定义考基本能力。
-    - Red-Black tree Implementations
-        - in Java: TreeMap/TreeSet
-        - in C++: map/set
-
 -----
 ## Binary Search Problems
 
@@ -153,10 +134,29 @@ public int largestSmaller(int[] nums, int target) {
 
 
 -----
-## Binary Search Tree Maintenance Problems
+## Binary Search Tree Problems
 
 - 为什么BST里面没有重复数据？
     - 工业界中，BST是用来查找的。
+
+__Time Complexity in BST__
+
+- `search` - worst case $$O(n)$$, average $$O(logn)$$
+- `insert` - worst case $$O(n)$$, average $$O(logn)$$
+- `remove` - worst case $$O(n)$$, average $$O(logn)$$
+
+    Worst case happen if the binary tree is structured like a linked list.
+
+    In **Balanced Binary Search Tree**, `search`, `insert` and `remove` operations are guaranteed to be $$O(logn)$$. For example, **AVL Tree**, **Red-Black Tree** are balanced BST.
+
+__优化__
+
+- 怎么样让BST效率更高？ - 更加Balanced
+- **balanced binary search tree**
+    - Eg. AVL tree, Red-black tree, etc 但是面试不会考定义，可能会借这个定义考基本能力。
+    - Red-Black tree Implementations
+        - in Java: TreeMap/TreeSet
+        - in C++: map/set
 
 - __P1. Insert in BST__
     - *Problem* : return the new root after the change.
