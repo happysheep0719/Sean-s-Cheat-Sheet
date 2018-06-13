@@ -87,6 +87,7 @@ __Coding Tricks__
     - `start < end`
     - `start <= end`
 - __调试方法__
+    - 使用一个元素的input调试，检测死循环
     - 使用如下的会触发边界条件的例子测试, Eg. `[0]`, `[0, 1]`, `[0, 1, 2]`
 - __二分计算__
     - `mid = start + (end - start) / 2`
