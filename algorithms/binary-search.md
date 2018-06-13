@@ -94,22 +94,15 @@ public int binarySearch(int[] nums, int target) {
 }
 ```
 
-### Basic Binary Search Problems
-
-- __P1. Binary Search in Sorted Array__
-
-- __P2. Binary Search in 2D sorted matrix__
-
-- __P3. Find the closest number to target__
+### P1. Binary Search in Sorted Array
+### Follow-up. Find the largest element that is smaller than target
+### P2. Binary Search in 2D sorted matrix
+### P3. Find the closest number to target
     - 循环条件：`left < right - 1`
-- __P4. Find the first occurance of target__
-
-- __P5. Find the last occurance of target__
-
-- __P6. Find the K closest number to target__
+### P4. Find the first occurance of target
+### P5. Find the last occurance of target
+### P6. Find the K closest number to target
     - Find largest smaller or equal number.
-
-- __P7. Find the smallest element that is larger than target__
 
 
 ### Composed Binary Search Problems
