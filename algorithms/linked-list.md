@@ -10,20 +10,16 @@ _Reference: Laioffer Class 4 & Practice4_
 - When dereferencing a ListNode, ensure that pointer is not `NULL`.
 - When changing the links of the nodes, be very careful and do not lose the **reference**.
 
-- __use dummy node__
-    - Never lose the control of the **head** pointer of the Linked List.
-    - When **constructing new linked list**
-    - When the **head** of the returning linked list **could be changed**
+- __use dummy node__ - Never lose the control of the **head** pointer of the Linked List.
+    - when **constructing new linked list**
+    - when the **head** of the returning linked list **could be changed**
 - __use a group of pointers when iterating a linked list__
-    - use `Prev` and `Cur` pointers
-
-- __Fast and Slow pointers__
-
-	- _Situation 1._ to find the **middle** node of the linked list
-	
-	- _Situation 2._ to find if there exists a **circle** in the linked list
-
-	- Q: Why do we use fast and slow pointers instead of treverse two times?
+    - eg. use `Prev` and `Cur` pointers
+- __use Fast and Slow pointers__
+    - to find the **middle** node of the linked list
+    - to **find if there exists a circle** in the linked list
+    - to **delete the n-th node**
+    - Q: Why do we use fast and slow pointers instead of treverse two times?
 
 		A: Online algorithm vs. Offline algorithm: We can stop in the middle of the program and record the two nodes without losing information.
 
