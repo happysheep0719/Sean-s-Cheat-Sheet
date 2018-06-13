@@ -98,26 +98,24 @@ public int binarySearch(int[] nums, int target) {
 ### Follow-up. Find the largest element that is smaller than target
 ### P2. Binary Search in 2D sorted matrix
 ### P3. Find the closest number to target
-    - 循环条件：`left < right - 1`
+- 循环条件：`left < right - 1`
 ### P4. Find the first occurance of target
 ### P5. Find the last occurance of target
 ### P6. Find the K closest number to target
-    - Find largest smaller or equal number.
+- Find largest smaller or equal number.
 
 ### P7. Find mountain peak in array
-
-    `1 3 7 23 57 ... 100 99 86 44 32 21`
+- `1 3 7 23 57 ... 100 99 86 44 32 21`
 
 ### P8. Binary Search in a sorted array with unknown size
+- Step 1 - jump out
+- Step 2 - jump in
 
-    - Step 1 - jump out
-    - Step 2 - jump in
-    
-    | | step = 2 | step = 10 |
-    |----|----|----|
-    | Worst case | $$n=2^{k-1}+1$$ | $$n=10^{k-1}+1$$ |
-    | Jump out - Time | $$log_{2}n$$ | $$log_{10}n$$ |
-    | Jump in - Time | $$log_{2}10n$$ | $$log_{2}2n$$ |
+| | step = 2 | step = 10 |
+|----|----|----|
+| Worst case | $$n=2^{k-1}+1$$ | $$n=10^{k-1}+1$$ |
+| Jump out - Time | $$log_{2}n$$ | $$log_{10}n$$ |
+| Jump in - Time | $$log_{2}10n$$ | $$log_{2}2n$$ |
 
 
 -----
