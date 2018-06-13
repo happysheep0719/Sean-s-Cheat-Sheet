@@ -128,8 +128,13 @@ public int largestSmaller(int[] nums, int target) {
 
 ### Follow-up. Find smallest in a rotated sorted array
 
-- `2 4 5 6 0 1`
-- `6 0 1 2 4 5`
+- test cases
+    - `2 4 5 6 0 1`
+    - `6 0 1 2 4 5`
+- cases
+    - `array[mid] > array[right]`
+    - ``
+
 
 ### P5. Binary Search in a sorted array with unknown size
 - Step 1 - jump out
