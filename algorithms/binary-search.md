@@ -148,6 +148,16 @@ public int largestSmaller(int[] nums, int target) {
 | Jump out - Time | $$log_{2}n$$ | $$log_{10}n$$ |
 | Jump in - Time | $$log_{2}10n$$ | $$log_{2}2n$$ |
 
+### P6. find the median in two sorted array
+
+- xxxxxxxxxx XXXXXXXXXX
+- 0       m-1
+- yyyyyyyyyy YYYYYYYYYY
+- 0       n-1
+- m + n == k - 1
+
+becomes
+
 
 -----
 ## Binary Search Tree Problems
