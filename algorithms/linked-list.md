@@ -2,8 +2,6 @@
 
 # Linked List
 
-_Reference: Laioffer Class 4 & Practice4_
-
 **Common mistakes:**
 
 - Never lose the control of the **head** pointer of the Linked List.
