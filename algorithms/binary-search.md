@@ -154,9 +154,7 @@ public int largestSmaller(int[] nums, int target) {
 - 0       m-1
 - yyyyyyyyyy YYYYYYYYYY
 - 0       n-1
-- m + n == k - 1
-
-becomes
+- move m and n at the same time, but keeps $$m + n == k - 1$$
 
 
 -----
