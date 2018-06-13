@@ -155,6 +155,8 @@ public int largestSmaller(int[] nums, int target) {
 - yyyyyyyyyy YYYYYYYYYY
 - 0       n-1
 - move m and n at the same time, but keeps $$m + n == k - 1$$
+- step initial = k / 2
+- step decrease by half for each time
 
 
 -----
