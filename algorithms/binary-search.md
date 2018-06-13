@@ -112,17 +112,26 @@ public int largestSmaller(int[] nums, int target) {
 ```
 
 ### P2. Binary Search in 2D sorted matrix
-### P3. Find the closest number to target
+
+### P3. Find the first occurance of target
+
+### Follow-up. Find the last occurance of target
+
+### Follow-up. Find the closest number to target
 - 循环条件：`left < right - 1`
-### P4. Find the first occurance of target
-### P5. Find the last occurance of target
-### P6. Find the K closest number to target
+
+### Follow-up. Find the K closest number to target
 - Find largest smaller or equal number.
 
-### P7. Find mountain peak in array
+### P4. Find mountain peak in array
 - `1 3 7 23 57 ... 100 99 86 44 32 21`
 
-### P8. Binary Search in a sorted array with unknown size
+### Follow-up. Find smallest in a rotated sorted array
+
+- `2 4 5 6 0 1`
+- `6 0 1 2 4 5`
+
+### P5. Binary Search in a sorted array with unknown size
 - Step 1 - jump out
 - Step 2 - jump in
 
@@ -145,9 +154,8 @@ __Time Complexity in BST__
 - `insert` - worst case $$O(n)$$, average $$O(logn)$$
 - `remove` - worst case $$O(n)$$, average $$O(logn)$$
 
-    Worst case happen if the binary tree is structured like a linked list.
-
-    In **Balanced Binary Search Tree**, `search`, `insert` and `remove` operations are guaranteed to be $$O(logn)$$. For example, **AVL Tree**, **Red-Black Tree** are balanced BST.
+- Worst case happen if the binary tree is structured like a linked list.
+- In **Balanced Binary Search Tree**, `search`, `insert` and `remove` operations are guaranteed to be $$O(logn)$$. For example, **AVL Tree**, **Red-Black Tree** are balanced BST.
 
 __优化__
 
@@ -158,11 +166,11 @@ __优化__
         - in Java: TreeMap/TreeSet
         - in C++: map/set
 
-- __P1. Insert in BST__
+### P1. Insert in BST
     - *Problem* : return the new root after the change.
     - corner case: if the root is null, return the new node.
 
-- __P2. Delete in BST__
+### P2. Delete in BST
     - *Problem* : return the new root of the BST.
     - **Step 1**: find the node to be deleted
         - By transforming the problem into ONE sub problem that delete the key in one of the sub tree.
