@@ -6,18 +6,16 @@ _Reference: Laioffer Class 4 & Practice4_
 
 **Note:**
 
-- Never lose the control of the **head** pointer of the Linked List.
+
 - When dereferencing a ListNode, ensure that pointer is not `NULL`.
 - When changing the links of the nodes, be very careful and do not lose the **reference**.
 
+- __use dummy node__
+    - Never lose the control of the **head** pointer of the Linked List.
+    - When **constructing new linked list**
+    - When the **head** of the returning linked list **could be changed**
 
-**Coding Tricks**
-
-- __1. Dummy head__
-
-	- _Situation 1._ When the head of the returning linked list could be changed, we should use dummy head.
-
-- __2. Fast and Slow pointers__
+- __Fast and Slow pointers__
 
 	- _Situation 1._ to find the **middle** node of the linked list
 	
