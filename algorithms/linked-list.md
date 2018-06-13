@@ -25,9 +25,10 @@
 -----
 ## Basic Problems
 
-- __P1. Reverse a linked list__
-    - Space Complexity: $$O(1)$$
-    - 改变link方向时，需要使用`next`或者`prev`去记录因为改变link可能丢失的节点。
+### P1. Reverse a linked list
+
+- Space Complexity: $$O(1)$$
+- 改变link方向时，需要使用`next`或者`prev`去记录因为改变link可能丢失的节点。
 
 ```java
 /**
@@ -85,23 +86,23 @@ class Solution {
 }
 ```
 
-- __P2. Find middle node of a linked list__
+### P2. Find middle node of a linked list
     - 快慢指针
     - 尽量去找middle左边的节点，方便后续调用。
 
-- __P3. determine if there exists a circle in a linked list__
+### P3. determine if there exists a circle in a linked list
     - 快慢指针
 
-- __P3 Follow-up. 寻找环的开始__
+### P3 Follow-up. 寻找环的开始
 
     - 快慢指针相遇后，在head节点新放一只慢速指针，最终会和slow相遇。
 
-- __P4. insert a node in a sorted linked list__
+### P4. insert a node in a sorted linked list
 
     - corner case - node插入在head之前，tail之后。
     - 使用dummy head，因为node可能需要插在head之前。
 
-- __P5. merge two linked list__
+### P5. merge two linked list
 
     - 使用dummy head
 
