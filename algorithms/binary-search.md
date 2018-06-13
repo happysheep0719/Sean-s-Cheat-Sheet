@@ -104,14 +104,11 @@ public int binarySearch(int[] nums, int target) {
 ### P6. Find the K closest number to target
     - Find largest smaller or equal number.
 
-
-### Composed Binary Search Problems
-
-- __P8. Find mountain peak in array__
+### P7. Find mountain peak in array
 
     `1 3 7 23 57 ... 100 99 86 44 32 21`
 
-- __P9. Binary Search in a sorted array with unknown size__
+### P8. Binary Search in a sorted array with unknown size
 
     - Step 1 - jump out
     - Step 2 - jump in
