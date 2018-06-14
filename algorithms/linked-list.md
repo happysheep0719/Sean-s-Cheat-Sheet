@@ -27,7 +27,8 @@
     - do not do extra link change
 - Recursive Practive
     - The operations go from tail to head
-    - need to set null first and then use the operations ahead to cover it
+    - can set null first and then use the operations ahead to cover it
+        - if we do not want to do post processing on the tail
 
 -----
 ## Basic Problems
