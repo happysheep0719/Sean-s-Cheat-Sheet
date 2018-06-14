@@ -22,6 +22,12 @@
     - to **delete the n-th node**
     - Q: Why do we use fast and slow pointers instead of treverse two times?
         - A: Online algorithm vs. Offline algorithm: We can stop in the middle of the program and record the two nodes without losing information.
+- Iterative Practice
+    - The operations go from head to tail
+    - do not do extra link change
+- Recursive Practive
+    - The operations go from tail to head
+    - need to set null first and then use the operations ahead to cover it
 
 -----
 ## Basic Problems
