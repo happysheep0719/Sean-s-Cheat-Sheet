@@ -7,6 +7,7 @@
 - Never lose the control of the **head** pointer of the Linked List.
 - When dereferencing a ListNode, ensure that pointer is not `NULL`.
 - When changing the links of the nodes, be very careful and do not lose the **reference**.
+    - record the next ListNode in advance
 
 **Common techniques:**
 
