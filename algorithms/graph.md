@@ -71,7 +71,7 @@ __P1. find the shortest path cost from source node to  any other nodes in the gr
     - **Two kinds of recursion tree**
         - I. in each level, there exists **only two branches**, that is, to add and not to add.
             - **base case should add to result and return**
-        - II. in each level, there exists many branches that depends on what choices are left.
+        - II. in each level, there exists many branches that depends on what choices are left. **(NOT RECOMMENDED)**
             - **base case should add to result and may not return**
 - **Tricks**
     - **inplace**
