@@ -68,8 +68,8 @@ __P1. find the shortest path cost from source node to  any other nodes in the gr
 - Draw recursion tree
     - How many levels are there?
     - How many branches can we make from the current code?
-    - Two kinds of recursion tree
-        - I. in each level, there exists only two branches, that is, to add and not to add.
+    - **Two kinds of recursion tree**
+        - I. in each level, there exists **only two branches**, that is, to add and not to add.
             - **base case should add to result and return**
         - II. in each level, there exists many branches that depends on what choices are left.
             - **base case should add to result and may not return**
