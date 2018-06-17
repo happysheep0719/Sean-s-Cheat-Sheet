@@ -77,18 +77,14 @@ __P1. find the shortest path cost from source node to  any other nodes in the gr
         - **sort the array first then use a while loop to move index **in each function call
         - use extra space like `HashSet` in Java to record used characters in each level
 
-        
+#### P1. subsets
 
-__Problems__
-
-__P1. subsets__
-
-__P2. make up 99 cents with 4 kinds of coins__
+#### P2. make up 99 cents with 4 kinds of coins
     - 4 levels in total
 
-__P3. Too many to list all__
+#### P3. 
 
-__P4. Permutations__
+#### P4. Permutations
 
 ### Generic Tree Search Algorithm (BFS and DFS)
 
