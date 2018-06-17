@@ -29,7 +29,7 @@ __优化方向__
     ```
     
 
-### Divide and Conquer - 分治法
+## Divide and Conquer - 分治法
 
 __适用问题__
 
@@ -54,7 +54,7 @@ __Conquer 的顺序__
 - recursion 递归 / iteration 迭代
 - DFS 纵向 / BFS 横向
 
-### recursive implementation to iterative implementation
+## recursive implementation to iterative implementation
 
 1. if it is a tail recursion, it can be easily written as iterative.
 Tail recursion: the recursive call is always the last execution statement
@@ -65,7 +65,7 @@ Tail recursion: the recursive call is always the last execution statement
 5. 但真实工作，很多应用是recursion写的。
 
 
-### Recursion Implementation
+## Recursion Implementation
 
 - Base case // terminated condition
 - Recursive rule
@@ -98,4 +98,6 @@ def recurhelper(background, thisnode, results):
     
     return results
 ```
+
+### P1. 
 
