@@ -104,12 +104,17 @@ Recursion I.
 ```
 
 Recursion II.
+- on each level, we have lots of branches, which represent all the possible and smaller or equal factors.
+- only expand factors that are less than or equal to the previous factor
+
 ```
                 12
         /    |    |    \
         6    4    3     2
        /     |    |     |
-      2      3    4     6
+      2      3    2     2
+                  |     |
+                  2(v)  x
 ```
 
 
