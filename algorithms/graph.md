@@ -73,7 +73,7 @@ __P1. find the shortest path cost from source node to  any other nodes in the gr
             - **base case should add to result and return**
         - II. in each level, there exists many branches that depends on what choices are left. **(NOT RECOMMENDED)**
             - **base case should add to result and may not return**
-- **Tricks**
+- **Issues and tricks**
     - **inplace**
         - **split the input array into two parts** by using **`swap`** (Problem: permutation)
             - `Arranged characters | Candidate characters`
@@ -90,6 +90,28 @@ __P1. find the shortest path cost from source node to  any other nodes in the gr
 #### P3. 
 
 #### P4. Permutations
+
+#### P5. List all valid combination of factors that form an integer.
+
+Recursion I. 
+```
+          12
+    /            \
+   6^0           6^1
+  /   \          /   \
+ 4^0  4^1       4^0  4^1
+ ...
+```
+
+Recursion II.
+```
+                12
+        /    |    |    \
+        6    4    3     2
+       /     |    |     |
+      2      3    4     6
+```
+
 
 ### Generic Tree Search Algorithm (BFS and DFS)
 
