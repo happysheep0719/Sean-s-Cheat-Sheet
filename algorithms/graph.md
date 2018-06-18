@@ -93,7 +93,9 @@ __P1. find the shortest path cost from source node to  any other nodes in the gr
 
 #### P5. List all valid combination of factors that form an integer.
 
-Recursion I. 
+- Recursion I. 
+    - on each level, we have lots of branches, which represent all possible number of current factor
+    - factors go down as along as level increase
 ```
           12
     /            \
@@ -103,10 +105,10 @@ Recursion I.
  ...
 ```
 
-Recursion II.
-- on each level, we have lots of branches, which represent all the possible and smaller or equal factors.
-- only expand factors that are less than or equal to the previous factor
-
+- Recursion II.
+    - on each level, we have lots of branches, which represent all the possible and smaller or equal factors.
+    - only expand factors that are less than or equal to the previous factor
+    
 ```
                 12
         /    |    |    \
