@@ -75,7 +75,7 @@ __P1. find the shortest path cost from source node to  any other nodes in the gr
             - **base case should add to result and may not return**
 - **Tricks**
     - **inplace**
-        - **split the input array into two parts** by using **`swap`**
+        - **split the input array into two parts** by using **`swap`** (Problem: permutation)
             - `Arranged characters | Candidate characters`
         - use two resizable container respectively record the arranged charcters and candidate charcters**. In Java, use `StringBuilder` to record arranged characters and use `Set`/`List`/`boolean[]` to record candidates.
     - **remove duplicate**
