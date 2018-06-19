@@ -122,7 +122,7 @@ __P1. find the shortest path cost from source node to  any other nodes in the gr
 #### P6. Print all permutations of ([{
 
 - dfs
-- use stack to determine which right parenthesis to add
+- use stack to determine which right parenthesis to add (because we need to do linear scan)
 
 ### Generic Tree Search Algorithm (BFS and DFS)
 
