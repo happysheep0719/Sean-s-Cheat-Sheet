@@ -52,11 +52,15 @@ Solution 2
 
 ```java
 sum1 = <i1 + j1> => HashSet
-sum2 = <i2 + j2> => HashSet
+sum2 = <i2 + j2>
 
 for i:
     for j:
         current pair <i, j> with sum = input[i] + input[j]
-        find pair in the hashSet with value = target - sum
+        loop: 
+            find pair in the hashSet with value = target - sum
+            check duplicatation worst O(n)
 ```
-Time = O(n^2)
+Time = O(n^3)
+
+Solution 3 - optimized from Solution 2
