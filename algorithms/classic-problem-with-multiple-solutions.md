@@ -5,6 +5,7 @@
 ### 2-Sum
 
 - Sorted input
+
 - Unsorted input
     - sort first, then use methods for sorted input
         - quick sort, Space average O(logn) worst O(n)
@@ -13,3 +14,4 @@
             - optimized space
             
 - What if the data cannot fit in the memory? (sorted input)
+    - use two pointers
