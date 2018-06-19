@@ -2,6 +2,7 @@
 
 # Classic Problems with Multiple Solutions
 
+## K-Sum
 ### 2-Sum
 
 - Sorted input
@@ -23,3 +24,8 @@
             
 - What if the data cannot fit in the memory? (sorted input)
     - use two pointers
+    - use cache
+
+### 3-Sum
+
+
