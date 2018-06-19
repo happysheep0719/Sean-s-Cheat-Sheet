@@ -35,5 +35,28 @@ for (int i = 0; i < input.length; i++) {
     run2Sum(input, i + 1, input.length - 1, target - input[i]);
 }
 ```
+Time = O(n^2) sorted it first
 
 ### 4-Sum
+
+Solution 1
+
+```java
+for i:
+    for j:
+        run 2Sum
+```
+Time = O(n^3)
+
+Solution 2
+
+```java
+sum1 = <i1 + j1> => HashSet
+sum2 = <i2 + j2> => HashSet
+
+for i:
+    for j:
+        current pair <i, j> with sum = input[i] + input[j]
+        find pair in the hashSet with value = target - sum
+```
+Time = O(n^2)
