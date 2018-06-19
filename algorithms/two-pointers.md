@@ -56,4 +56,16 @@ Problems:
 ### 2-Sum
 
 - 证明：分步证明
-    - all Xi are excluded only under one situation that Xi + Yj < t, 
+    - assume we have Xi0 + Yj0 < t
+    - then we got: for all Xi < Xi0, Xi + Yj0 < t
+    - all Xi < Xi0 are excluded with Yj >= Yj0 under only one situation that Xi + Yj < t
+        - for all Xi < Xi0, exists Yj >= Yj0 that Xi + Yj < t,  we can conclude that, for all Xi < Xi0, we have Yj >= Yj0, Xi + Yj < t
+    
+    
+    
+    
+    
+    
+    
+    
+    
