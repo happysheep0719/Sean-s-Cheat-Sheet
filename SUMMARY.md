@@ -26,7 +26,7 @@
 * [Big Data Situation](algorithms/bigdatasituation.md)
 * [Bit](algorithms/bit.md)
 * [Probility, Sampling, Randomization](algorithms/prob.md)
-* [Inteview](algorithms/others.md)
+* [Classic Problems with Multiple Solutions](algorithms/classic-problem-with-multiple-solutions.md)
 
 ## Part II Programming
 
