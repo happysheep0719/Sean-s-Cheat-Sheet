@@ -28,4 +28,8 @@
 
 ### 3-Sum
 
-
+```java
+for (int i = 0; i < input.length; i++) {
+    run2Sum(input, i + 1, input.length - 1, target - input[i]);
+}
+```
