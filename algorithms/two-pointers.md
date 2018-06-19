@@ -50,3 +50,10 @@ Problems:
         - if including the slow pointer, use ++s
     - move the fast pointer for each time
     - not necessarily move the slow pointer
+    
+## 相向shuangzhizh
+
+### 2-Sum
+
+- 证明：分步证明
+    - all Xi are excluded only under one situation that Xi + Yj < t, 
