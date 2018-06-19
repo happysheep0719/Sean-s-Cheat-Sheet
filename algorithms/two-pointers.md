@@ -51,7 +51,7 @@ Problems:
     - move the fast pointer for each time
     - not necessarily move the slow pointer
     
-## 相向shuangzhizh
+## 相向双指针
 
 ### 2-Sum
 
