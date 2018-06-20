@@ -65,3 +65,10 @@ Time = O(n^3)
 
 Solution 3 - optimized from Solution 2
 
+- We do not want duplication of set of 4 numbers.
+    - we want to ensure 4 numbers are arranged in order, like i1 < j1 < i2 < j2
+    
+    
+    
+    
+    
