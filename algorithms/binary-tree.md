@@ -10,14 +10,14 @@ __Definition__
     - _Structure_ - For each node, there are at most two children nodes.
 
 - **Balanced Binary Tree**
-    - _Structure_ - For every node, the depth of the left and right subtrees differ by 1 or less. 对于每个节点，左右子树高度差都小于等于 1。
+    - _Structure_ - **For every node**, the depth of the left and right subtrees differ by 1 or less. 对于每个节点，左右子树高度差都小于等于 1。
     - Height = O(log2(N))
 
 - **Complete Binary Tree**
     - _Structure_ - 除了最后一层的节点可以为null，其他都不为null。并且最后一层的节点都挤在左边。
 
-- **Perfect Binary Tree**
-    - _Structure_ - 所有节点都不为null节点。
+- **Full / Perfect Binary Tree**
+    - _Structure_ 
 
 - **Binary Search Tree**
     - _Structure_ - 没有要求。
