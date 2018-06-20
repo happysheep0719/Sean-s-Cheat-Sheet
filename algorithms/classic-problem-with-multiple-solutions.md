@@ -66,11 +66,12 @@ Time = O(n^3)
 Solution 3 - optimized from Solution 2
 
 - We do not want duplication of set of 4 numbers.
+    - we only store only one pair in the hashmap.
     - we want to ensure 4 numbers are arranged in order, like i1 < j1 < i2 < j2
     - when we add 2-sum pair into the hashmap, if for each i, we only keep the smallest j
     - for example, we have 1,2,7,9. we only keep pair (1, 2) and pair (7,9). when we have pair (1, 7), it is not add to the hashmap
     
-    
-    
+```java
+```
     
     
