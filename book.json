@@ -26,6 +26,10 @@
         
         "disqus": {
             "shortName": "seangone"
+        },
+        
+        "sitemap-general": {
+            "prefix": "https://seangone.gitbooks.io/sean-s-cheatsheet"
         }
         
     }
