@@ -9,22 +9,20 @@
     },
         
     "plugins": [
-                
                 "-lunr",
                 "-search",
                 "search-plus",
-                
                 "anchor-navigation-ex",
+                "splitter",
+                "github",
+                "disqus",
+                "sitemap"
                 
                 "katex",
                 "prism",
                 "-highlight",
                 "copy-code-button",
-                
-                "new-flowchart",
-                "github",
-                "disqus",
-                "sitemap"
+                "new-flowchart"
                 ],
                 
     
