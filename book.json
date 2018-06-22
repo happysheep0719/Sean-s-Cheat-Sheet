@@ -10,6 +10,7 @@
                 "katex",
                 "prism",
                 "-highlight",
+                "copy-code-button",
                 
                 "new-flowchart",
                 "disqus",
