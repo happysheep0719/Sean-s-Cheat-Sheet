@@ -3,6 +3,3 @@
 
 > Take notes to forget.
 > by Sean
-
-
-> Algorithms and Programming
