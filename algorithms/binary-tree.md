@@ -161,3 +161,8 @@ __Problems__
 
 每一层需要得到左右子树各自的输入（比如是in-order和post-order），左右子树分别返回构造好的tree的root。
 
+### P1. Reconstruct a BST with post-order traverse
+
+### P2. Reconstruct a tree with level-order and in-order traverses
+
+### P3. Reconstruct a tree with pre-order and in-order traverses
