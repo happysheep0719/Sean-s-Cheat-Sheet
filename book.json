@@ -37,6 +37,9 @@
         "theme-default": {
             "showLevel": true
         },
+        "github":{
+            "url":"https://github.com/seangone"
+        },
         "disqus": {
             "shortName": "seangone"
         },
