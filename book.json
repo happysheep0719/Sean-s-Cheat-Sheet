@@ -7,11 +7,7 @@
             "Home" : "https://seangone.gitbooks.io/"
         }
     },
-    
-    "theme-default": {
-            "showLevel": true
-    },
-    
+        
     "plugins": [
                 
                 "-lunr",
@@ -38,7 +34,9 @@
            "mode": "float",
            "showLevel":true
         },
-        
+        "theme-default": {
+            "showLevel": true
+        },
         "disqus": {
             "shortName": "seangone"
         },
