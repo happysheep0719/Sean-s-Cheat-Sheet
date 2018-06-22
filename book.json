@@ -1,4 +1,10 @@
 {
+    "links" : {
+        "sidebar" : {
+            "Home" : "https://seangone.gitbooks.io/"
+        }
+    },
+    
     "theme-default": {
             "showLevel": true
     },
