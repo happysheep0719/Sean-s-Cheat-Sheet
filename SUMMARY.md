@@ -30,7 +30,7 @@
 
 ## Java
 
-* [Basics](java/java.md)
+* [Basics](java/java-basics.md)
 * [Collections](java/java-collections.md)
 * [Map](java/java-map.md)
 * [String](java/java-string.md)
