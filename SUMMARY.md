@@ -30,10 +30,10 @@
 
 ## Java
 
-* [Java](programming-languages/java.md)
-  * [Collections](programming-languages/java-collections.md)
-  * [Map](programming-languages/java-map.md)
-  * [String](programming-languages/java-string.md)
+* [Java](java/java.md)
+  * [Collections](java/java-collections.md)
+  * [Map](java/java-map.md)
+  * [String](java/java-string.md)
   
 ## Object Oriented Programming
 * [Object-Oriented Design](OOD/OOD.md)
@@ -48,15 +48,4 @@
   * [Data Structure](programming-languages/python/data-structure.md)
   * [异步](programming-languages/python/yi-bu.md)
 * [C++](programming-languages/C++.md)
-
-## Part III Data Processing
-
-* [Basics](data-processing/basics.md)
-* [Data Mining](data-processing/data-mining.md)
-* [Hadoop](data-processing/mapreduce.md)
-* [Statistics](data-processing/statistics.md)
-
-## Part IV Machine Learning
-
-* [Basics](machine-learning/basics.md)
 
