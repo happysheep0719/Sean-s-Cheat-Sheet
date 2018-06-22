@@ -35,7 +35,8 @@
     
         "anchor-navigation-ex": {
            "associatedWithSummary":true,
-           "mode": "float"
+           "mode": "float",
+           "showLevel":true
         },
         
         "disqus": {
