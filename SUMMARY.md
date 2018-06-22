@@ -30,10 +30,10 @@
 
 ## Java
 
-* [Java](java/java.md)
-  * [Collections](java/java-collections.md)
-  * [Map](java/java-map.md)
-  * [String](java/java-string.md)
+* [Basics](java/java.md)
+* [Collections](java/java-collections.md)
+* [Map](java/java-map.md)
+* [String](java/java-string.md)
   
 ## Object Oriented Programming
 * [Object-Oriented Design](OOD/OOD.md)
