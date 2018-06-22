@@ -30,7 +30,7 @@
         },
         
         "sitemap": {
-            "prefix": "https://seangone.gitbooks.io/sean-s-cheatsheet"
+            "hostname": "https://seangone.gitbooks.io/sean-s-cheatsheet/"
         }
         
     }
