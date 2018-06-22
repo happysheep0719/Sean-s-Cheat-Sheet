@@ -29,15 +29,15 @@
                 
     
     "pluginsConfig": {
-    
+        "theme-default": {
+            "showLevel": true
+        },
         "anchor-navigation-ex": {
            "associatedWithSummary":true,
            "mode": "float",
            "showLevel":true
         },
-        "theme-default": {
-            "showLevel": true
-        },
+        
         "github":{
             "url":"https://github.com/seangone"
         },
