@@ -54,11 +54,3 @@
 
 * [Basics](machine-learning/basics.md)
 
-## Part V Web
-
-* [HTML](web/html.md)
-* [CSS](web/css.md)
-* [Javascript](web/javascript.md)
-* [Database](web/database.md)
-* [Vue](web/vue.md)
-
