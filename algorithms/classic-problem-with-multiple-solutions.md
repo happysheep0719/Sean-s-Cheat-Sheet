@@ -125,7 +125,7 @@ Solutions
 
 - Solution 1
     - for for every possible chair location (x,y) {
-        run a Dijkstra(BFS2)
+        run a Dijkstra(BFS2) to search path from chair to equipments
         calculate the sum
         update the global min for each location
     }
@@ -135,6 +135,7 @@ Solutions
     - for each equipment {
         run a Dijkstra
     }
+    - for each 
 
 
 
