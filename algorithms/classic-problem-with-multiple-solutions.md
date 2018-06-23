@@ -102,4 +102,4 @@ We have n*n states:
 
 Time = O(n^2 * (log(n^2) + m))
 
-### k-th smallest with only 3,5,7 as factor
+### k-th smallest with only 3,5,7 as factors
