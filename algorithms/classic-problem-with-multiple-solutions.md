@@ -113,9 +113,15 @@ Time = O(n^2 * (log(n^2) + m))
 
 ### Place to put the Chair I
 
-- 4-connected grid, cost = 1
-- 8-connected grid, cost = sqrt(2) - cannot use Manhattan distance if we have obstacles
+We want the sum of distances from the chair to all the equipments is the shortest
 
+Assumptions
+
+- 4-connected grid, cost = 1
+- 8-connected grid, cost = sqrt(2)
+- cannot use Manhattan distance if we have obstacles
+
+Solutions
 
 - Solution 1
     - for for every possible chair location (x,y) {
@@ -123,4 +129,12 @@ Time = O(n^2 * (log(n^2) + m))
         calculate the sum
         update the global min for each location
     }
+    - time O(n^2 * n^2 * log(n^2)) = O(n^4 * logn)
+
+- Solution 2
+    - 
+
+
+
+
 
