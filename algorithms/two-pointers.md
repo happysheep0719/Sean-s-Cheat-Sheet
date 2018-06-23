@@ -109,3 +109,4 @@ Solution 3: Heap
 
 - time O(kn * logk)
 - space
+- if data is a stream, use Heap method
