@@ -92,6 +92,7 @@ Potential ways to solve max/min problem
     - expansion/generation rule
     - termination condition
 - DFS (brute force)
-    - 
+    - generate all the possible conditions and find the max
+
 
     
