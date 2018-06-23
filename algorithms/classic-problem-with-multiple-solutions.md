@@ -107,5 +107,7 @@ Time = O(n^2 * (log(n^2) + m))
 - BFS2 with min heap
 - deduplicate - use set or boolean array
 
+### k-th closest point to <0,0,0>
+
 
 
