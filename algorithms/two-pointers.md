@@ -67,4 +67,7 @@ Assumptions:
 - keep one or all?
 - data size
 - data type
-    
+
+What about optimized time?
+
+- if we only keep one element: use a hashset
