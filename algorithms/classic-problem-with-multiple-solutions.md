@@ -113,7 +113,7 @@ Time = O(n^2 * (log(n^2) + m))
 
 ### Place to put the Chair I
 
-We want the sum of distances from the chair to all the equipments is the shortest
+We want the sum of distances from the chair to all the equipments is the shortest.
 
 Assumptions
 
