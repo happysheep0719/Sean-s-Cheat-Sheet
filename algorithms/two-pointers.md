@@ -105,7 +105,7 @@ Solution 2: Binary Reduction
 - time (1 + 1/2 + 1/4 + ...) * kn = O(kn)
 - space O(kn)
 
-Solution 3: Heap
+Solution 3: Min Heap
 
 - time O(kn * logk)
 - space
