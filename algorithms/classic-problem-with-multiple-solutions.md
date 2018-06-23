@@ -77,7 +77,21 @@ Solution 3 - optimized from Solution 2
 
 ### largest product of length
 
+Given a dictionary containing many words, find the largest product of two words’ lengths, such that the two words do not share any common characters.
+
 [laicode](https://code.laioffer.com/ui/#/app/problem/191)
 
+1. no common characters
+2. max product of length
+
+Potential ways to solve max/min problem
+
+- DP
+- BFS2(best first search)
+    - initial state
+    - expansion/generation rule
+    - termination condition
+- DFS (brute force)
+    - 
 
     
