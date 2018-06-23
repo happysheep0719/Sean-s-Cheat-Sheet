@@ -114,11 +114,13 @@ Time = O(n^2 * (log(n^2) + m))
 ### Place to put the Chair I
 
 - 4-connected grid, cost = 1
-- 8-connected grid, cost = sqrt(2)
+- 8-connected grid, cost = sqrt(2) - cannot use Manhattan distance
 
 
 - Solution 1
-    - for for every possible location (x,y) {
+    - for for every possible chair location (x,y) {
         run a Dijkstra(BFS2)
+        calculate the sum
+        update the global min for each location
     }
 
