@@ -111,5 +111,9 @@ Time = O(n^2 * (log(n^2) + m))
 
 - BFS2 with min heap
 
+### Place to put the Chair I
+
+- 4-connected grid, cost = 1
+- 8-connected grid, cost = sqrt(2)
 
 
