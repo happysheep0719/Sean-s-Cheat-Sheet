@@ -83,3 +83,14 @@ What if the arrays are already sorted, but the size are very different(m<<n)?
 - binary search
 - for each element in the small array, do a binary search in the large array
 - time O(m log n)
+
+What if unsorted, but we want to optimize space?
+
+- sort them first
+- what if the data range is very limited?
+    - array[26]
+    
+#### find common elements in 3 sorted arrays of similar size
+
+O(1) space
+
