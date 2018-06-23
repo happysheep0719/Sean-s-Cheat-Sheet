@@ -94,6 +94,7 @@ What if unsorted, but we want to optimize space?
 
 #### find common elements in k sorted arrays of similar size
 
+Different from **k-way merge**
 
 Solution 1: iterative
 
