@@ -79,3 +79,7 @@ What if the arrays are already sorted?
 - time O(n) space O(1)
 
 What if the arrays are already sorted, but the size are very different(m<<n)?
+
+- binary search
+- for each element in the small array, do a binary search in the large array
+- time O(m log n)
