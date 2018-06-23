@@ -109,5 +109,7 @@ Time = O(n^2 * (log(n^2) + m))
 
 ### k-th closest point to <0,0,0>
 
+- BFS2 with min heap
+
 
 
