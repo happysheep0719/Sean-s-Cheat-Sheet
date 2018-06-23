@@ -71,3 +71,10 @@ Assumptions:
 What about optimized time?
 
 - if we only keep one element: use a hashset
+- time O(n) space O(n)
+
+What if the arrays are already sorted?
+
+- use two pointers
+- time O(n) space O(1)
+
