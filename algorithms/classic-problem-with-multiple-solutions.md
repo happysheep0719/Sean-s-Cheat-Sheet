@@ -135,7 +135,10 @@ Solutions
     - for each equipment {
         run a Dijkstra
     }
-    - for each 
+    - for each cell {
+        calculate the sum
+    }
+    - time O(k * n^2 * log n)
 
 
 
