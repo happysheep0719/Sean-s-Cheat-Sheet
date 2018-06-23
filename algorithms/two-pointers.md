@@ -97,6 +97,15 @@ What if unsorted, but we want to optimize space?
 
 Solution 1: iterative
 
+- time O(kn)
+- space O(n)
+
 Solution 2: Binary Reduction
 
+- time (1 + 1/2 + 1/4 + ...) * kn = O(kn)
+- space O(kn)
+
 Solution 3: Heap
+
+- time
+- space
