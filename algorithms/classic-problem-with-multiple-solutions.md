@@ -117,3 +117,8 @@ Time = O(n^2 * (log(n^2) + m))
 - 8-connected grid, cost = sqrt(2)
 
 
+- Solution 1
+    - for for every possible location (x,y) {
+        run a Dijkstra(BFS2)
+    }
+
