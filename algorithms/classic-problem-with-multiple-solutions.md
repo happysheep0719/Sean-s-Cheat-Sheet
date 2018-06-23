@@ -90,6 +90,7 @@ Potential ways to solve max/min problem
 - BFS2(best first search)
     - initial state
     - expansion/generation rule
+        - poll string pairs in descending order of the product of two string length
     - termination condition
 - DFS (brute force)
     - generate all the possible conditions and find the max
