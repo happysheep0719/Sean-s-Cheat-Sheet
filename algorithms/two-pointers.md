@@ -107,5 +107,5 @@ Solution 2: Binary Reduction
 
 Solution 3: Heap
 
-- time
+- time O(kn * logk)
 - space
