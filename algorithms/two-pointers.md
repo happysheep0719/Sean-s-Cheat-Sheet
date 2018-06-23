@@ -55,4 +55,16 @@ Problems:
 
 ### 2-Sum
 
+## Two Pointers in two arrays
+
+### Common element problems
+
+Assumptions:
+
+- optimized time or space?
+- sorted or unsorted?
+- duplicate?
+- keep one or all?
+- data size
+- data type
     
