@@ -92,5 +92,11 @@ What if unsorted, but we want to optimize space?
     
 #### find common elements in 3 sorted arrays of similar size
 
-O(1) space
+#### find common elements in k sorted arrays of similar size
 
+
+Solution 1: iterative
+
+Solution 2: Binary Reduction
+
+Solution 3: Heap
