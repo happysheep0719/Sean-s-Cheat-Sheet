@@ -114,7 +114,7 @@ Time = O(n^2 * (log(n^2) + m))
 ### Place to put the Chair I
 
 - 4-connected grid, cost = 1
-- 8-connected grid, cost = sqrt(2) - cannot use Manhattan distance
+- 8-connected grid, cost = sqrt(2) - cannot use Manhattan distance if we have obstacles
 
 
 - Solution 1
