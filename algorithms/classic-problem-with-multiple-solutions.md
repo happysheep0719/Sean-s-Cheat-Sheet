@@ -132,9 +132,9 @@ Solutions
     - time O(n^2 * n^2 * log(n^2)) = O(n^4 * logn)
 
 - Solution 2
-    - 
-
-
+    - for each equipment {
+        run a Dijkstra
+    }
 
 
 
