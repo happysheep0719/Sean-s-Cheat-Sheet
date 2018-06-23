@@ -78,3 +78,4 @@ What if the arrays are already sorted?
 - use two pointers
 - time O(n) space O(1)
 
+What if the arrays are already sorted, but the size are very different?
