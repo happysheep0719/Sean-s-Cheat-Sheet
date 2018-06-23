@@ -94,5 +94,5 @@ Potential ways to solve max/min problem
 - DFS (brute force)
     - generate all the possible conditions and find the max
 
-
+Time = O(n^2 * (log(n^2) + m))
     
