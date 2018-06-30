@@ -26,7 +26,7 @@
     - 求largest/smallest（变体，在某一段范围求largest/smallest）
     - 分割类问题
     - 最长连续类问题
-    - largest rectangle不行，因为需要找first hi < h，需要用单调栈解决
+    - largest rectangle不行，因为需要找leftest/rightest hi < h，需要用前面所有的解，此时用单调栈会更简单一些。
 
 ## One Dimension DP
 
