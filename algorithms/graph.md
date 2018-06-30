@@ -31,6 +31,10 @@ __Draw the Search Graph of Problems__
 - What does it store on each level?
 - How many different states should we try to put on each level?
 
+__Tip__
+
+- Checking existed and Writing existed nodes should be put at the same place.
+
 ### Breadth-First Search (BFS-1)
 
 __Problems__
