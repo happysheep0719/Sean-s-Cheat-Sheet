@@ -7,7 +7,7 @@
 
 常见：最大最小值
 
-## DP vs. Recursion
+## What is DP? DP vs. Recursion
 
 - recursion：从大到小解决问题，不记录任何sub-solution
     - base case
@@ -19,7 +19,16 @@
 - 满足一定条件的recursion可以用dp
 - 空间复杂度可能可以通过只记录M[n-1]从$$O(n)$$优化到$$O(1)$$
 
-### One Dimension DP
+## When do we use DP?
+
+- **linear scan + look back **
+- 大号问题应该可以通过小号问题的解答推导出来
+    - 求largest/smallest（变体，在某一段范围求largest/smallest）
+    - 分割类问题
+    - 最长连续类问题
+    - largest rectangle不行，需要用单调栈
+
+## One Dimension DP
 
 1. 左大段 + 右小段
 2. 左大段 + 右大段
@@ -51,7 +60,7 @@ __P3. Maximum subarray sum__
 
 __P4. Dictionary Concat__
 
-### Two Dimension DP
+## Two Dimension DP
 
 __P1. Edit Distance__
 
