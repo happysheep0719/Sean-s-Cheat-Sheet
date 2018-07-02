@@ -2,19 +2,33 @@
 
 # Big data situations
 
-Source: C18
-
 **Situations**
 
-- 单机单核内存足
-- 单机单核内存不足
-- 单机多核内存足
-- 多机内存足
-- 多机内存不足
+- **Source limitation**
+    - 单机单核内存足
+    - 单机单核内存不足
+    - 单机多核内存足
+    - 多机内存足
+    - 多机内存不足
+- **Data input type**
+    - data is offline and so big that it **cannot fit into the memory**
+    - data can come by **stream**
+- **Data input range**
+    - small range, like 0-255
+    - large range, like any double number
 
-**Problems often comes with data that can not fit into the memory or comes by stream**
+**Key points**
+
+- **fit data into Memory**
+    - When analyzing the problem, **Space Complexity** is key.
+    - **partition data into chunks when sorting**
+        - deal with each chunk respectively and merge the solutions
+        - can use hash or some order, like bucket sort
+    - **maintain a heap in memory when finding k-th largest / median**
 
 ## find median
+
+Source: C18 Q4
 
 **P1. Given a stream, keep track of the median of the numbers.**
 
@@ -75,6 +89,8 @@ step 3. 第二次扫描：拿到区间的所有数字，然后取中位数。
 
 ## find certain percentile
 
+Source: C18 Q5
+
 **find 95th percentile of all urls' length**
 
 - Solution 0 - sort O(nlogn)
@@ -93,11 +109,18 @@ Given a single computer with a single CPU and a single core, which has 2GB of me
 
 ----
 
-Step 1: Divide all data into 800 chunks, each of those having 100MB data. use 1GB memory to sort each 100MB data.
+Step 1: **Divide all data into 800 chunks**, each of those having 100MB data. use 1GB memory to sort each 100MB data.
 
 - Quick sort
-    - time O(n) space O(n)
+    - space O(n)
 - Merge sort
-    - time O(n) space O(n)
+    - space O(n)
+- Why only sort 100MB data?
+    - because we need O(n) space. In practice, it can be several n.
 
 Step 2: **k-way merge sort** 800 chunks of 100MB sorted data.
+
+- memory cost
+    - each chunk has a reading cache
+    - also has a writing cache
+    - size-800 heap
