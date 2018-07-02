@@ -86,3 +86,18 @@ step 3. 第二次扫描：拿到区间的所有数字，然后取中位数。
     - calculate the histogram and its CDF
 
 ## sort
+
+Source: 加强5 Q3
+
+Given a single computer with a single CPU and a single core, which has 2GB of memory and 1GB available for use, it also has two 100GB hard drives. How to sort 80GB integers of 64bits?
+
+----
+
+Step 1: Divide all data into 800 chunks, each of those having 100MB data. use 1GB memory to sort each 100MB data.
+
+- Quick sort
+    - time O(n) space O(n)
+- Merge sort
+    - time O(n) space O(n)
+
+Step 2: **k-way merge sort** 800 chunks of 100MB sorted data.
