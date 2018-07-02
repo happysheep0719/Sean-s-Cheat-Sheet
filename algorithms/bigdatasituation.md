@@ -84,3 +84,5 @@ step 3. 第二次扫描：拿到区间的所有数字，然后取中位数。
 - Solution 2 - bucket sort
     - insight: max length of URLs <= 4096
     - calculate the histogram and its CDF
+
+## sort
