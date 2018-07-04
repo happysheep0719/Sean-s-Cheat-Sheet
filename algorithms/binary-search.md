@@ -164,6 +164,12 @@ public int largestSmaller(int[] nums, int target) {
 
 ### P7. find kth in unsorted array
 
+- xxxxxxNyyyyy
+- quick select
+- choose a number N in the given range of array
+- then partition the range into two parts, one < N, others >= N
+- select
+
 
 -----
 ## Binary Search Tree Problems
