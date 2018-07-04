@@ -122,6 +122,7 @@ public int largestSmaller(int[] nums, int target) {
 
 ### Follow-up. Find the K closest number to target
 - Find largest smaller or equal number.
+- Find the kth cloest number using linear scan or binary elimination
 
 ### P4. Find mountain peak in array
 - `1 3 7 23 57 ... 100 99 86 44 32 21`
@@ -150,13 +151,18 @@ public int largestSmaller(int[] nums, int target) {
 
 ### P6. find the median in two sorted array
 
-- xxxxxxxxxx XXXXXXXXXX
-- 0       m-1
-- yyyyyyyyyy YYYYYYYYYY
-- 0       n-1
-- move m and n at the same time, but keeps $$m + n == k - 1$$
-- step initial = k / 2
-- step decrease by half for each time
+### P7. find the kth smallest in two sorted array
+
+- xxxxxxxxxx   XXXXXXXXXX
+- 0            m
+- yyyyyyyyyy   YYYYYYYYYY
+- 0            n
+- move m or n to the right until $$m + n == k - 1$$
+- return the left
+- step initial = k
+- step decrease by half for each time k -> k - k/2
+
+### P7. find kth in unsorted array
 
 
 -----
