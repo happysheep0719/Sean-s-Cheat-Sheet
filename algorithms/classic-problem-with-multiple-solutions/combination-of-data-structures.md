@@ -31,7 +31,8 @@ use cases:
     - non-repeating
         - use HashMap
     - record the order of characters
-        - use Array/LinkedList
+        - use Array
+        - use LinkedList
         - X use Deque (Deque cannot delete in the middle)
 
 
