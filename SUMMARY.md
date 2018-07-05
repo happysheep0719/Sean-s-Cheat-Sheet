@@ -28,6 +28,7 @@
 * [Probility, Sampling, Randomization](algorithms/prob.md)
 * [Combination of Data Structures](algorithms/classic-problem-with-multiple-solutions/combination-of-data-structures.md)
 * [Classic Problems with Multiple Solutions](algorithms/classic-problem-with-multiple-solutions.md)
+* [Other Algorithms](algorithms/other-algorithms.md)
 
 ## Java
 
