@@ -14,6 +14,9 @@ _Reference: Laioffer Class 3_
 
 ### Q1: keep track of the max element of a sliding window of input stream
 
+- use Descending Deque
+- use lazy deletion
+    - do not take up too much space. worst case O(k)
 - Time for each move
     - worst case O(k)
     - amortised O(1)

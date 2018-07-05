@@ -1,6 +1,13 @@
 <extoc></extoc>
 
 # Combination of Data Structures
+## keep track of the max element of a sliding window of input stream
+
+- Time for each move
+    - worst case O(k)
+    - amortised O(1)
+- Time for all move O(n)
+
 
 ## LRU Cache
 
