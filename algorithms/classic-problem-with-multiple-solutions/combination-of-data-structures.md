@@ -53,7 +53,7 @@ A good solution:
     - if key is in the hashmap and the value is linked to the node in the linked list
         - it appears once
 - not suitable for lazy deletion
-    - space worst case can be really large
+    - waste space if input is like: a b b b b b b b b b
 
 
 
