@@ -4,6 +4,8 @@
 
 ## LRU Cache
 
+加强6 Q3.1
+
 use cases:
 
 - add()
@@ -19,3 +21,5 @@ use cases:
         - time O(1)
         - (easy to implement if using Doubly Linked List)
     - Min Heap
+
+## keep track of first non-repeating character in a stream
