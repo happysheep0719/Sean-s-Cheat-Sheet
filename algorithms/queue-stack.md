@@ -13,3 +13,8 @@ _Reference: Laioffer Class 3_
 ## Descending Deque
 
 ### Q1: keep track of the max element of a sliding window of input stream
+
+- Time for each move
+    - worst case O(k)
+    - amortised O(1)
+- Time for all move O(n)
