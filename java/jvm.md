@@ -2,3 +2,6 @@
 
 # Java Virtual Machine JVM
 
+**JRE**
+
+**JDK**
