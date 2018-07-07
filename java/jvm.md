@@ -2,6 +2,8 @@
 
 # Java Virtual Machine JVM
 
-**JRE**
+**JRE** - Java Runtime Environment
 
-**JDK**
+**JDK** - Java Development Kit
+
+- JDK contains the tools for developing Java programs running on JRE.
