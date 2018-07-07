@@ -80,5 +80,5 @@ from a set of the root references/objects, find all the objects reachable throug
 
 **4 kinds of GC roots in Java**
 
-1. Local varibles are kept alive by the stack of a thread.
+1. **Local varibles** are kept alive by the stack of a thread.
 
