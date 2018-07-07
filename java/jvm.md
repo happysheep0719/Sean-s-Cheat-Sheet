@@ -7,3 +7,4 @@
 **JDK** - Java Development Kit
 
 - JDK contains the tools for developing Java programs running on JRE.
+    - for example, it provides the compiler 'javac'
