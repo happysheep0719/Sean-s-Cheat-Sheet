@@ -33,11 +33,10 @@
 ## Java
 
 * [Basics](java/java-basics.md)
-* [JVM](java/jvm.md)
 * [Collections](java/java-collections.md)
 * [Map](java/java-map.md)
 * [String](java/java-string.md)
-* [Garbage Collection](java/garbage-collection.md)
+* [JVM](java/jvm.md)
 
 ## Object Oriented Programming
 
