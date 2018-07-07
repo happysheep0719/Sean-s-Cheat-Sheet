@@ -38,4 +38,6 @@ The first step in the process is called marking. This is where the garbage colle
 
 ### Step 2 Normal Deletion
 
+Normal deletion removes unreferenced objects leaving referenced objects and pointers to free space.
+
 [!normal deletion](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/images/gcslides/Slide1b.png)
