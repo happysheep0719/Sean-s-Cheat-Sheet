@@ -78,4 +78,7 @@ Classes may get collected (unloaded) if the JVM finds they are no longer needed 
 
 from a set of the root references/objects, find all the objects reachable through the paths on the dependency graph, other ones are not needed and can be GCed.
 
+**4 kinds of GC roots in Java**
+
+1. Local varibles are kept alive by the stack of a thread.
 
