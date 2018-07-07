@@ -8,7 +8,6 @@ Java: Platform compatible, write once, compile once, run everywhere on JVM.
 
 C++: write once, compile everywhere
 
-## Java Virtual Machine JVM
 
 ## Coding Style
 [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
