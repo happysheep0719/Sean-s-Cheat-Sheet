@@ -13,7 +13,7 @@
 - JDK contains the tools for developing Java programs running on JRE.
     - for example, it provides the compiler 'javac'
     
-[HotSpot JVM: Architecture](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/images/gcslides/Slide1.png)
+[!HotSpot JVM: Architecture](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/images/gcslides/Slide1.png)
 
 ## Garbage Collection
 
