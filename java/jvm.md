@@ -76,6 +76,6 @@ Classes may get collected (unloaded) if the JVM finds they are no longer needed 
 
 ### How to know if an object can be GCed or not?
 
-
+from a set of the root references/objects, find all the objects reachable through the paths on the dependency graph, other ones are not needed and can be GCed.
 
 
