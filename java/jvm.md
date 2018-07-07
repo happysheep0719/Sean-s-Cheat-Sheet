@@ -30,3 +30,8 @@
 **Heap** - dynamic memory allocation - only one per JVM
 
 
+### Step 1 Marking
+
+The first step in the process is called marking. This is where the garbage collector identifies which pieces of memory are in use and which are not.
+
+[!](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/images/gcslides/Slide3.png)
