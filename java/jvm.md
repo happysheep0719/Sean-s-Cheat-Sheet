@@ -50,7 +50,7 @@ To further improve performance, in addition to deleting unreferenced objects, yo
 
 [!deletion with compacting](http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/images/gcslides/Slide4.png)
 
-### Why Generational Garbage Collection
+### Why Generational Garbage Collection?
 
 As stated earlier, having to mark and compact all the objects in a JVM is inefficient. As more and more objects are allocated, the list of objects grows and grows leading to longer and longer garbage collection time. However, empirical analysis of applications has shown that most objects are short lived.
 
