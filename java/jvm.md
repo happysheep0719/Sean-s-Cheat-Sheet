@@ -20,3 +20,8 @@
 - Why do we need it?
     - More efficiently manage dynamic memory allocation.
 - How does it work?
+
+stack vs. heap
+
+**Stack** - local varible, tracking method call flow, return address etc. - one per thread
+**Heap** - dynamic memory allocation - only one per JVM
