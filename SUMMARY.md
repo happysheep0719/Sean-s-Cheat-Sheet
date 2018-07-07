@@ -36,6 +36,7 @@
 * [Collections](java/java-collections.md)
 * [Map](java/java-map.md)
 * [String](java/java-string.md)
+* [Garbage Collection](java/garbage-collection.md)
 
 ## Object Oriented Programming
 
