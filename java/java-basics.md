@@ -45,6 +45,7 @@ reversed words - 保留字
     - `(Integer)a.equals((Integer)b)` or `Integer.compare(o1, o2)` should be used!
 - `int[]` vs. `Integer[]`
     - there is no auto conversion directly between them.
+- Unboxing null throws NPE (Null pointer exception).
 
 ### Compare Integer
 
