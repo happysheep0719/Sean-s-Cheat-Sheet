@@ -52,17 +52,24 @@ __Primitive types:__
 ```java
 int i = 0;
 String si = i + "";
-si = String.valueOf(i);
+si = String.valueOf(i); // factory
 si = Integer.toString(i);
 
 Integer w = null;
 si = w.toString(); // "null"
-si = String.valueOf(w);
+si = String.valueOf(w); // factory
 
-Integer.valueOf(si);
+Integer.valueOf(si); // factory
 Integer.parseInt(si);
 ```
 
+from string to integer
+
+```java
+for (char c: str.toCharArray()) {
+    res = res * 10 + (c - '0');
+}
+```
 
 ## Array
 
