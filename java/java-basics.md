@@ -209,7 +209,8 @@ class myList implements A, B {
 
 - When do we use abstract class vs. interface?
     - abstract class provides a common base case implementation to derived classes.
-    - 
+    - if we want to declare non-public members
+    - if we need to add methods in the future
 
 ### Polymorphism and Overriding
 
