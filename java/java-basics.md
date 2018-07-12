@@ -27,8 +27,6 @@ reversed words - 保留字
 
 ## Primitive types vs. Class types
 
-__Primitive types:__
-
 - `boolean`/`byte`/`char`/`short`/`int`/`long`/`float`/`double`
     - `char` ranges from `0``\u0000` to `\uffff``65535` (16-bit unicode)
 - `5`/`5.5` are objects.
@@ -47,6 +45,15 @@ __Primitive types:__
     - `(Integer)a.equals((Integer)b)` or `Integer.compare(o1, o2)` should be used!
 - `int[]` vs. `Integer[]`
     - there is no auto conversion directly between them.
+
+### Compare Integer
+
+```java
+Integer i1;
+Integer i2;
+i1 == i2 // wrong!
+i1.equals(i2) // right
+```
 
 ### Converting Number to/from Strings
 
