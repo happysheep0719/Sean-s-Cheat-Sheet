@@ -30,6 +30,7 @@ reversed words - 保留字
 __Primitive types:__
 
 - `boolean`/`byte`/`char`/`short`/`int`/`long`/`float`/`double`
+    - `char` ranges from `0``\u0000` to `\uffff``65535` (16-bit unicode)
 - `5`/`5.5` are objects.
 - Strings are objects.
 - Arrays are objects.
@@ -49,6 +50,8 @@ __Primitive types:__
 
 ### Converting Number to/from Strings
 
+- factory method
+
 ```java
 int i = 0;
 String si = i + "";
@@ -63,7 +66,7 @@ Integer.valueOf(si); // factory
 Integer.parseInt(si);
 ```
 
-from string to integer
+- from string to integer
 
 ```java
 public int parsePosInt(String str) {
