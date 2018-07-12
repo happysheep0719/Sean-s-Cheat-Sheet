@@ -147,7 +147,7 @@ class implements interface
 interface extends interface
 
 - **Override** vs. **Overload**
-    - Override is to 
+    - Override is to redefine a method that has been defined in a parent class
     - Overload is when you define two methods with the same name distinguished by their different signatures.
 
 ### Java Interfaces & Abstract Classes
