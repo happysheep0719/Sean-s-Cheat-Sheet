@@ -87,10 +87,10 @@ public static void main(String[] args){
 
 ```java
 public class Singleton {
-    private **static** final Singleton INSTANCE = new Singleton();
-    **private** Singleton() {}
+    private _static_ final Singleton INSTANCE = new Singleton();
+    _private_ Singleton() {}
     
-    **public static** Singleton getInstance(){
+    _public static_ Singleton getInstance(){
         return INSTANCE;
     }
 }
