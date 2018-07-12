@@ -86,6 +86,8 @@ Outside class | yes | no | no
 
 In Java, add one access level - **no modifier**(**default**) and one kind of class - **package**
 
+- no modifier is accessible to classes in the same package but not to a subclass
+
 Note:
 
 - 存在嵌套关系的package并不属于同一个package，import的时候也只会import父亲，而不会import子孙。
