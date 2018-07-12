@@ -66,8 +66,12 @@ Integer.parseInt(si);
 from string to integer
 
 ```java
-for (char c: str.toCharArray()) {
-    res = res * 10 + (c - '0');
+public int parsePosInt(String str) {
+    int res = 0;
+    for (char c: str.toCharArray()) {
+        res = res * 10 + (c - '0');
+    }
+    return res;
 }
 ```
 
