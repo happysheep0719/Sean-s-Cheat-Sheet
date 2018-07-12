@@ -207,6 +207,10 @@ class myList implements A, B {
 }
 ```
 
+- When do we use abstract class vs. interface?
+    - abstract class provides a common base case implementation to derived classes.
+    - 
+
 ### Polymorphism and Overriding
 
 Polymorphism 多态 : 调用override的function
