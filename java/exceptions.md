@@ -51,6 +51,8 @@ try (BufferedReader br = new new BufferedReader(new FileReader(path))) {
 }
 ```
 
+old style:
+
 ```java
 BufferedReader br = new BufferedReader(new FileReader(path));
 try {
