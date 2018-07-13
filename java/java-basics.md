@@ -149,7 +149,7 @@ interface extends interface
 - **Override** vs. **Overload**
     - Override is to redefine a method that has been defined in a parent class
     - Overload is when you define two methods with the same name distinguished by their different signatures.
-
+        - Overload has nothing to do with polymorphism
 ### Java Interfaces & Abstract Classes
 
 **Interface** helps you (or enforces you) to focus on the API signature definition.
