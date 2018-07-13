@@ -37,6 +37,7 @@
 * [Map](java/java-map.md)
 * [String](java/java-string.md)
 * [JVM](java/jvm.md)
+* [Exceptions](java/exceptions.md)
 
 ## Object Oriented Programming
 
