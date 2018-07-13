@@ -13,6 +13,7 @@
 `Error` and all exceptions in `Runtime Exception` can be not caught in the compiling.
 
 `Exception`是`Throwable`的子类，包含一些有用的函数。
+
 ## Catch an exception
 
 ```java
@@ -42,3 +43,19 @@ public class MyException extends Exception {
 }
 ```
 
+## New feature in Java 7
+
+```java
+try (BufferedReader br = new new BufferedReader(new FileReader(path))) {
+    return br.readline();
+}
+```
+
+```java
+BufferedReader br = new BufferedReader(new FileReader(path));
+try {
+    return br.readline();
+} finally {
+    if (br != null) br.close();
+}
+```
