@@ -61,3 +61,14 @@ try {
     if (br != null) br.close();
 }
 ```
+
+## Throw vs. Throws
+
+1. throw instance (throwable)
+2. throws
+
+throws is a keyword in Java, which is used in the signature of method to indicate that this method might throw one of the listed type exceptions.
+
+- re-throw
+- multiple catches
+
