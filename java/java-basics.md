@@ -388,6 +388,8 @@ Weekday wd = Weekday.valueOf("Mon");
 Weekday wd = Weekday.valueOf("Monday");
 ```
 
+- Extends Enum
+
 ```java
 final class MyDay extends Enum {
     public static MyDay[] values() {return (MyDay[])$VALUES.clone();}
@@ -407,3 +409,5 @@ final class MyDay extends Enum {
     }
 }
 ```
+
+- Enum classes and anonymous class
