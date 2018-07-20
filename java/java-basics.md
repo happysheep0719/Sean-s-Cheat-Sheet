@@ -411,3 +411,7 @@ final class MyDay extends Enum {
 ```
 
 - Enum classes and anonymous class
+
+```java
+
+```
