@@ -20,11 +20,9 @@ public class CalTest {
     public void test() {
         fail("Not yet implemented");
     }
-}
-
-public class CalTest2 {
+    
     @Test
-    public void test() {
+    public void test2() {
         Cal c = new Cal();
         assertEqual(c.getMedian(new int{1,2,3}), 2);
     }
