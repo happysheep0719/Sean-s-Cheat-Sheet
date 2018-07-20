@@ -10,4 +10,4 @@
     - end-2-end test, feature test (external behavior test, black test) *
     - black/white box (white box is when you know how the functions are implemented inside)
     - performance test *
-- 
+- agile 快速迭代 ci (continuous integration) + regression test
