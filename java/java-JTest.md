@@ -14,3 +14,11 @@
 
 ## JUnit Test
 
+```java
+public class CalTest {
+    @Test
+    public void test() {
+        fail("Not yet implemented");
+    }
+}
+```
