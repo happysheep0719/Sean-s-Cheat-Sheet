@@ -222,8 +222,168 @@ java会根据实际的object而决定调用的行为。
 
 残疾人是一个有残疾状态的人，不应该是子类。因为残疾可能会变好。
 
+
+## Top Level Class
+
+- One Java file have only one public class.
+- One Java file can have more than one classes.
+- A helper class is at most package access level but a static nested can be public.
+
 ## Nested Class
 
-- Static nested class - can access class varibles and methods
-- Nonstatic nested class / Inner class - can access instance varibles and methods
-把class定义在另一个class里面
+- **Static nested class** - can access class varibles and methods
+    - It is a way of logically grouping classes that are only used in one place.
+    - It increases encapsulation. Consider we hide B into A. We can set members in A to be private and B can access them and be hidden from outside A.
+- **Nonstatic nested class** / **Inner class** - can access varibles and methods
+    - **Inner class cannot be created without an instance of outer class while nested class can.**
+    - `return Outerclass.this;`
+- **Anonymous class**
+    - Comparators, lambda
+
+## Iterator
+
+
+### Iterator
+
+- `next()`
+- `hasNext()`
+- `remove()` (optional)
+
+```java
+for (Iterator<Apple> iter = list.iterator(); iter.hasNext();) {
+    Apple apple = iter.next();
+    System.out.prinln(apple)
+}
+```
+
+为什么使用Map的View时候删除会报错Concurrent Modification Exception。
+
+### ListIterator
+
+- `previous()`
+- `previousIndex()`
+- `hasPrevious()`
+- `nextIndex()`
+
+
+## Generics
+
+- Types are parameters
+- A type or method to operate on objects of various types while providing **compile-time** type safety (vs. runtime safetyl too late, exceptions).
+- E T K V U
+- 原理：类型擦除保留原始类型
+
+```java
+List list = new ArrayList();
+Apple apple = (Apple) list.get(0);
+```
+
+```java
+// read time, fever codes
+List<Apple> list = new ArrayList<>();
+Apple apple = list.get(0);
+
+// write time, safety check
+list.add(new Orange()); //wrong
+list.add(new Fruit()); // wrong
+
+// Itertor gets better (no need to cast)
+for (Iterator<Apple> iter = list.itertor(); iter.hasNext();) {
+    Apple apple = iter.next();
+}
+
+// for each
+for (Apple apple : list) {
+    apple.printOut();
+}
+```
+
+- Static methods(needs to declare generic type again)
+
+```java
+public static <T> T getFirst(List<T> list) {
+    return list.get(0);
+}
+```
+
+- Subclass and Superclass in Generics
+
+```java
+Apple apple = new Apple();
+Fruit fruit = apple; // ok
+
+Fruit fruit = new Fruit();
+Apple apple = fruit; // wrong, need cast
+Apple apple = (Apple) fruit; // ok at compile time, but may have java.lang.ClassCastException at runtime
+```
+
+- List of T cast
+
+```java
+List<Apple> a = new ArrayList<>();
+List<Fruit> b = a; // not allowed.
+// b can add new Orange(). a cannot add new Orange(). a and b refer to the same object.
+
+List<Fruit> a = new ArrayList<>();
+List<Apple> b = a; // not allowed either.
+```
+
+- Generics check the type during the compile-time while **Array does not**.
+
+```java
+Apple[] apples = new Apple[3];
+Fruit[] fruits = apples; // ok at compile time
+fruits[0] = new Apple(); // ok
+fruits[1] = new Fruit(); // ArrayStoreException
+fruits[2] = new Orange(); // ArrayStoreException
+```
+
+- `? extends T` and `? super T`
+    - give read-time flexibility
+
+```java
+List<? extends Fruit> fruits = apples;
+```
+
+```java
+public static <E extends Comparable<E>> E getMin(E[] arr) {
+    ...
+}
+```
+
+## Enum
+
+```java
+class RainbowColor {
+    public static final int RED = 0;
+    public static final int BLUE = 1;
+}
+```
+
+```java
+enum RainbowColor {RED, ORANGE, YELLOW}
+
+switch(today) {
+    case Mon: do(something); break;
+    case Tue: do(something); break;
+}
+```
+
+- `enum.values()`
+- `constant.valueOf()`
+- `constant.ordinal()` returns the order
+
+```java
+enum Weekday {
+    Mon, Tue, Wed, Thu, Fri, Sat, Sun
+}
+
+Weekday[] l = Weekday.values();
+for (Weekday wd : l) {
+    System.out.println(wd + " " + wd.ordinal());
+}
+
+
+Weekday wd = Weekday.valueOf("Mon");
+Weekday wd = Weekday.valueOf("Monday");
+```
