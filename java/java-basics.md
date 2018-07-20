@@ -390,6 +390,7 @@ Weekday wd = Weekday.valueOf("Monday");
 
 ```java
 final class MyDay extends Enum {
+    public static MyDay[] values() {return (MyDay[])$VALUES.clone();}
     private MyDay(String s, int i) {
         super(s, i);
     }
