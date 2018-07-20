@@ -14,6 +14,10 @@
 
 ## JUnit Test
 
+- Annotations
+- Assertions
+    - `assertSame(Object a, Object b)`
+
 ```java
 public class CalTest {
     @BeforeClass
