@@ -28,4 +28,29 @@ public class CalTest {
     }
 }
 
+public class CalTest2 {
+    @BeforeClass
+    public void setupAll() {
+    }
+    
+    @AfterClass
+    public void teardownAll() {
+    }
+    
+    @Before
+    public void setUp() {
+    }
+    
+    @After
+    public void tearDown() {
+    }
+    
+    @Test
+    public void test2() {
+        Cal c = new Cal();
+        assertEquals(c.getMedian(new int{1,2,3}), 2);
+    }
+}
+
+
 ```
