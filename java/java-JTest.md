@@ -16,7 +16,7 @@
 
 - Annotations
 - Assertions
-    - `assertSame(Object a, Object b)`
+    - `assertSame(Object a, Object b)` same references
 
 ```java
 public class CalTest {
