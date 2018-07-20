@@ -39,7 +39,7 @@
 * [JVM](java/java-jvm.md)
 * [Exceptions](java/java-exceptions.md)
 * [File](java/java-file.md)
-* [JTest](java/java-JTest.md)
+* [JUnit Test](java/java-JTest.md)
 
 ## Object Oriented Programming
 
