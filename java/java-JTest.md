@@ -44,14 +44,4 @@ public class CalTest {
     }
 }
 
-public class CalTest2 {
-    
-    @Test
-    public void test2() {
-        Cal c = new Cal();
-        assertEquals(c.getMedian(new int{1,2,3}), 2);
-    }
-}
-
-
 ```
