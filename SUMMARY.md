@@ -36,8 +36,11 @@
 * [Collections](java/java-collections.md)
 * [Map](java/java-map.md)
 * [String](java/java-string.md)
-* [JVM](java/jvm.md)
-* [Exceptions](java/exceptions.md)
+* [JVM](java/java-jvm.md)
+* [Exceptions](java/java-exceptions.md)
+* [File](java/java-file.md)
+* [JTest](java/java-JTest.md)
+
 
 ## Object Oriented Programming
 
