@@ -396,6 +396,7 @@ final class MyDay extends Enum {
     
     public static final MyDay MONDAY;
     public static final MyDay TUESDAY;
+    public static final MyDay $VALUES[];
     
     static {
         MONDAY = new MyDay("MONDAY", 0);
