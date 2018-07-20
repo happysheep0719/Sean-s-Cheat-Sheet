@@ -387,3 +387,21 @@ for (Weekday wd : l) {
 Weekday wd = Weekday.valueOf("Mon");
 Weekday wd = Weekday.valueOf("Monday");
 ```
+
+```java
+final class MyDay extends Enum {
+    private MyDay(String s, int i) {
+        super(s, i);
+    }
+    
+    public static final MyDay MONDAY;
+    public static final MyDay TUESDAY;
+    
+    static {
+        MONDAY = new MyDay("MONDAY", 0);
+        TUESDAY = new MyDay("TUESDAY", 1);
+        
+        $VALUES = (new MyDay[] {MONDAY, TUESDAY});
+    }
+}
+```
