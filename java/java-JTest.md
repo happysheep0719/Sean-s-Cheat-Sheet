@@ -24,7 +24,7 @@ public class CalTest {
     @Test
     public void test2() {
         Cal c = new Cal();
-        assertEqual(c.getMedian(new int{1,2,3}), 2);
+        assertEquals(c.getMedian(new int{1,2,3}), 2);
     }
 }
 
