@@ -17,11 +17,11 @@
 ```java
 public class CalTest {
     @BeforeClass
-    public void setupAll() {
+    public static void setupAll() {
     }
     
     @AfterClass
-    public void teardownAll() {
+    public static void teardownAll() {
     }
     
     @Before
