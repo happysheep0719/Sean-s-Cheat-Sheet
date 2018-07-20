@@ -41,7 +41,7 @@ public class CalTest {
         fail("Not yet implemented");
     }
     
-    @Test
+    @Test(expected=NullPointerException.class)
     public void test2() {
         Cal c = new Cal();
         assertEquals(c.getMedian(new int{1,2,3}), 2);
