@@ -413,5 +413,18 @@ final class MyDay extends Enum {
 - Enum classes and anonymous class
 
 ```java
-
+public enum ScoreComparator implements Comparator<Student> {
+    MATH_COMP {
+        @Override
+        public int compare(Student o1, Student o2) {
+            return 0;
+        }
+    }, 
+    ENG_COMP {
+        @Override
+        public int compare(Student o1, Student o2) {
+            return 0;
+        }
+    }
+}
 ```
