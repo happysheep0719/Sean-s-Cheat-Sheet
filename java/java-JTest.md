@@ -16,19 +16,6 @@
 
 ```java
 public class CalTest {
-    @Test
-    public void test() {
-        fail("Not yet implemented");
-    }
-    
-    @Test
-    public void test2() {
-        Cal c = new Cal();
-        assertEquals(c.getMedian(new int{1,2,3}), 2);
-    }
-}
-
-public class CalTest2 {
     @BeforeClass
     public void setupAll() {
     }
@@ -44,6 +31,20 @@ public class CalTest2 {
     @After
     public void tearDown() {
     }
+    
+    @Test
+    public void test() {
+        fail("Not yet implemented");
+    }
+    
+    @Test
+    public void test2() {
+        Cal c = new Cal();
+        assertEquals(c.getMedian(new int{1,2,3}), 2);
+    }
+}
+
+public class CalTest2 {
     
     @Test
     public void test2() {
