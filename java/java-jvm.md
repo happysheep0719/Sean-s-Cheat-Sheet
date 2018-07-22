@@ -87,7 +87,7 @@ from a set of the root references/objects, find all the objects reachable throug
 
 ### finalize method
 
-**finalize method**
+- **finalize method**
 
 It is a method that the Garbage Collector always **calls just before the deletion/destroying** the object which is eligible for Garbage Collection, so as to perform clean-up activity. Clean-up activity means closing the resources associated with that object like Database Connection, Network Connection or we can say resource de-allocation. Remember it is not a reserved keyword.
 
@@ -95,4 +95,8 @@ Once finalize method completes immediately Garbage Collector destroy that object
 
 ```protected void finalize throws Throwable{}```
 
+
+- **Exception in finalize method**
+
+If Garbage Collector calls finalize method, while executing finalize method some unchecked exception rises then **JVM ignores that exception** and rest of program will be continued normally. So in this case the program termination is Normal and not abnormal.
 
