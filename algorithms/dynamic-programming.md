@@ -42,7 +42,7 @@
 - Array vs. Sequence
     - sub-Array: phsical contiguous elements in an array
     - sub-Sequence: not necessarily contiguous
-- M[i] represents in String[0, i] the max length of the ascending subarrays. The substring must include i-th element.**(以i结尾的最长的substring)**
+- M[i] represents in String[0, i] the max length of the ascending subarrays. The substring must include i-th element. **(以i结尾的最长的substring)**
 - $$M[i] = M[i - 1] + 1, if input[i] > input[i - 1]$$
 - $$M[i] = 1, otherwise$$
 
@@ -62,8 +62,8 @@ Note: 之所以说DP是从小到大解决问题，是因为我们只解决每个
 
 ## Two Dimension DP
 
-__P1. Edit Distance__
+### P1. Edit Distance
 
-__P2. Maximum Square of 1's in a binary matrix__
+### P2. Maximum Square of 1's in a binary matrix
 
 __P3. __
