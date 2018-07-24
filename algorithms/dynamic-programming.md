@@ -23,8 +23,9 @@
 
 - **linear scan + look back **
 - 大号问题应该可以通过小号问题的解答推导出来
+- Eg.
     - 求largest/smallest（变体，在某一段范围求largest/smallest）
-    - 分割类问题
+    - 分割类问题 (cut rope/wood)
     - 最长连续类问题
     - largest rectangle不行，因为需要找leftest/rightest hi < h，需要用前面所有的解，此时用单调栈会更简单一些。
 
