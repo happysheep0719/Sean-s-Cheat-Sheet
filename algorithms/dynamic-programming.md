@@ -37,7 +37,7 @@
 ->是->linear scan回帖都看
 ->否->右大段有可能有不同的pattern （cut postion类型问题）
 
-__P1. Longest Ascending Subarray__
+### P1. Longest Ascending Subarray
 
 - Array vs. Sequence
     - sub-Array: phsical contiguous elements in an array
@@ -46,22 +46,24 @@ __P1. Longest Ascending Subarray__
 - $$M[i] = M[i - 1] + 1, if input[i] > input[i - 1]$$
 - $$M[i] = 1, otherwise$$
 
-__Follow-up. Longest Ascending Subsequence__
+### Follow-up. Longest Ascending Subsequence
 
-__P2. Cut ropes__
+### P2. Cut ropes
 
 Note: 之所以说DP是从小到大解决问题，是因为我们只解决每个子问题一遍，而且严格地按照从规模小到规模大的问题的顺序解决。使用Recursion比较不容易控制解决问题的顺序。
 
-__P3. Maximum subarray sum__
+### P3. Maximum subarray sum
 
 - $$M[i]$$ represents the subarray with the largest sum among all subarrays that ends with i.
 - $$M[i] = M[i - 1] + input[i], if M[i - 1] > 0$$
 - $$M[i] = input[i], otherwise$$
 
-__P4. Dictionary Concat__
+### P4. Dictionary Concat
 
 ## Two Dimension DP
 
 __P1. Edit Distance__
 
 __P2. Maximum Square of 1's in a binary matrix__
+
+__P3. __
