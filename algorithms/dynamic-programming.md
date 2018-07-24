@@ -66,4 +66,6 @@ Note: 之所以说DP是从小到大解决问题，是因为我们只解决每个
 
 ### P2. Maximum Square of 1's in a binary matrix
 
-__P3. __
+### P3. Longest common substring
+
+### P4. Longest common subsequence
