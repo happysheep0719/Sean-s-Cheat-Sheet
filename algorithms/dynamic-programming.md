@@ -68,4 +68,4 @@ Note: 之所以说DP是从小到大解决问题，是因为我们只解决每个
 
 ### P3. Longest common substring
 
-### P4. Longest common subsequence
+### Follow-up. Longest common subsequence
