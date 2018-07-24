@@ -29,6 +29,7 @@
     - 最长连续类问题
     - largest rectangle不行，因为需要找leftest/rightest hi < h，需要用前面所有的解，此时用单调栈会更简单一些。
 
+## How?
 - 怎样记录子问题解
     - 一维
     - 二维
