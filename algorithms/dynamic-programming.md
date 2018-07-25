@@ -73,7 +73,7 @@
         - find index of largest Refine[j] smaller than A[i], that is j
             - binary search
         - Refine[j + 1] = min(Refine[j + 1], A[i])
-            - simply update Refine[j + 1] = A[i] is fine because Refine[j] is the largest one of all the Refines smaller than A[i] and Refine[j + 1] > Refine[j]
+            - simply update Refine[j + 1] = A[i] is fine because Refine[j] is the largest one of all the Refines smaller than A[i] and Refine[j + 1] > Refine[j]. The binary search always find the largest length of possible ascending subsequences.
             - M[i] = j + 1
         - result = largest j within initialized Refine[j]
             - if found j == result, result++
