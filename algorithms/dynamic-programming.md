@@ -60,8 +60,21 @@
 
 ### Follow-up. Longest Ascending Subsequence
 
-- M[0] = 1
-- M[i] = max(M[j]) + 1 for all 0 <= j < i and a[j] < a[i]
+- linear scan back
+    - M[0] = 1
+    - M[i] = max(M[j]) + 1 for all 0 <= j < i and a[j] < a[i]
+    - result = max(M[i])
+- binary search
+    - Refine[M] = min(A)
+    - Refine[M] < Refine[M + 1]
+    - update
+        - i: 0 -> A.length - 1
+        - find index of largest Refine[j] smaller than A[i], that is j
+            - binary search
+        - M[i] = j + 1
+        - Refine[j + 1] = min(Refine[j + 1], A[i])
+        
+    
 
 ### P2. Cut ropes
 
