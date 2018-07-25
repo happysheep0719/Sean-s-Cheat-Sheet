@@ -73,6 +73,8 @@
             - binary search
         - M[i] = j + 1
         - Refine[j + 1] = min(Refine[j + 1], A[i])
+        - result = largest j within initialized Refine[j]
+            - if found j == result, result++
         
     
 
