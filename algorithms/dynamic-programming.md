@@ -65,6 +65,7 @@
     - M[i] = max(M[j]) + 1 for all 0 <= j < i and a[j] < a[i]
     - result = max(M[i])
 - binary search
+    - Refine is an ascending array that records the lowest ending of all the size-M ascending subsequence.
     - Refine[M] = min(A)
     - Refine[M] < Refine[M + 1]
     - update
