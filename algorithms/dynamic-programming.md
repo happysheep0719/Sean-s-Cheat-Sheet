@@ -71,9 +71,9 @@
         - i: 0 -> A.length - 1
         - find index of largest Refine[j] smaller than A[i], that is j
             - binary search
-        - M[i] = j + 1
         - Refine[j + 1] = min(Refine[j + 1], A[i])
             - simply update Refine[j + 1] = A[i] is fine because Refine[j] is the largest one of all the Refines smaller than A[i] and Refine[j + 1] > Refine[j]
+            - M[i] = j + 1
         - result = largest j within initialized Refine[j]
             - if found j == result, result++
         
