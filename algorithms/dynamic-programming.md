@@ -32,10 +32,19 @@
 ## How?
 - 怎样记录子问题解
     - 一维
+        - Longest Ascending Subarray
+        - Longest Ascending Subsequence
+        - cut rope
+        - cut palindrome
     - 二维
+        - cut wood
+        - 沙子归并
+        - 两头取pizza
 - 需要子问题的数量
     - One
+        - Longest Ascending Subarray
     - Many
+        - Longest Ascending Subsequence
 - 解决大一号问题的方法
     - 大段 + 小段 （子问题解和额外的步骤的组合）
     - 大段 + 大段 （子问题解的组合）
