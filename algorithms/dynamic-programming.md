@@ -40,6 +40,8 @@
         - cut wood
         - 沙子归并
         - 两头取pizza
+        - 各种matrix问题
+        - Two String寻找Minimum Edit distance, Longest common Substring/subsequence
 - 需要子问题的数量
     - One
         - Longest Ascending Subarray
