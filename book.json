@@ -30,10 +30,6 @@
         "theme-default": {
             "showLevel": true
         },
-        "anchor-navigation-ex": {
-           "associatedWithSummary":true,
-           "mode": "float"
-        },
         
         "github":{
             "url":"https://github.com/seangone"
