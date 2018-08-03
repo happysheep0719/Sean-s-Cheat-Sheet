@@ -110,7 +110,7 @@ public int largestSmaller(int[] nums, int target) {
     return res;
 }
 ```
-### Follow-up. Search in a rotated array
+### Follow-up. Search in a rotated/shifted sorted array
 
 ### P2. Binary Search in 2D sorted matrix
 
