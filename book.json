@@ -31,9 +31,8 @@
             "showLevel": true
         },
         "anchor-navigation-ex": {
-           
-           "mode": "float",
-           "showLevel":true
+           "associatedWithSummary":true,
+           "mode": "float"
         },
         
         "github":{
