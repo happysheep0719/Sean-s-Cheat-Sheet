@@ -1,7 +1,7 @@
 <extoc></extoc>
 
 
-## Distributed File System (HDFS)
+# Distributed File System (HDFS)
 
 - Data Center
     - Cluster
