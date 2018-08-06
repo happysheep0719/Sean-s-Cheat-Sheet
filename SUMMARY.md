@@ -62,4 +62,5 @@
 
 * [Intro](system-design/intro.md)
 * [Distributed File System](system-design/distributed-file-system.md)
+* [MapReduce](system-design/mapreduce.md)
 
