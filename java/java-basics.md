@@ -49,6 +49,8 @@ reversed words - 保留字
 
 ### Compare Integer
 
+- The JVM is caching Integer values. == only works for numbers between -128 and 127
+
 ```java
 Integer i1;
 Integer i2;
