@@ -9,7 +9,7 @@
 
 ## Contents
 
-## Physical Data Structures
+### Physical Data Structures
 
 - Array
     - Unsorted Array
@@ -21,7 +21,7 @@
         - String
 - Linked List
 
-## Logical Data Structure
+### Logical Data Structure
 
 - Binary Tree
 - Graph
