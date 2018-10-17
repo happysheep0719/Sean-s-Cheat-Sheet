@@ -81,69 +81,6 @@ __特点__
 
 - **Worst Case** - `pivot`选择不lucky，最差是$$O(n^2)$$
 
-__Code__
-
-```java
-public class Sorting {
-    public int partition(int[] array, int ixs, int ixe){
-        int pivotIndex = ixs;
-        int pivot = array[pivotIndex];
-        swap(array, ixe, pivotIndex);
-        // XXXXXXP -> AAABBBP -> AAAPBBB
-        // A: < Pivot B: >= Pivot
-        int l = ixs, r = ixe - 1;
-        while (l <= r){
-            if (array[l] < pivot) {
-                l++;
-            } else {
-                swap(array, l, r--);
-            }
-        }
-        swap(array, ixe, r + 1);
-        // IMPORTANT!!!  l-1 == r, ixe = l-1 or r
-        // IMPORTANT!!!  l-1 == r, ixs = l or r+1
-        return r + 1;
-    }
-
-    public void helper(int[] array, int ixs, int ixe){
-        // recursion base case
-        if (ixs >= ixe){
-            return;
-        }
-
-        int pivotIndex = partition(array, ixs, ixe);
-        helper(array, ixs, pivotIndex - 1);
-        helper(array, pivotIndex + 1, ixe);
-
-        return;
-    }
-
-    public int[] quickSort(int[] array) {
-        if (array == null){
-            return array;
-        }
-        helper(array, 0, array.length-1);
-        return array;
-    }
-
-    public void swap(int[] array, int i, int j){
-        int temp = array[i];
-        array[i] = array[j];
-        array[j] = temp;
-    }
-
-    public static void main(String[] args) {
-        Sorting s = new Sorting();
-        int[] array = new int[]{1, 3, 5, 7, 2, 4, 6, 8};
-        System.out.println(Arrays.toString(array));
-        s.quickSort(array);
-        System.out.println(Arrays.toString(array));
-
-    }
-}
-
-```
-
 -----
 ## Rainbow Sort
 
@@ -175,9 +112,10 @@ __特点__
 
 - Step 1 - heapify
 - Step 2 - pop the heap for k times
+    - poll出来放在最后，Inplace地利用原数组。
 
-- **heap sort**
-    - poll出来放在最后。
-    - typical runtime overhead 额外运行时间 - 建立堆需要额外的时间
-    - poor spatial locality, might swao from first to last (prefer to access data nearby / poor use of cache memory)
-    - **hard to parallelize/distribute**
+__特点__
+
+- typical runtime overhead 额外运行时间 - 建立堆需要额外的时间
+- poor spatial locality, might swap from first to last (prefer to access data nearby / poor use of cache memory)
+- **hard to parallelize/distribute**
