@@ -123,7 +123,7 @@ public int largestSmaller(int[] nums, int target) {
 
 ### P6. find the median in two sorted array
 
-Binary Reduction
+Binary Reduction on candidates
 
 ### P7. find the kth smallest in two sorted array
 
