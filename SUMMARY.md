@@ -4,7 +4,7 @@
 
 * [Introduction](README.md)
 
-## Algorithms
+## Algorithm Basics
 
 * [Basic Algorithms](algorithms/basic-framework.md)
 * [Time & Space Complexity Analysis](algorithms/time-and-space-complexity-analysis.md)
