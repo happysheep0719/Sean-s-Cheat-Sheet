@@ -16,10 +16,11 @@
     - **Dynamic Programming** 
         - 记录子问题的Solution，方便解决相同子问题时利用
     - 减少内存分配释放次数。
-        - Java的垃圾回收机制，不会立即回收垃圾。所以过多创建局部变量是开销更大的。
-        - 减少局部堆内存分配，比如在merge sort中，可以只创建一次临时变量，减少开销。
-
-- 尽可能避免使用global varible。 使用stateful的写法，尽量使用参数传递，避免使用field。
+        - Java的堆内存垃圾回收机制，回收内存需要时间开销。所以过多创建局部变量是开销更大的。
+        - 减少局部堆内存分配，比如在merge sort中，可以只在初始化时创建一次临时变量，减少开销。
+- 代码可读性    
+    - 尽可能避免使用global varible。 使用stateful的写法，尽量使用参数传递，避免使用field。
+    
     ```java
     // 1) stateful
     int[] helper;
