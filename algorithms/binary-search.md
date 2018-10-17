@@ -1,6 +1,6 @@
 <extoc></extoc>
 
-# Binary Search - 二分搜索
+# Binary Search
 
 __Two types of problems__
 
@@ -31,38 +31,7 @@ __Coding Tricks__
 - __二分计算__
     - `mid = start + (end - start) / 2`
 
-### P1. Binary Search in Sorted Array
-
-```java
-public int binarySearch(int[] nums, int target) {
-    if (nums == null || nums.length == 0) {
-        return -1;
-    }
-    int left = 0, right = nums.length - 1;
-    # Here, the entry condition should be left + 1 < right.
-    # because when left == 0 and right == 1, then mid = 0
-    # and the start may not be updated.
-    while (left + 1 < right) {
-        int mid = left + (right - left) / 2;
-        if (nums[mid] == target) {
-            right = mid;
-        } else if (nums[mid] < target) {
-            left = mid;
-        } else {
-            right = mid;
-        }
-    }
-    if (nums[left] == target) {
-        return left;
-    }
-    if (nums[right] == target) {
-        return right;
-    }
-    return -1;
-}
-```
-
-### Follow-up. Find the largest element that is smaller than target
+### P1. Find the largest element that is smaller than target
 
 ```java
 public int largestSmaller(int[] nums, int target) {
@@ -110,25 +79,8 @@ public int largestSmaller(int[] nums, int target) {
     return res;
 }
 ```
-### Follow-up. Search in a rotated/shifted sorted array I && II
 
-### P2. Binary Search in 2D sorted matrix
-
-### P3. Find the first occurance of target
-
-### Follow-up. Find the last occurance of target
-
-### Follow-up. Find the closest number to target
-- 循环条件：`left < right - 1`
-
-### Follow-up. Find the K closest number to target
-- Find largest smaller or equal number.
-- Find the kth cloest number using linear scan or binary elimination
-
-### P4. Find mountain peak in array
-- `1 3 7 23 57 ... 100 99 86 44 32 21`
-
-### Follow-up. Find smallest in a rotated sorted array
+### P2. Find smallest in a rotated sorted array
 
 - test cases
     - `2 4 5 6 0 1`
@@ -140,7 +92,26 @@ public int largestSmaller(int[] nums, int target) {
     - case 3: `array[mid] == array[right]`
         - worst case - all the elements are the same
 
-### P5. Binary Search in a sorted array with unknown size
+### P3. Binary Search in 2D sorted matrix
+
+### P4. Find the first occurance of target
+
+### Follow-up. Find the last occurance of target
+
+### Follow-up. Find the closest number to target
+
+### Follow-up. Find the K closest number to target
+
+- Find largest smaller or equal number.
+- Find the kth cloest number using linear scan or binary elimination
+
+### P5. Find mountain peak in array
+
+- `1 3 7 23 57 ... 100 99 86 44 32 21`
+- 根据单调性来判断
+
+### P6. Binary Search in a sorted array with unknown size
+
 - Step 1 - jump out
 - Step 2 - jump in
 
@@ -151,6 +122,8 @@ public int largestSmaller(int[] nums, int target) {
 | Jump in - Time | $$log_{2}10n$$ | $$log_{2}2n$$ |
 
 ### P6. find the median in two sorted array
+
+Binary Reduction
 
 ### P7. find the kth smallest in two sorted array
 
