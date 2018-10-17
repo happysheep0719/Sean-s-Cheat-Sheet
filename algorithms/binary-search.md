@@ -121,20 +121,18 @@ public int largestSmaller(int[] nums, int target) {
 | Jump out - Time | $$log_{2}n$$ | $$log_{10}n$$ |
 | Jump in - Time | $$log_{2}10n$$ | $$log_{2}2n$$ |
 
-### P6. find the median in two sorted array
+### P7. find the kth smallest / median in two sorted array
 
 Binary Reduction on candidates
-
-### P7. find the kth smallest in two sorted array
 
 - xxxxxxxxxx   XXXXXXXXXX
 - 0            m
 - yyyyyyyyyy   YYYYYYYYYY
 - 0            n
 - move m or n to the right until $$m + n == k - 1$$
-- return the left
-- step initial = k
-- step decrease by half for each time k -> k - k/2
+    - choose one from m and n by comparing the A[m2] and B[n2]
+    - moving step initially set to `k`
+    - moving step decrease by half for each time `k -> k - k/2`
 
 ### P7. find kth in unsorted array
 
