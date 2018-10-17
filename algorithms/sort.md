@@ -52,10 +52,10 @@ __特点__
     - Space O(kn)
     - Best when only using memory
 - S2. binary reduction
-    - Time O(kn * logk)
+    - Time O(klogk * n)
     - Space O(kn)
 - S3. heap k-way altogether
-    - Time O(kn * logk)
+    - Time O(klogk * n)
     - Space O(k)
     - Best when data is to big to fit in memory, Least writing times
     - Online Algortihm (Can input n streams)
