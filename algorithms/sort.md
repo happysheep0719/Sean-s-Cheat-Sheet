@@ -2,8 +2,23 @@
 
 # Sorting Algorithms
 
+## Compare
+
+- **Stablity**
+    - remains the relative order of records with equal keys
+- **Cache Locality**
+    - 访问的时候，cache会读取一部分连续的内存，连续访问容易出现cache hit，可以利用Cache读取快的特性。
+    - 访问消耗：Memory 100ns, L1 cache 1ns
+
+Sorting Algorithms | Time (worst case) | Time (average) | Space (worst case) | Space (average)| Stable | Locality
+----|----|----|----|----|----|----
+quick sort | $$O(n^2)$$ | $$O(nlogn)$$ | $$O(n)$$ | $$O(logn)$$ | unstable | good
+merge sort | $$O(nlogn)$$ | $$O(nlogn)$$ | $$O(n)$$ | $$O(n)$$ | stable | unknown
+heap sort | $$O(nlogn)$$ | $$O(nlogn)$$ | $$O(1)$$ | $$O(1)$$ | unstable | bad
+
 -----
 ## Selection Sort
+
 不断地选择剩余元素中的最小者。
 
 - Step 1 - 找到数组中最小元素并将其和数组第一个元素交换位置。
@@ -14,7 +29,7 @@ __特点__
 - 比较次数 = (N-1)+(N-2)+(N-3)+...+2+1~N^2/2
 - 交换次数 = N
 - **Time** = $$O(n^2)$$
-- 运行时间与输入分布无关
+    - 运行时间与输入分布无关
 - 数据移动最少
 
 -----
@@ -158,21 +173,6 @@ __特点__
 
 - Step 1 - heapify
 - Step 2 - pop the heap for k times
-
------
-## Compare
-
-- **stable** - remains the relative order of records with equal keys
-- **Cache Locality** - 连续访问容易会出现cache hit。
-    - 内存分层，各部分访问时间：Memory 100ns, L1 cache 1ns
-    - 访问的时候，cache会读取一部分连续的内存。所以跳着访问会受到影响。
-
-
-Sorting Algorithms | Time (worst case) | Time (average) | Space (worst case) | Space (average)| Stable | Locality
-----|----|----|----|----|----|----
-quick sort | $$O(n^2)$$ | $$O(nlogn)$$ | $$O(n)$$ | $$O(logn)$$ | unstable | good
-merge sort | $$O(nlogn)$$ | $$O(nlogn)$$ | $$O(n)$$ | $$O(n)$$ | stable | unknown
-heap sort  | $$O(nlogn)$$ | $$O(nlogn)$$ | $$O(1)$$ | $$O(1)$$ | unstable | bad
 
 - **heap sort**
     - poll出来放在最后。

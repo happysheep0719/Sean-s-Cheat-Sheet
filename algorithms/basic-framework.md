@@ -35,7 +35,6 @@
     }
     ```
     
-
 ## Divide and Conquer - 分治法
 
 __适用问题__
@@ -61,30 +60,32 @@ __Conquer 的顺序__
 - recursion 递归 / iteration 迭代
 - DFS 纵向 / BFS 横向
 
-## recursive implementation to iterative implementation
+## Rewrite recursive implementation to iterative implementation
 
-1. if it is a tail recursion, it can be easily written as iterative.
-Tail recursion: the recursive call is always the last execution statement
-    - preorder/in/post都是dfs都不是tail recursion
-2. call stack
-3. Iteration写法中，如果需要回到目标节点的上一层，需要加入prev节点。
-4. recursion缺点，可能会stackoverflow
-5. 但真实工作，很多应用是recursion写的。
+
+- All recursive algorithms can be written as a _iterative_ version. Recursive version is a version using the system's call-function stack.
+    - The size of call-function is 8M.
+    - recursion缺点，可能会stackoverflow
+    - 工业界场景中，很多应用是recursion写的。
+
+- if it is a **tail recursion**, it can be easily written as iterative.
+    - tail recursion: the recursive call is always the last execution statement
+        - preorder/in/post都是dfs都不是tail recursion
+- call stack vs. stack
+- iteration写法中，如果需要回到目标节点的上一层，需要加入prev节点。
 
 
 ## Recursion Implementation
 
-- Base case // terminated condition
+- Base case
+    - can be terminated condition
 - Recursive rule
 
-__Note:__
 
-- The size of call-function is 8M.
-- All recursive algorithms can be written as a _iterative_ version. Recursive version is a version using the system's call-function stack.
+DFS / Backtracking / Recursion problems:
 
-Example: 
-[Subsets Problem](http://www.lintcode.com/zh-cn/problem/subsets-ii/#)
-[Subsets Solution](http://www.jiuzhang.com/solutions/subsets/)
+- [Subsets Problem](http://www.lintcode.com/zh-cn/problem/subsets-ii/#)
+    - [Subsets Solution](http://www.jiuzhang.com/solutions/subsets/)
 
 ```python
 # 1. recursive helper parameter and return type

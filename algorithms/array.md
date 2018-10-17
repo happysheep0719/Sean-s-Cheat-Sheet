@@ -4,9 +4,9 @@
 
 __Five types of problems__
 
-- Sorting Problems
+- **Sorting** Problems
     - See **Sorting Algorithms**.
-- Binary Search in Sorted Array & Binary Search Tree
+- **Binary Search** in Sorted Array & Binary Search Tree
     - See **Binary Search**.
 - Selectively Copying Problems
     - See **Two Pointers**
