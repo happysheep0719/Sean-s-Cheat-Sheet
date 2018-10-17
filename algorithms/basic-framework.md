@@ -17,8 +17,6 @@
     - **分析每层花的总时间、空间。**
 - **注意分析Worst Case**
 - 分析空间时，注意**分析Call Stack占用的最大内存大小**
-
-
 - 针对Tree问题
     - 不要针对树本身分析，要画出recursion tree
     - Eg. isIdentical 四叉树 in Class 03/24
