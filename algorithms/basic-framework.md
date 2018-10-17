@@ -2,17 +2,23 @@
 
 # Basic Algorithms
 
-## 算法解题思路
+## 问题分析思路
 
 - 使用**循环**拆成重复的子问题 - `loop`
 - 使用**分类讨论**拆分多种情况/分支 - `if-else`
 - 使用**分治法(divide and conquer)**拆成**可继续拆分的子问题**直到**最小情况(base case)** - `recursion / iteration`
 
-__优化方向__
+## 常见的优化方向
 
-- **in-place** - 利用input的空间，减少额外空间的使用
-- **Dynamic Programming** - 记录子问题的Solution，方便解决相同子问题时利用
-- 减少内存分配释放次数 - Java的垃圾回收机制，不会立即回收垃圾。所以过多创建局部变量是开销更大的。所以在merge sort中，可以只创建一次临时变量，减少开销。
+- Space
+    - **in-place** - 利用input的空间，减少额外空间的使用
+- Time
+    - **Dynamic Programming** 
+        - 记录子问题的Solution，方便解决相同子问题时利用
+    - 减少内存分配释放次数。
+        - Java的垃圾回收机制，不会立即回收垃圾。所以过多创建局部变量是开销更大的。
+        - 减少局部堆内存分配，比如在merge sort中，可以只创建一次临时变量，减少开销。
+
 - 尽可能避免使用global varible。 使用stateful的写法，尽量使用参数传递，避免使用field。
     ```java
     // 1) stateful

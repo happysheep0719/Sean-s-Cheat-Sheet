@@ -1,5 +1,4 @@
-
-# Sean's Cheat Sheet
+# Sean's Algorithm Cheatsheet
 
 > Take notes to forget.
 > by Sean
