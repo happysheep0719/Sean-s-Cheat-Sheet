@@ -48,7 +48,7 @@ __特点__
 ### k-way merge
 
 - S1. iterative reduction
-    - Time O(kn * logk)
+    - Time O(k^2 * n)
     - Space O(kn)
     - Best when only using memory
 - S2. binary reduction
