@@ -5,10 +5,10 @@
 * [Introduction](README.md)
 * [Basic Algorithms](algorithms/basic-framework.md)
 * [Time & Space Complexity Analysis](algorithms/time-and-space-complexity-analysis.md)
+* [s](algorithms/time-and-space-complexity-analysis/s.md)
 
 ## Physical Data Structures
 
-* [Physical Data Structures](algorithms/physical-data-structures.md)
 * [Array](algorithms/array.md)
 * [Sorting Algorithms](algorithms/sort.md)
 * [Binary Search](algorithms/binary-search.md)
