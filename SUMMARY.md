@@ -18,7 +18,6 @@
 
 ## Logical Data Structures
 
-* [Logical Data Structures](algorithms/logic-data-structures.md)
 * [Binary Tree](algorithms/binary-tree.md)
 * [Graph](algorithms/graph.md)
 * [Queue & Stack](algorithms/queue-stack.md)

@@ -1,4 +1,6 @@
-# Physical Data Structures
+<extoc></extoc>
+
+## Physical Data Structures
 
 - Array
     - Unsorted Array
@@ -10,4 +12,10 @@
         - String
 - Linked List
 
+## Logical Data Structure
 
+- Binary Tree
+- Graph
+- Queue & Stack
+- Heap
+- Hash Table
