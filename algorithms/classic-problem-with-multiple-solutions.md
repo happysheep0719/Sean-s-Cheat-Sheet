@@ -73,6 +73,7 @@ Solution 3 - optimized from Solution 2
     
 ```java
 ```
+
 ## DP && DFS && BFS2
 
 ### largest product of length
@@ -140,5 +141,7 @@ Solutions
     }
     - time O(k * n^2 * log n)
 
+## k way merge
 
+## find common elements in k sorted array
 
