@@ -3,7 +3,7 @@
 ## Summary
 
 * [Introduction](README.md)
-* [Basic Algorithms](algorithms/basic-framework.md)
+* [Algorithms Basics](algorithms/basic-framework.md)
 * [Time & Space Complexity Analysis](algorithms/time-and-space-complexity-analysis.md)
 
 ## Physical Data Structures
