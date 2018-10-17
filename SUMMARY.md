@@ -3,7 +3,7 @@
 ## Summary
 
 * [Introduction](README.md)
-* [Algorithms Basics](algorithms/basic-framework.md)
+* [Algorithms Basics](algorithms/basics.md)
 
 ## Physical Data Structures
 
