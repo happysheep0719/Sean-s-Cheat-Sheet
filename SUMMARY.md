@@ -8,20 +8,29 @@
 
 * [Basic Algorithms](algorithms/basic-framework.md)
 * [Time & Space Complexity Analysis](algorithms/time-and-space-complexity-analysis.md)
+
+## Physical Data Structures
+
 * [Physical Data Structures](algorithms/physical-data-structures.md)
-  * [Array](algorithms/array.md)
-  * [Sorting Algorithms](algorithms/sort.md)
-  * [Binary Search](algorithms/binary-search.md)
-  * [Two Pointers](algorithms/two-pointers.md)
-  * [String](algorithms/string.md)
-  * [Linked List](algorithms/linked-list.md)
+* [Array](algorithms/array.md)
+* [Sorting Algorithms](algorithms/sort.md)
+* [Binary Search](algorithms/binary-search.md)
+* [Two Pointers](algorithms/two-pointers.md)
+* [String](algorithms/string.md)
+* [Linked List](algorithms/linked-list.md)
+
+## Logical Data Structures
+
 * [Logical Data Structures](algorithms/logic-data-structures.md)
-  * [Binary Tree](algorithms/binary-tree.md)
-  * [Graph](algorithms/graph.md)
-  * [Queue & Stack](algorithms/queue-stack.md)
-  * [Heap](algorithms/heap.md)
-  * [Hash Table](algorithms/hash-table.md)
-  * [Trie Tree](algorithms/trie-tree.md)
+* [Binary Tree](algorithms/binary-tree.md)
+* [Graph](algorithms/graph.md)
+* [Queue & Stack](algorithms/queue-stack.md)
+* [Heap](algorithms/heap.md)
+* [Hash Table](algorithms/hash-table.md)
+* [Trie Tree](algorithms/trie-tree.md)
+
+## Other problems
+
 * [Dynamic Programming](algorithms/dynamic-programming.md)
 * [Big Data Situation](algorithms/bigdatasituation.md)
 * [Bit](algorithms/bit.md)
