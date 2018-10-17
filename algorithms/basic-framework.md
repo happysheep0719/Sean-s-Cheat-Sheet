@@ -21,7 +21,7 @@
     - 不要针对树本身分析，要画出recursion tree
     - Eg. isIdentical 四叉树 in Class 03/24
 
-#### Amortized Time Complexity- 平均用时分析方法
+#### Amortized Time Complexity - 平均用时分析方法
 
 一次大量耗时的Action为之后很多次Action节省时间。
 注意：Amortized time仍然可能有worst case， Amortized分析只针对不适合对算法的单次操作进行分析。
