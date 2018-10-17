@@ -136,11 +136,12 @@ Binary Reduction on candidates
 
 ### P7. find kth in unsorted array
 
-- xxxxxxNyyyyy
-- quick select
-- choose a number N in the given range of array
-- then partition the range into two parts, one < N, others >= N
-- select
+Quick Selection
+
+- `xxxxxxxxxxN` -> `xxxxxxxNyyy`
+- partition the array into two parts
+- remove one part from the two
+- keep doing until the pivot is exactly at the kth position
 
 
 -----
