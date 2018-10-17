@@ -5,7 +5,7 @@
 ## Compare
 
 - **Stablity**
-    - remains the **relative order** of records with equal keys
+    - remains the **relative order of records with equal keys**
 - **Cache Locality**
     - 访问的时候，cache会读取一部分连续的内存，连续访问容易出现cache hit，可以利用Cache读取快的特性。
     - 访问消耗：Memory 100ns, L1 cache 1ns
