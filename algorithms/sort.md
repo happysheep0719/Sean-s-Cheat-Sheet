@@ -60,6 +60,8 @@ __特点__
     - Best when data is to big to fit in memory, Least writing times
     - Online Algortihm (Can input n streams)
 
+- vs. find common elements in k sorted arrays
+
 -----
 ## Quick Sort
 
