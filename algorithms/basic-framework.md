@@ -16,6 +16,9 @@
     - **分析每个节点花的时间、空间。**
     - **分析每层花的总时间、空间。**
 - **注意分析Worst Case**
+- 分析空间时，注意**分析Call Stack占用的最大内存大小**
+
+
 - 针对Tree问题
     - 不要针对树本身分析，要画出recursion tree
     - Eg. isIdentical 四叉树 in Class 03/24
@@ -24,9 +27,6 @@
 
 一次大量耗时的Action为之后很多次Action节省时间。
 注意：Amortized time仍然可能有worst case， Amortized分析只针对不适合对算法的单次操作进行分析。
-
-### Space Complexity Analysis
-**分析Call Stack占用的最大内存大小**
 
 ## 常见的优化方向
 
