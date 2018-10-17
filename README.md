@@ -9,6 +9,7 @@
 
 ## Contents
 
+### Algorithm Basics
 ### Physical Data Structures
 
 - Array
