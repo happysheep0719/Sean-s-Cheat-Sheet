@@ -1,6 +1,6 @@
 <extoc></extoc>
 
-# Basic Algorithms
+# Algorithm Basics
 
 ## 问题分析思路
 
