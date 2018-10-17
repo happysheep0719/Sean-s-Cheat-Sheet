@@ -12,9 +12,9 @@
 
 Sorting Algorithms | Time (worst case) | Time (average) | Space (worst case) | Space (average)| Stable | Locality
 ----|----|----|----|----|----|----
-quick sort | $$O(n^2)$$ | $$O(nlogn)$$ | $$O(n)$$ | $$O(logn)$$ | unstable | good
-merge sort | $$O(nlogn)$$ | $$O(nlogn)$$ | $$O(n)$$ | $$O(n)$$ | stable | unknown
-heap sort | $$O(nlogn)$$ | $$O(nlogn)$$ | $$O(1)$$ | $$O(1)$$ | unstable | bad
+quick sort | $$O(n^2)$$   | $$O(nlogn)$$ | $$O(n)$$ | $$O(logn)$$ | unstable | good
+merge sort | $$O(nlogn)$$ | $$O(nlogn)$$ | $$O(n)$$ | $$O(n)$$    | stable   | unknown
+heap sort  | $$O(nlogn)$$ | $$O(nlogn)$$ | $$O(1)$$ | $$O(1)$$    | unstable | bad
 
 -----
 ## Selection Sort
