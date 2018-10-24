@@ -193,4 +193,17 @@ loop do
     frontiers <- insertAll(candidateNodes)
 ```
 
-## Topological Sorting 拓扑排序
+## Check if there exists a loop in a DAG
+
+1. DFS and check if there is duplicate explored node in one path
+
+2. Topological Sorting 拓扑排序
+
+- construct edge map (out) and in-degree map
+- remove nodes with zero indegree
+- keep removing
+- if there are nodes left, there exists loops.
+
+
+
+

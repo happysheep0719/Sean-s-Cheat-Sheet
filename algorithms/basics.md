@@ -91,7 +91,7 @@ __Conquer 的顺序__
 - iteration写法中，如果需要回到目标节点的上一层，需要加入prev节点。
 
 
-## Recursion Implementation
+## Backtracking Implementation
 
 - Base case
     - can be terminated condition
