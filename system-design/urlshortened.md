@@ -37,7 +37,7 @@
 - **Bandwidth estimates**
     - assume 500 bytes per query
         - 60000 query / second * 500 bytes = 30 MB/s
-- **Memory estimates** - use as cache
+- **Memory estimates** - use as memory cache
     - 
 
 
