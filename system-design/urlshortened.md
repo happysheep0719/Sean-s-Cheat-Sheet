@@ -23,17 +23,23 @@
 ## Capacity Estimation and Constraints
 
 - **Read and Write ratio**
-    - assume 100:1
+    - assume 99:1
 - **Traffic estimates**
     - assume 500M new urls
         - 500 million / (30 days * 8 hours * 3600 seconds) = 600 URL/second
     - assume 100 redirections per URL
-        - 60000 read query / second, 600 write query / second
+        - 59400 read query / second, 600 write query / second
 - **Storage estimates**
     - assume we store urls for 5 years
         - 500 million * 5 years * 12 months = 30 billions URLs
     - assume 500 bytes per url for storage
         - 30 billion * 500 bytes = 15 TB
+- **Bandwidth estimates**
+    - assume 500 bytes per query
+        - 60000 query / second * 500 bytes = 30 MB/s
+
+
+
 
 
 
