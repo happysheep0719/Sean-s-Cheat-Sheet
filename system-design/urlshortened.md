@@ -38,7 +38,7 @@
     - assume 500 bytes per query
         - 60000 query / second * 500 bytes = 30 MB/s
 - **Memory estimates** - use as memory cache
-    - 
+    - assume 80/20 rule - 20% URLs use 80% traffic
 
 
 
