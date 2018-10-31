@@ -4,7 +4,6 @@
 
 * [Introduction](README.md)
 * [Basics](algorithms/basics.md)
-* URLShortenedSystem
 
 ## Physical Data Structures
 
