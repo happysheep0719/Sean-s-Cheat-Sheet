@@ -10,3 +10,9 @@
 - When users access a short link, our service should redirect them to the original link. (Read)
 - Users should optionally be able to pick a custom short link for their URL. (Hash options)
 - Links will expire after a standard default timespan. Users should also be able to specify the expiration time. (Expiration)
+
+**Non-Functional Requirements:**
+
+- The system should be highly available. This is required because, if our service is down, all the URL redirections will start failing.
+- URL redirection should happen in real-time with minimal latency.
+- Shortened links should not be guessable (not predictable).
