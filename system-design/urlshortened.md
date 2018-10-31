@@ -16,3 +16,10 @@
 - The system should be highly available. This is required because, if our service is down, all the URL redirections will start failing.
 - URL redirection should happen in real-time with minimal latency.
 - Shortened links should not be guessable (not predictable).
+
+
+
+
+
+
+
