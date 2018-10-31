@@ -29,7 +29,9 @@
         - 500 million / (30 days * 8 hours * 3600 seconds) = 600 URL/second
     - assume 100 redirections per URL
         - 60000 read query / second, 600 write query / second
-
+- **Storage estimates**
+    - assume we store urls for 5 years
+        - 500 million * 5 years * 12 months = 30 billions URLs
 
 
 
