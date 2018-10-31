@@ -20,7 +20,15 @@
 - **Non-predictable Hash Algorithm**
     - Shortened links should not be guessable (not predictable).
 
+## Capacity Estimation and Constraints
 
+- **Read and Write ratio**
+    - assume 100:1
+- **Traffic estimates**
+    - assume 500M new urls
+        - 500 million / (30 days * 8 hours * 3600 seconds) = 600 URL/second
+    - assume 100 redirections per URL
+        - 60000 read query / second, 600 write query / second
 
 
 
