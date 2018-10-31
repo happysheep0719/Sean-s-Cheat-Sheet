@@ -1,1 +1,1 @@
-# URL shorted system
+# URL shortening system
