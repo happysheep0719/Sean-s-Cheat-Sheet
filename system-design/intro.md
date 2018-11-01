@@ -36,6 +36,10 @@ Product -> functionalities/use cases -> Architecture
       - low latency
       - data availability risk because the cache could fail 
       - good for best performer
+- Database
+  - ACID semantic
+  - sharding
+ 
  
 ## Distributed File System
 ## Design a URL shortened system
