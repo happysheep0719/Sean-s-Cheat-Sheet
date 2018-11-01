@@ -90,6 +90,7 @@ b. Scalability & Reliability
 - Sharding
 - Replication
 - Both
+- Tradeoffs - CAP theorem
 
 c. Purging and DB cleanup
 
