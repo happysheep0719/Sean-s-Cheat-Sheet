@@ -10,3 +10,15 @@ Requirements:
 
 ## Push/Pull model
 
+### Push model
+
+Pros:
+
+- real time update
+- Scalability
+    - can shard by user
+- easy to implement and understand
+
+Cons:
+
+- duplicate storage for each story
