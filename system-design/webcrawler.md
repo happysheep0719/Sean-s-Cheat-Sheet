@@ -4,3 +4,11 @@ Purpose: write a crawler to follow links on each web page and download all the c
 
 - Perform graph traversal (BFS/DFS) starting from one or a set of initial urls
 
+## single machine solution
+
+BFS/DFS
+
+what's next?
+
+- may ask to implement a more efficient version (multithreading)
+- 
