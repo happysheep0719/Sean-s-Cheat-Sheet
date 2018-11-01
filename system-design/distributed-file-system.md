@@ -42,7 +42,7 @@ Eg. Read one random file
 
 ### Data durability
 
-Disk, DataNode and Network all could fail.
+Disk, DataNode or Network could fail.
 
 - 3 replicas
     - 1st replica on local node, local rack or random node
