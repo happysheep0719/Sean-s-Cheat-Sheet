@@ -77,5 +77,6 @@ We generate random keys in advance and stores them in a database.
 
 - Pros: No duplication or collisions
 - Cons: concurrency can cause problems.
+    - Need to synchronize generating key.
 
 
