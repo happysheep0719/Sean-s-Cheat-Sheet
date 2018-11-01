@@ -21,3 +21,4 @@ what's next?
 
 ## Distributed Crawler system
 
+Each crawler has a task queue.
