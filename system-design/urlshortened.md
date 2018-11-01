@@ -75,7 +75,6 @@ a. Encoding actual URL
         
 We generate random keys in advance and stores them in a database.
 
-
-
+- No duplication or collisions
 
 
