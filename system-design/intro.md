@@ -24,6 +24,7 @@ Product -> functionalities/use cases -> Architecture
   - different ways of cache
     - Write through
       - When writing, data is confirmed written after being written cache and memory
+      - large writing latency
     - Write around
     - Write back
  
