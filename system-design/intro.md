@@ -50,6 +50,7 @@ Product -> functionalities/use cases -> Architecture
     - Consistency
     - Availability
     - Partition Tolerance
+      - tolerance for failures
   - sharding
 - Synchronous/Asynchronous call
   - Synchronous call will wait until response come back
