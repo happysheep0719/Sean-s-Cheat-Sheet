@@ -26,6 +26,7 @@ Product -> functionalities/use cases -> Architecture
       - When writing, data is confirmed written after being written cache and memory
       - large writing latency
       - consistent cache and memory
+      - good for write and re-load frequently
     - Write around
     - Write back
  
