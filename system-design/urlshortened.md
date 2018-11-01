@@ -40,7 +40,7 @@
 - **Memory estimates** - use as memory cache
     - assume 80/20 rule - 20% URLs use 80% traffic
     - cache 20% of possible urls of one duration
-        - 15 TB * 0.2 = 5TB
+        - 15 TB * 0.2 = 5TB (of all URLs)
 
 
 
