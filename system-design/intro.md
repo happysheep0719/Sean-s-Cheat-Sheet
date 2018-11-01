@@ -47,6 +47,7 @@ Product -> functionalities/use cases -> Architecture
       - Consistency ensures that a transaction can only bring the database from one valid state to another, maintaining database invariants: any data written to the database must be valid according to all defined rules, including constraints, cascades, triggers, and any combination thereof. This prevents database corruption by an illegal transaction, but does not guarantee that a transaction is correct.
       - For example, A's money + B's money = 2000
     - Isolation
+      - Transactions are often executed concurrently (e.g., reading and writing to multiple tables at the same time). Isolation ensures that concurrent execution of transactions leaves the database in the same state that would have been obtained if the transactions were executed sequentially. Isolation is the main goal of concurrency control; depending on the method used, the effects of an incomplete transaction might not even be visible to other transactions.
     - Durability
   - **CAP theorem**
     - [Reference 1](http://www.hollischuang.com/archives/666)
