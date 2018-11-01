@@ -44,7 +44,7 @@ Eg. Read one random file
 
 Disk, DataNode or Network could fail.
 
-- 3 replicas
+- 3 replicas by default
     - 1st replica on local node, local rack or random node
     - 2nd, 3rd replicas are on the same remote rack
 
