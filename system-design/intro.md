@@ -35,7 +35,7 @@ Product -> functionalities/use cases -> Architecture
       - When writing, data is confirmed written after being written only cache
       - low latency
       - data availability risk because the cache could fail 
-
+      - good for best performer
  
 ## Distributed File System
 ## Design a URL shortened system
