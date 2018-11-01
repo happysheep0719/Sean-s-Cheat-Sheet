@@ -54,7 +54,7 @@ Product -> functionalities/use cases -> Architecture
       - Reads and writes always succeed
       - response time (latency)
     - **Partition Tolerance**
-      - tolerance for failures
+      - the system continues to operate despite arbitrary message loss or failure of part of the system
   - sharding
 - Synchronous/Asynchronous call
   - Synchronous call will wait until response come back
