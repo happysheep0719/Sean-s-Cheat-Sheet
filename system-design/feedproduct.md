@@ -12,6 +12,8 @@ Requirements:
 
 ### Push model
 
+Each user maintain a list of friends' stories that are eligible to be displayed to himself/herself.
+
 Pros:
 
 - real time update
