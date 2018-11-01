@@ -41,6 +41,10 @@ Product -> functionalities/use cases -> Architecture
       - good for best performer
 - Database
   - **ACID** (Atomicity, Consistency, Isolation, Durability)
+    - Atomicity
+    - Consistency
+    - Isolation
+    - Durability
   - sharding
 - Synchronous/Asynchronous call
   - Synchronous call will wait until response come back
