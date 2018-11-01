@@ -61,7 +61,7 @@ a. Encoding actual URL
         - take first k bits of hash code as key
     - Collision of hashcode
         - we need to map each key to only one url
-        - so we change part of the key and make sure that it is unused before.
+        - so we change part of the key and make sure that it is unused before. For example, we add 1 to the key.
         
         
         
