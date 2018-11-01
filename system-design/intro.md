@@ -20,5 +20,7 @@ Product -> functionalities/use cases -> Architecture
 - Typical ways to handle failures
  - Server Failover - master/slave
  - Data durability - replication
+ 
+ 
 ## Distributed File System
 ## Design a URL shortened system
