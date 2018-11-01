@@ -20,7 +20,12 @@ Product -> functionalities/use cases -> Architecture
 - Typical ways to handle failures
   - Server Failover - master/slave
   - Data durability - replication
- 
+- Cache
+  - different ways of cache
+    - Write through
+      - When writing, data is confirmed written after being written cache and memory
+    - Write around
+    - Write back
  
 ## Distributed File System
 ## Design a URL shortened system
