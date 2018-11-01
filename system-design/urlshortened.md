@@ -64,7 +64,8 @@ a. Encoding actual URL
         - so we change part of the key and make sure that it is unused before. For example, we add 1 to the key.
     - Way to avoid collision
         - use 100 times value space
-        
+    - Way to check collision
+        - use bloomfilter to check collision
         
         
         
