@@ -91,3 +91,4 @@ b. Scalability
 - Replication
 - Both
 
+c. Purging and DB cleanup
