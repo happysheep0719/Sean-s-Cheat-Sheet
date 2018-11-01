@@ -29,6 +29,7 @@ Product -> functionalities/use cases -> Architecture
       - good for writing and re-loading frequently
     - Write around
       - When writing, data is confirmed written after being written only memory
+      - good for not re-loading subsequently
     - Write back
  
 ## Distributed File System
