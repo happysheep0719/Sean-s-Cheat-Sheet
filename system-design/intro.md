@@ -32,6 +32,10 @@ Product -> functionalities/use cases -> Architecture
       - good for not re-loading subsequently
       - cache-miss will happen if reading
     - Write back
+      - When writing, data is confirmed written after being written only cache
+      - low latency
+      - data availability risk because the cache could fail 
+
  
 ## Distributed File System
 ## Design a URL shortened system
