@@ -49,9 +49,11 @@
 
 a. Encoding actual URL
 
-- Methods
+- Hashing Methods
     - MD5, SHA256
-- How many bits should we use in encoding?
+- Hash Code encoding
+    - Base 64 encoding
+    -     
 
         
         
