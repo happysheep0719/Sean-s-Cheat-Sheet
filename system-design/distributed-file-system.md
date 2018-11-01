@@ -23,8 +23,8 @@ Basic use case: **Commodity hardware**
 
 **How a file is stored?**
 
-- Files are divided into fixed-size blocks, like 128MB.
-- Block are replicated.
+- Files are divided into fixed-size **blocks**, like 128MB.
+- Blocks are replicated.
 
 ![FileBlock](http://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/images/hdfsdatanodes.png)
 
