@@ -46,10 +46,12 @@ Product -> functionalities/use cases -> Architecture
     - Isolation
     - Durability
   - **CAP theorem**
+    - [!](http://www.hollischuang.com/wp-content/uploads/2015/12/Teorema-CAP-2.png)
     - CAP Theorem is a concept that a distributed database system can only have 2 of the 3: Consistency, Availability and Partition Tolerance.
-    - Consistency
-    - Availability
-    - Partition Tolerance
+    - **Consistency**
+      - all nodes see the same data at the same time
+    - **Availability**
+    - **Partition Tolerance**
       - tolerance for failures
   - sharding
 - Synchronous/Asynchronous call
