@@ -85,7 +85,7 @@ We generate random keys in advance and stores them in a database.
 - Cons: concurrency can cause problems.
     - Need to synchronize generating key.
 
-b. Scalability
+b. Scalability & Reliability
 
 - Sharding
 - Replication
