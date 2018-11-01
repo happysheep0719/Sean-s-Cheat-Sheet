@@ -27,3 +27,4 @@ Cons:
 
 ### Pull model
 
+each user maintains a list of stories of his/her own.
