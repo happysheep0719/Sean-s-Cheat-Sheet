@@ -46,7 +46,7 @@ Disk, DataNode or Network could fail.
 
 - 3 replicas by default
     - 1st replica on local node, local rack or random node
-    - 2nd, 3rd replicas are on the same remote rack
+    - 2nd, 3rd replicas are on the same rack but different data nodes.
 
 - replica consistency
     - maintained using version number
