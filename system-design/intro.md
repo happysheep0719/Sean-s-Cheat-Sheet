@@ -45,6 +45,7 @@ Product -> functionalities/use cases -> Architecture
     - Consistency
     - Isolation
     - Durability
+  - CAP theorem
   - sharding
 - Synchronous/Asynchronous call
   - Synchronous call will wait until response come back
