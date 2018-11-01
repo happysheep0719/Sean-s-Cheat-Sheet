@@ -58,7 +58,9 @@ a. Encoding actual URL
     - base 64 [A-Z,a-z,0-9,-,.]
     - How many bits should we use when encoding?
         - Using base64 encoding, a k-bit key can represent 64^k possible strings.
-        
+    - Collision
+        - Linear probing
+        - Chaining
         
         
         
