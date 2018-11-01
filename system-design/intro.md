@@ -49,6 +49,7 @@ Product -> functionalities/use cases -> Architecture
     - Isolation
       - Transactions are often executed concurrently (e.g., reading and writing to multiple tables at the same time). Isolation ensures that concurrent execution of transactions leaves the database in the same state that would have been obtained if the transactions were executed sequentially. Isolation is the main goal of concurrency control; depending on the method used, the effects of an incomplete transaction might not even be visible to other transactions.
     - Durability
+      - Durability guarantees that once a transaction has been committed, it will remain committed even in the case of a system failure (e.g., power outage or crash). This usually means that completed transactions (or their effects) are recorded in non-volatile memory.
   - **CAP theorem**
     - [Reference 1](http://www.hollischuang.com/archives/666)
     - [Reference 2](https://towardsdatascience.com/cap-theorem-and-distributed-database-management-systems-5c2be977950e)
