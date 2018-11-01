@@ -41,7 +41,7 @@ Product -> functionalities/use cases -> Architecture
   - sharding
 - Synchronous/Asynchronous call
   - Synchronous call will wait until response come back
-  - Asynchronous call will make the call, do something else and handle message when callback happens.
+  - Asynchronous call will make the call, do something else and handle message when callback happens
  
 ## Distributed File System
 ## Design a URL shortened system
