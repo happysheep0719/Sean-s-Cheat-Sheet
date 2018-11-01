@@ -51,6 +51,7 @@
 
 a. Encoding actual URL
 
+1. Hashing
 - Hashing Methods
     - MD5 (generate 128-bit hash)
     - SHA256
@@ -69,6 +70,8 @@ a. Encoding actual URL
         - use bloomfilter to check collision
 - Issues with multiple users?
     - Multiple users have one same URL, but we want to get different urls for each user
+    
+2. Use a key generator
         
         
         
