@@ -73,8 +73,7 @@ a. Encoding actual URL
     
 2. Use a key generator
         
-        
-        
+We generate random keys in advance and stores them in a database.
 
 
 
