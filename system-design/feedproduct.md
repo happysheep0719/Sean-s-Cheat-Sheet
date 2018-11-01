@@ -7,3 +7,6 @@ Requirements:
     - milions fo query per second
     - a lot of data to store
 3. can do ranking in real time
+
+## Push/Pull model
+
