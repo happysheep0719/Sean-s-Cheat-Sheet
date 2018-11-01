@@ -39,8 +39,8 @@
         - 60000 query / second * 500 bytes = 30 MB/s
 - **Memory estimates** - use as memory cache
     - assume 80/20 rule - 20% URLs use 80% traffic
-    - cache 20% of all the urls
-        -
+    - cache 20% of all the urls (5 years)
+        - 15 TB * 0.2 = 5TB
 
 
 
