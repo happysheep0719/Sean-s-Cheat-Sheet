@@ -40,7 +40,7 @@ Product -> functionalities/use cases -> Architecture
       - data availability risk because the cache could fail 
       - good for best performer
 - Database
-  - ACID semantic
+  - **ACID** (Atomicity, Consistency, Isolation, Durability)
   - sharding
 - Synchronous/Asynchronous call
   - Synchronous call will wait until response come back
