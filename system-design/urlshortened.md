@@ -92,3 +92,5 @@ b. Scalability
 - Both
 
 c. Purging and DB cleanup
+
+If we chose to actively search for expired links to remove them, it would put a lot of pressure on our database. Instead, we can slowly remove expired links and do a lazy cleanup.
