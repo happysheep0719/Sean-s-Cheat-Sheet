@@ -53,7 +53,7 @@ Product -> functionalities/use cases -> Architecture
       - all nodes see the same data at the same time
     - **Availability**
       - Reads and writes always succeed
-      - response time (latency)
+      - no timeout
     - **Partition Tolerance**
       - the system continues to operate despite arbitrary message loss or failure of part of the system
   - sharding
