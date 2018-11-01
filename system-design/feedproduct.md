@@ -2,4 +2,7 @@
 
 Requirements:
 
-each user could have 1-1000 friends. We need they can get stories from your friends in real time.
+1. each user could have 1-1000 friends. We need they can get stories from your friends in real time.
+2. Scalability
+    - milions fo query per second
+    - a lot of data to store
