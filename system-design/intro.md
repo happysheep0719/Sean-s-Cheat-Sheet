@@ -51,6 +51,8 @@ Product -> functionalities/use cases -> Architecture
     - **Consistency**
       - all nodes see the same data at the same time
     - **Availability**
+      - Reads and writes always succeed
+      - response time (latency)
     - **Partition Tolerance**
       - tolerance for failures
   - sharding
