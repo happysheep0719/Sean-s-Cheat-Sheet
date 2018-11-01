@@ -2,11 +2,11 @@
 
 Requirements:
 
-1. each user could have 1-1000 friends. We need they can get stories from your friends in real time.
-2. Scalability
+- each user could have 1-1000 friends. We need they can get stories from your friends in real time.
+- Scalability
     - milions fo query per second
     - a lot of data to store
-3. can do ranking in real time
+- Ranking? Ranking in real time?
 
 ## Push/Pull model
 
