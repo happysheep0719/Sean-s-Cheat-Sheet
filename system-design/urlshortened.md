@@ -97,8 +97,8 @@ If we chose to actively search for expired links to remove them, it would put a 
 
 
 - Whenever a user tries to access an expired link, we can delete the link and return an error to the user.
-- A separate Cleanup service can run periodically to remove expired links from our storage and cache. This service should be very lightweight and can be scheduled to run only when the user traffic is expected to be low.
-- We can have a default expiration time for each link (e.g., two years).
+- **A separate Cleanup service can run periodically** to remove expired links from our storage and cache. This service should be very lightweight and can be scheduled to run only when the user traffic is expected to be low.
+- We can have a **default expiration time** for each link (e.g., two years).
 - After removing an expired link, we can put the key back in the key-DB to be reused.
 - Should we remove links that haven’t been visited in some length of time, say six months? This could be tricky. Since storage is getting cheap, we can decide to keep links forever.
 
