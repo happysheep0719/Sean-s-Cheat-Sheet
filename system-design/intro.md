@@ -52,7 +52,8 @@ Product -> functionalities/use cases -> Architecture
     - **Consistency**
       - all nodes see the same data at the same time
     - **Availability**
-      - Reads and writes always succeed. / Every request gets a response on success/failure. 
+      - Reads and writes always succeed. / Every request gets a response on success/failure.
+      - Achieving availability in a distributed system requires that the system remains operational 100% of the time. Every client gets a response, regardless of the state of any individual node in the system.
       - no timeout
     - **Partition Tolerance**
       - the system continues to operate (run) despite arbitrary message loss or failure of part of the system
