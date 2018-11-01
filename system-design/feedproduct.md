@@ -23,3 +23,7 @@ Cons:
 
 - duplicate storage for each story
 - One user's request is handled by one machine
+
+
+### Pull model
+
