@@ -40,7 +40,7 @@ Product -> functionalities/use cases -> Architecture
       - data availability risk because the cache could fail 
       - good for best performer
 - Database
-  - **ACID** (Atomicity, Consistency, Isolation, Durability)
+  - DBMS guarantees the **ACID** (Atomicity, Consistency, Isolation, Durability) of database transactions.
     - Atomicity
     - Consistency
     - Isolation
