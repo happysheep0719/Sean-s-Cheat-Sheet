@@ -50,14 +50,13 @@ Disk, DataNode or Network could fail.
     - reliability - tolerate 2 failures
     - good data locality
     - fast block recovery
-
-- replica consistency
-    - maintained using version number
     
 - failure handling
     - detect failure
         - ACK (data receive acknowledgement)
         - Checksum
+    - replica consistency
+        - maintained using version number
 
 ### thoughput vs. latency
 
