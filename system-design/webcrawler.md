@@ -21,4 +21,4 @@ what's next?
 
 ## Distributed Crawler system
 
-Each crawler has a task queue.
+Each crawler has a task queue. One url will deterministically go to one specific queue.
