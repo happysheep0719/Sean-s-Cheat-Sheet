@@ -41,8 +41,13 @@
     - assume 80/20 rule - 20% URLs use 80% traffic
     - cache 20% of possible urls of one duration
         - 15 TB * 0.2 = 5TB (of all URLs)
-
-
+        - 500 million URLs / 30 days * 100 query per URL * 500 bytes per query * 0.2 = 500/3 GB
+        
+        
+        
+        
+        
+        
 
 
 
