@@ -56,6 +56,7 @@ Product -> functionalities/use cases -> Architecture
       - no timeout
     - **Partition Tolerance**
       - the system continues to operate (run) despite arbitrary message loss or failure of part of the system
+      - A system that is partition-tolerant can sustain any amount of network failure that doesn’t result in a failure of the entire network. Data records are sufficiently replicated across combinations of nodes and networks to keep the system up through intermittent outages. 
   - sharding
 - Synchronous/Asynchronous call
   - Synchronous call will wait until response come back
