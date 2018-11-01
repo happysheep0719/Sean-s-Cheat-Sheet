@@ -25,6 +25,7 @@ Product -> functionalities/use cases -> Architecture
     - Write through
       - When writing, data is confirmed written after being written cache and memory
       - large writing latency
+      - consistent cache and memory
     - Write around
     - Write back
  
