@@ -51,7 +51,7 @@ a. Encoding actual URL
 
 - Methods
     - MD5, SHA256
-- How many bits should we use?
+- How many bits should we use in encoding?
 
         
         
