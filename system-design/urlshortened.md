@@ -75,6 +75,7 @@ a. Encoding actual URL
         
 We generate random keys in advance and stores them in a database.
 
-- No duplication or collisions
+- Pros: No duplication or collisions
+- Cons: concurrency can cause problems.
 
 
