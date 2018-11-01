@@ -28,6 +28,7 @@ Product -> functionalities/use cases -> Architecture
       - consistent cache and memory
       - good for writing and re-loading frequently
     - Write around
+      - 
     - Write back
  
 ## Distributed File System
