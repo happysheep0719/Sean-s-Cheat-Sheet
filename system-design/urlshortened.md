@@ -45,7 +45,9 @@
         - if cache 20% of one day URLs
             - 500 million URLs / 30 days * 100 query per URL * 500 bytes per query * 0.2 = 167 GB
     
-        
+## Basic System Design and Algorithms
+
+
         
         
         
