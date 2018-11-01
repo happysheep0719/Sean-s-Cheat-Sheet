@@ -53,6 +53,11 @@ Disk, DataNode or Network could fail.
 
 - replica consistency
     - maintained using version number
+    
+- failure handling
+    - detect failure
+        - ACK (data receive acknowledgement)
+        - Checksum
 
 ### thoughput vs. latency
 
