@@ -52,7 +52,8 @@ a. Encoding actual URL
 - Hashing Methods
     - MD5, SHA256
 - Hash Code encoding
-    - Base 64 encoding
+    - base 32
+    - base 64
     -     
 
         
