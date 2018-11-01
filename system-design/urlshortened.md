@@ -49,7 +49,7 @@
     
 ## Basic System Design and Algorithms
 
-Basic Design: Hash Table
+Basic Design: Hash Table (Key: Short URL --> Value: Long URL)
 
 a. Encoding actual URL
 
