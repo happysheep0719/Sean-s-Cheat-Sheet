@@ -62,6 +62,9 @@ a. Encoding actual URL
     - Collision of hashcode
         - we need to map each key to only one url
         - so we change part of the key and make sure that it is unused before. For example, we add 1 to the key.
+    - Way to avoid collision
+        - use 100 times value space
+        
         
         
         
