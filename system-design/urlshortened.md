@@ -52,11 +52,10 @@ a. Encoding actual URL
 - Hashing Methods
     - MD5, SHA256
 - Hash Code encoding
-    - base 32
-    - base 64
-    -     
-
-        
+    - base 32 [a-z,0-9]
+    - base 64 [A-Z,a-z,0-9,-,.]
+    - How many bits should we use when encoding?
+        - Using base64 encoding, a k-bit key can represent 64^k possible strings.
         
         
         
