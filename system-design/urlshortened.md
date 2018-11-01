@@ -47,9 +47,12 @@
 - **Computation estimates**
     - depends on what algorithm the system uses.
     
-## Basic System Design and Algorithms
+## Data Model
 
-Basic Design: Hash Table (Key: Short URL --> Value: Long URL)
+- Hash Table (Key: Short URL --> Value: Long URL)
+- Data Schema
+
+## Basic System Design and Algorithms
 
 a. Encoding actual URL
 
