@@ -15,7 +15,10 @@ Product -> functionalities/use cases -> Architecture
 - typical way to dispatch job to multiple workers
   - MapReduce, WebCrawler, etc. Partition
   - Batching - grouping things together
-- Hashtable DHT Consistent Hashing
+- Hashtable / Distributed Hash Table / Consistent Hashing
+  - Consistent hashing is a special kind of hashing such that when a hash table is resized, only K/n keys need to be remapped on average.
+    - K is the number of keys
+    - n is the number of slots
 - Push/Pull model
 - Typical ways to handle failures
   - Server Failover - master/slave
