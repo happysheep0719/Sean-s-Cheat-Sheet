@@ -66,6 +66,8 @@ a. Encoding actual URL
         - use 100 times value space
     - Way to check collision
         - use bloomfilter to check collision
+- Issues with multiple users?
+    - Multiple users have one same URL, but we want to get different urls for each user
         
         
         
