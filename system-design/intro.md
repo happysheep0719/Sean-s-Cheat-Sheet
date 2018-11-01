@@ -30,7 +30,7 @@ Product -> functionalities/use cases -> Architecture
     - Write around
       - When writing, data is confirmed written after being written only memory
       - good for not re-loading subsequently
-      - cache-miss
+      - cache-miss will happen if reading
     - Write back
  
 ## Distributed File System
