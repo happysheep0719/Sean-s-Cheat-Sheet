@@ -52,7 +52,7 @@ Product -> functionalities/use cases -> Architecture
     - **Consistency**
       - all nodes see the same data at the same time
     - **Availability**
-      - Reads and writes always succeed
+      - Reads and writes always succeed. / Every request gets a response on success/failure. 
       - no timeout
     - **Partition Tolerance**
       - the system continues to operate (run) despite arbitrary message loss or failure of part of the system
