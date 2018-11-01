@@ -42,6 +42,7 @@ Product -> functionalities/use cases -> Architecture
 - Database
   - DBMS guarantees the **ACID** (Atomicity, Consistency, Isolation, Durability) of database transactions.
     - Atomicity
+      - Transactions are often composed of multiple statements. Atomicity guarantees that each transaction is treated as a single "unit", which either succeeds completely, or fails completely: if any of the statements constituting a transaction fails to complete, the entire transaction fails and the database is left unchanged. An atomic system must guarantee atomicity in each and every situation, including power failures, errors and crashes.
     - Consistency
     - Isolation
     - Durability
