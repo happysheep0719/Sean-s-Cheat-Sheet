@@ -49,6 +49,8 @@
     
 ## Basic System Design and Algorithms
 
+Basic Design: Hash Table
+
 a. Encoding actual URL
 
 1. Hashing
