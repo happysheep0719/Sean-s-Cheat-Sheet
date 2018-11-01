@@ -34,7 +34,7 @@
         - 500 million * 5 years * 12 months = 30 billions URLs
     - assume 500 bytes per url for storage
         - 30 billion * 500 bytes = 15 TB
-- **Bandwidth estimates**
+- **Network Bandwidth estimates**
     - assume 500 bytes per query
         - 60000 query / second * 500 bytes = 30 MB/s
 - **Memory estimates** - use as memory cache
@@ -44,6 +44,8 @@
             - 15 TB * 0.2 = 5TB (of all URLs)
         - if cache 20% of one day URLs
             - 500 million URLs / 30 days * 100 query per URL * 500 bytes per query * 0.2 = 167 GB
+- **Computation estimates**
+    - depends on what algorithm the system uses.
     
 ## Basic System Design and Algorithms
 
