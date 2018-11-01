@@ -60,7 +60,7 @@ a. Encoding actual URL
         - Using base64 encoding, a k-bit key can represent 64^k possible strings.
         - take first k bits of hash code as key
     - Collision of hashcode
-        - we need to map only one key to one url
+        - we need to map each key to only one url
         - Linear probing
         - Chaining
         
