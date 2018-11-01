@@ -10,6 +10,7 @@
 - When users access a short link, our service should redirect them to the original link. (Read)
 - Users should optionally be able to pick a custom short link for their URL. (Hash options)
 - Links will expire after a standard default timespan. Users should also be able to specify the expiration time. (Expiration)
+- Multiple users?
 
 **Non-Functional Requirements:**
 
