@@ -60,7 +60,7 @@ a. Encoding actual URL
     - How many bits should we use when encoding?
         - Using base64 encoding, a k-bit key can represent 64^k possible strings.
         - take first k bits of hash code as key
-- Collision of hashcode
+- Collision of hash code
     - we need to map each key to only one url
     - so we change part of the key and make sure that it is unused before. For example, we add 1 to the key.
     - Way to avoid collision
